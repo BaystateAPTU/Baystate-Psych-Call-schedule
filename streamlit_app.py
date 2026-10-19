@@ -1551,7 +1551,7 @@ with tab_hol:
 with tab_nc:
     cfg = get_cfg()
     st.markdown("### No-Call Requests")
-    st.caption("Click a day to toggle the selected resident's no-call for that date. 🚫=no-call, 🔒=holiday, 📵=program no-call")
+    st.caption("Choose a resident, pick a date range, and click Save. Saved dates are listed below.")
 
     res_options = {r["full"]:r["id"] for r in active_residents(cfg)}
     sel_res_name = st.selectbox("Resident", list(res_options.keys()), key="nc_res_sel")
