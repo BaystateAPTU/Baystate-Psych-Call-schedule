@@ -21,9 +21,16 @@ st.set_page_config(
 # Setup: Streamlit Cloud → App settings → Secrets → add GITHUB_TOKEN
 # ─────────────────────────────────────────────────────────────
 
-import urllib.request, base64
+import urllib.request, urllib.error, base64
 
-GITHUB_REPO   = "jaibrad42/Baystate-Psych-Call-schedule"
+def _secret(name, default=""):
+    try:
+        return st.secrets.get(name, default)
+    except Exception:
+        return default
+
+# Repo was moved to the BaystateAPTU org; override with GITHUB_REPO in Secrets if it moves again.
+GITHUB_REPO   = _secret("GITHUB_REPO", "BaystateAPTU/Baystate-Psych-Call-schedule")
 GITHUB_FILE   = "config.json"
 GITHUB_BRANCH = "main"
 DEFAULT_CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config.json")
@@ -54,11 +61,11 @@ def _gh_fetch():
     except Exception:
         return None, None
 
-def _gh_push(cfg, sha):
-    """Commit updated config.json to GitHub."""
+def _gh_push(cfg, sha, _retry=True):
+    """Commit updated config.json to GitHub. Returns (ok, error_message)."""
     token = _gh_token()
     if not token:
-        return False
+        return False, "No GITHUB_TOKEN in app Secrets"
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
     body = json.dumps({
         "message": "chore: auto-save config from Baystate Scheduler",
@@ -76,9 +83,22 @@ def _gh_push(cfg, sha):
         with urllib.request.urlopen(req, timeout=10) as resp:
             result = json.loads(resp.read().decode())
             st.session_state["_cfg_sha"] = result["content"]["sha"]
-            return True
-    except Exception:
-        return False
+            return True, ""
+    except urllib.error.HTTPError as e:
+        # 409/422 = stale SHA (file changed since we loaded it) -> refetch SHA and retry once
+        if e.code in (409, 422) and _retry:
+            _, fresh_sha = _gh_fetch()
+            if fresh_sha:
+                st.session_state["_cfg_sha"] = fresh_sha
+                return _gh_push(cfg, fresh_sha, _retry=False)
+        hint = {401: "token is invalid or expired",
+                403: "token lacks write access to this repo",
+                404: f"repo {GITHUB_REPO} not found or token can't see it",
+                307: "repo has moved; update GITHUB_REPO",
+                301: "repo has moved; update GITHUB_REPO"}.get(e.code, e.reason)
+        return False, f"GitHub HTTP {e.code}: {hint}"
+    except Exception as e:
+        return False, str(e)
 
 def _load_default_config():
     # 1. Try GitHub API (permanent cross-session persistence)
@@ -114,13 +134,28 @@ def save_cfg(cfg):
         pass
     # Push to GitHub for permanent cross-session persistence
     sha = st.session_state.get("_cfg_sha")
-    if sha:
-        _gh_push(cfg, sha)
-    else:
+    if not sha:
         _, sha = _gh_fetch()
         if sha:
             st.session_state["_cfg_sha"] = sha
-            _gh_push(cfg, sha)
+    if sha:
+        ok, err = _gh_push(cfg, sha)
+    else:
+        ok, err = False, f"couldn't read {GITHUB_REPO}/{GITHUB_FILE} (check GITHUB_TOKEN / GITHUB_REPO)"
+    # Shown on the next run (callers usually st.rerun() right after saving)
+    st.session_state["_save_status"] = (ok, err)
+    return ok
+
+def show_save_status():
+    status = st.session_state.pop("_save_status", None)
+    if status is None:
+        return
+    ok, err = status
+    if ok:
+        st.toast("Saved to GitHub", icon="✅")
+    else:
+        st.error(f"⚠️ Change NOT saved permanently — {err}. It will be lost when the app restarts. "
+                 "Download config.json from the sidebar as a backup.")
 
 # ─────────────────────────────────────────────────────────────
 # RESIDENT HELPERS
@@ -848,6 +883,7 @@ st.markdown("""
 # ─────────────────────────────────────────────────────────────
 with st.sidebar:
     st.markdown("## 📅 Baystate Scheduler")
+    show_save_status()
     st.markdown("---")
 
     # Config upload/download
@@ -858,14 +894,20 @@ with st.sidebar:
                            file_name="config.json", mime="application/json",
                            use_container_width=True)
         up = st.file_uploader("⬆ Upload config.json", type="json", label_visibility="collapsed")
-        if up:
+        # The uploader keeps its file across reruns; only apply a given upload once,
+        # otherwise every later click re-loads the old file and wipes new changes.
+        _up_sig = (up.name, up.size, getattr(up, "file_id", "")) if up else None
+        if up and st.session_state.get("_applied_upload") != _up_sig:
             try:
                 new_cfg = json.load(up)
+                st.session_state["_applied_upload"] = _up_sig
                 save_cfg(new_cfg)
-                st.success("Config loaded!")
+                st.session_state["_upload_ok"] = True
                 st.rerun()
             except Exception as e:
                 st.error(f"Invalid JSON: {e}")
+        if st.session_state.pop("_upload_ok", False):
+            st.success("Config loaded!")
 
     st.markdown("---")
     st.markdown("**Generate schedule**")
@@ -1512,65 +1554,59 @@ with tab_nc:
     sel_res_name = st.selectbox("Resident", list(res_options.keys()), key="nc_res_sel")
     sel_res_id   = res_options[sel_res_name]
 
-    if "nc_ym" not in st.session_state: st.session_state.nc_ym = (2026,7)
-    ny, nm = st.session_state.nc_ym
-    c1,c2,c3 = st.columns([1,3,1])
-    if c1.button("◀", key="nc_prev"):
-        nm-=1
-        if nm<1: nm=12; ny-=1
-        st.session_state.nc_ym=(ny,nm); st.rerun()
-    c2.markdown(f"<h4 style='text-align:center'>{date(ny,nm,1).strftime('%B %Y')}</h4>", unsafe_allow_html=True)
-    if c3.button("▶", key="nc_next"):
-        nm+=1
-        if nm>12: nm=1; ny+=1
-        st.session_state.nc_ym=(ny,nm); st.rerun()
-
     nc_set   = {e["date"] for e in cfg.get("no_call_requests",[]) if e["resident"]==sel_res_id}
-    prog_nc  = set(cfg.get("program_no_call",[]))
 
-    first_dow = date(ny,nm,1).weekday()
-    num_days  = calendar.monthrange(ny,nm)[1]
+    st.markdown("**Add no-call dates**")
+    st.caption("Pick a start and end date (click the same day twice for a single day), then Save.")
+    _today = date.today()
+    rc1, rc2 = st.columns([3,1])
+    nc_range = rc1.date_input("Date range", value=(), key=f"nc_range_{sel_res_id}",
+                              min_value=date(_today.year-1,1,1), max_value=date(_today.year+3,12,31),
+                              format="MM/DD/YYYY")
+    wk_only = rc2.selectbox("Include", ["All days","Weekdays only","Weekends only"],
+                            key=f"nc_kind_{sel_res_id}")
 
-    dow_hdr = st.columns(7)
-    for i,dn in enumerate(["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]):
-        dow_hdr[i].markdown(f"<div style='text-align:center;font-weight:600;font-size:0.8em'>{dn}</div>", unsafe_allow_html=True)
+    # date_input returns a 1-tuple while only the start has been picked
+    if isinstance(nc_range, date): nc_range = (nc_range,)
+    nc_range = tuple(nc_range or ())
+    if len(nc_range) == 1: nc_range = (nc_range[0], nc_range[0])
 
-    for week in range(6):
-        cols = st.columns(7)
-        any_day = False
-        for dow in range(7):
-            slot = week*7+dow
-            day_num = slot-first_dow+1
-            col = cols[dow]
-            if day_num<1 or day_num>num_days:
-                col.markdown("&nbsp;", unsafe_allow_html=True)
-                continue
-            any_day = True
-            d   = date(ny,nm,day_num)
-            dk  = d.isoformat()
-            is_nc      = dk in nc_set
-            is_prog_nc = dk in prog_nc
-            is_hol     = bool(get_holiday(d,cfg))
-            if is_nc: badge = " 🚫"
-            elif is_hol: badge = " 🔒"
-            elif is_prog_nc: badge = " 📵"
-            else: badge = ""
-            lbl = str(day_num)+badge
-            btype = "primary" if is_nc else "secondary"
-            if col.button(lbl, key=f"nc_{dk}_{sel_res_id}", type=btype, use_container_width=True):
-                cfg2=get_cfg()
-                if is_nc:
-                    cfg2["no_call_requests"]=[e for e in cfg2.get("no_call_requests",[])
-                                              if not (e["resident"]==sel_res_id and e["date"]==dk)]
-                else:
-                    cfg2.setdefault("no_call_requests",[]).append({"resident":sel_res_id,"date":dk})
-                save_cfg(cfg2); st.rerun()
-        if not any_day: break
+    _pending = []
+    if len(nc_range) == 2:
+        _s, _e = sorted(nc_range)
+        _d = _s
+        while _d <= _e:
+            if (wk_only == "All days" or (wk_only == "Weekdays only" and _d.weekday() < 5)
+                    or (wk_only == "Weekends only" and _d.weekday() >= 5)):
+                _pending.append(_d)
+            _d += timedelta(days=1)
+    _new = [d for d in _pending if d.isoformat() not in nc_set]
+
+    if _pending:
+        _span = (_pending[0].strftime("%a %b %-d, %Y") if len(_pending)==1 else
+                 f"{_pending[0].strftime('%a %b %-d, %Y')} → {_pending[-1].strftime('%a %b %-d, %Y')}")
+        _flags = []
+        _hol = [d for d in _new if get_holiday(d, cfg)]
+        if _hol: _flags.append(f"{len(_hol)} on a locked holiday 🔒")
+        _already = len(_pending) - len(_new)
+        if _already: _flags.append(f"{_already} already saved")
+        st.info(f"{sel_res_name}: {_span} — **{len(_new)} new date(s)**"
+                + (f" ({'; '.join(_flags)})" if _flags else ""))
+
+    if st.button("💾 Save no-call dates", type="primary", disabled=not _new, key=f"nc_save_{sel_res_id}"):
+        cfg2 = get_cfg()
+        existing = {(e["resident"], e["date"]) for e in cfg2.get("no_call_requests", [])}
+        for d in _new:
+            if (sel_res_id, d.isoformat()) not in existing:
+                cfg2.setdefault("no_call_requests", []).append({"resident": sel_res_id, "date": d.isoformat()})
+        save_cfg(cfg2)
+        st.session_state.pop(f"nc_range_{sel_res_id}", None)   # clear the picker
+        st.rerun()
 
     st.markdown("---")
     all_nc = sorted(e["date"] for e in cfg.get("no_call_requests",[]) if e["resident"]==sel_res_id)
     if all_nc:
-        with st.expander(f"All no-call dates for {sel_res_name} ({len(all_nc)})"):
+        with st.expander(f"All no-call dates for {sel_res_name} ({len(all_nc)})", expanded=True):
             for dk in all_nc:
                 c1,c2 = st.columns([4,1])
                 c1.write(f"• {date.fromisoformat(dk).strftime('%A, %B %-d, %Y')}")
