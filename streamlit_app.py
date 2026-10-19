@@ -845,6 +845,9 @@ def export_xlsx_bytes(all_scheds, all_warnings, cfg):
 # ─────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
+/* Hide Streamlit's hover "chain" anchor links next to headings */
+[data-testid="stHeaderActionElements"], .stMarkdown h1 a[href^="#"], .stMarkdown h2 a[href^="#"],
+.stMarkdown h3 a[href^="#"], .stMarkdown h4 a[href^="#"], .stMarkdown h5 a[href^="#"] { display: none !important; }
 [data-testid="stSidebar"] { background: #1C1C1E; }
 [data-testid="stSidebar"] * { color: #F2F2F7 !important; }
 .stTabs [data-baseweb="tab-list"] { gap: 4px; }
@@ -1593,7 +1596,18 @@ with tab_nc:
         st.info(f"{sel_res_name}: {_span} — **{len(_new)} new date(s)**"
                 + (f" ({'; '.join(_flags)})" if _flags else ""))
 
-    if st.button("💾 Save no-call dates", type="primary", disabled=not _new, key=f"nc_save_{sel_res_id}"):
+    _existing_in_range = [d for d in _pending if d.isoformat() in nc_set]
+    bc1, bc2, _ = st.columns([1.3, 1.3, 3])
+    if bc2.button(f"🗑 Remove {len(_existing_in_range)} saved date(s) in range" if _existing_in_range else "🗑 Remove dates in range",
+                  disabled=not _existing_in_range, key=f"nc_rm_{sel_res_id}"):
+        cfg2 = get_cfg()
+        _rm = {d.isoformat() for d in _existing_in_range}
+        cfg2["no_call_requests"] = [e for e in cfg2.get("no_call_requests", [])
+                                    if not (e["resident"] == sel_res_id and e["date"] in _rm)]
+        save_cfg(cfg2)
+        st.session_state.pop(f"nc_range_{sel_res_id}", None)
+        st.rerun()
+    if bc1.button("💾 Save no-call dates", type="primary", disabled=not _new, key=f"nc_save_{sel_res_id}"):
         cfg2 = get_cfg()
         existing = {(e["resident"], e["date"]) for e in cfg2.get("no_call_requests", [])}
         for d in _new:
@@ -1604,16 +1618,37 @@ with tab_nc:
         st.rerun()
 
     st.markdown("---")
-    all_nc = sorted(e["date"] for e in cfg.get("no_call_requests",[]) if e["resident"]==sel_res_id)
+    all_nc = sorted({e["date"] for e in cfg.get("no_call_requests",[]) if e["resident"]==sel_res_id})
+    # Group consecutive days into blocks
+    _blocks = []
+    for dk in all_nc:
+        d = date.fromisoformat(dk)
+        if _blocks and (d - _blocks[-1][-1]).days == 1:
+            _blocks[-1].append(d)
+        else:
+            _blocks.append([d])
     if all_nc:
-        with st.expander(f"All no-call dates for {sel_res_name} ({len(all_nc)})", expanded=True):
-            for dk in all_nc:
+        with st.expander(f"All no-call dates for {sel_res_name} — {len(all_nc)} day(s) in {len(_blocks)} block(s)", expanded=True):
+            st.caption("Consecutive days are grouped. ✕ removes the whole block; to remove part of a block, "
+                       "pick those dates above and use 🗑 Remove.")
+            for blk in _blocks:
+                s0, s1 = blk[0], blk[-1]
+                if len(blk) == 1:
+                    lbl = s0.strftime("%a, %b %-d, %Y")
+                elif s0.year != s1.year:
+                    lbl = f"{s0.strftime('%a, %b %-d, %Y')} – {s1.strftime('%a, %b %-d, %Y')}"
+                else:
+                    lbl = f"{s0.strftime('%a, %b %-d')} – {s1.strftime('%a, %b %-d, %Y')}"
+                if len(blk) > 1:
+                    lbl += f"  ·  {len(blk)} days"
                 c1,c2 = st.columns([4,1])
-                c1.write(f"• {date.fromisoformat(dk).strftime('%A, %B %-d, %Y')}")
-                if c2.button("✕", key=f"rmnc_{dk}_{sel_res_id}"):
+                c1.write(f"• {lbl}")
+                if c2.button("✕", key=f"rmnc_{s0.isoformat()}_{s1.isoformat()}_{sel_res_id}",
+                             help="Remove this whole block"):
+                    _rm = {d.isoformat() for d in blk}
                     cfg2=get_cfg()
                     cfg2["no_call_requests"]=[e for e in cfg2.get("no_call_requests",[])
-                                              if not (e["resident"]==sel_res_id and e["date"]==dk)]
+                                              if not (e["resident"]==sel_res_id and e["date"] in _rm)]
                     save_cfg(cfg2); st.rerun()
 
 
