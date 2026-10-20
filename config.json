@@ -3008,6 +3008,18 @@
     {
       "resident": "smith",
       "date": "2027-01-18"
+    },
+    {
+      "resident": "smith",
+      "date": "2027-02-12"
+    },
+    {
+      "resident": "smith",
+      "date": "2027-02-13"
+    },
+    {
+      "resident": "smith",
+      "date": "2027-02-14"
     }
   ],
   "last_schedule": {
