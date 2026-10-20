@@ -5688,9 +5688,12 @@
         },
         "2027-02-06": {
           "type": "weekend",
-          "consult": "dame",
+          "consult": "ali",
           "aptu": "wilson_braun",
-          "jeopardy": "smith"
+          "jeopardy": "smith",
+          "flags": [
+            "ali"
+          ]
         },
         "2027-02-07": {
           "type": "weekend",
@@ -6627,6 +6630,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [
+        "2027-02-06: \u26a0 CONSULT ali at q3 \u2014 needs review",
         "2027-02-07: \u26a0 CONSULT ali at q4 \u2014 needs review",
         "2027-02-11: \u26a0 APTU ali at q4 \u2014 needs review",
         "2027-02-14: \u26a0 CONSULT mastalerz at q4 \u2014 needs review",
