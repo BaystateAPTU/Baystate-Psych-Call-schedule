@@ -5566,18 +5566,18 @@
         },
         "2027-01-15": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
-          "jeopardy": "wilson_braun"
+          "aptu": "smith",
+          "jeopardy": "wilson_braun",
+          "flags": [
+            "smith"
+          ]
         },
         "2027-01-16": {
           "type": "holiday",
           "name": "MLK Day",
           "aptu": "wilson_braun",
           "consult": "siemiatkoski",
-          "jeopardy": "smith",
-          "flags": [
-            "siemiatkoski"
-          ]
+          "jeopardy": "smith"
         },
         "2027-01-17": {
           "type": "holiday",
@@ -6636,7 +6636,7 @@
     },
     "warns": {
       "2027-1": [
-        "2027-01-16: \u26a0 CONSULT siemiatkoski at q4 \u2014 needs review",
+        "2027-01-15: \u26a0 APTU smith at q4 \u2014 needs review",
         "2027-01-24: \u26a0 APTU ramirez at q2 \u2014 needs review",
         "2027-01-31: \u26a0 APTU dame at q4 \u2014 needs review",
         "2027-01-31: \u26a0 CONSULT mastalerz at q4 \u2014 needs review"
