@@ -6089,19 +6089,13 @@
         },
         "2027-04-21": {
           "type": "weekday",
-          "aptu": "dame",
-          "jeopardy": "mastalerz",
-          "flags": [
-            "dame"
-          ]
+          "aptu": "ali",
+          "jeopardy": "mastalerz"
         },
         "2027-04-22": {
           "type": "weekday",
           "aptu": "dame",
-          "jeopardy": "siemiatkoski",
-          "flags": [
-            "dame"
-          ]
+          "jeopardy": "siemiatkoski"
         },
         "2027-04-23": {
           "type": "weekday",
@@ -6562,8 +6556,6 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
-        "2027-04-21: \u26a0 APTU dame at q4 \u2014 needs review",
-        "2027-04-22: \u26a0 APTU dame at q4 \u2014 needs review",
         "2027-04-25: \u26a0 CONSULT wilson_braun at q2 \u2014 needs review"
       ],
       "2027-5": [
