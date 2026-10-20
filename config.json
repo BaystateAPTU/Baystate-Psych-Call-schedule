@@ -6315,11 +6315,11 @@
         },
         "2027-06-02": {
           "type": "weekday",
+          "aptu": "auclair",
+          "jeopardy": "brych",
           "flags": [
             "auclair"
-          ],
-          "aptu": "auclair",
-          "jeopardy": "brych"
+          ]
         },
         "2027-06-03": {
           "type": "weekday",
@@ -6328,12 +6328,12 @@
         },
         "2027-06-04": {
           "type": "weekday",
-          "flags": [
-            "brych"
-          ],
           "aptu": "brych",
           "intern": "holsonback",
-          "jeopardy": "mann"
+          "jeopardy": "mann",
+          "flags": [
+            "brych"
+          ]
         },
         "2027-06-05": {
           "type": "weekend",
@@ -6343,22 +6343,21 @@
         },
         "2027-06-06": {
           "type": "weekend",
-          "flags": [
-            "brych",
-            "auclair"
-          ],
-          "consult": "brych",
+          "consult": "dame",
           "aptu": "auclair",
-          "jeopardy": "siemiatkoski"
+          "jeopardy": "siemiatkoski",
+          "flags": [
+            "auclair"
+          ]
         },
         "2027-06-07": {
           "type": "weekday",
           "aptu": "ali",
           "intern": "holsonback",
+          "jeopardy": "smith",
           "flags": [
             "holsonback"
-          ],
-          "jeopardy": "smith"
+          ]
         },
         "2027-06-08": {
           "type": "no_call"
@@ -6370,11 +6369,11 @@
         },
         "2027-06-10": {
           "type": "weekday",
+          "aptu": "auclair",
+          "jeopardy": "wilson_braun",
           "flags": [
             "auclair"
-          ],
-          "aptu": "auclair",
-          "jeopardy": "wilson_braun"
+          ]
         },
         "2027-06-11": {
           "type": "weekday",
@@ -6390,29 +6389,29 @@
         },
         "2027-06-13": {
           "type": "weekend",
-          "flags": [
-            "brych"
-          ],
           "consult": "brych",
           "aptu": "holsonback",
-          "jeopardy": "mastalerz"
+          "jeopardy": "mastalerz",
+          "flags": [
+            "brych"
+          ]
         },
         "2027-06-14": {
           "type": "weekday",
+          "aptu": "auclair",
+          "jeopardy": "siemiatkoski",
           "flags": [
             "auclair"
-          ],
-          "aptu": "auclair",
-          "jeopardy": "siemiatkoski"
+          ]
         },
         "2027-06-15": {
           "type": "weekday",
           "aptu": "ali",
           "intern": "gervais",
+          "jeopardy": "smith",
           "flags": [
             "gervais"
-          ],
-          "jeopardy": "smith"
+          ]
         },
         "2027-06-16": {
           "type": "weekday",
@@ -6426,11 +6425,11 @@
         },
         "2027-06-18": {
           "type": "weekday",
+          "aptu": "auclair",
+          "jeopardy": "mastalerz",
           "flags": [
             "auclair"
-          ],
-          "aptu": "auclair",
-          "jeopardy": "mastalerz"
+          ]
         },
         "2027-06-19": {
           "type": "weekend",
@@ -6440,12 +6439,12 @@
         },
         "2027-06-20": {
           "type": "weekend",
-          "flags": [
-            "ramirez"
-          ],
           "consult": "siemiatkoski",
           "aptu": "ramirez",
-          "jeopardy": "mann"
+          "jeopardy": "mann",
+          "flags": [
+            "ramirez"
+          ]
         },
         "2027-06-21": {
           "type": "weekday",
@@ -6467,10 +6466,10 @@
           "type": "weekday",
           "aptu": "ali",
           "intern": "li",
+          "jeopardy": "brych",
           "flags": [
             "li"
-          ],
-          "jeopardy": "brych"
+          ]
         },
         "2027-06-25": {
           "type": "weekday",
@@ -6518,16 +6517,15 @@
       "2027-6": [
         "2027-06-02: \u26a0 APTU auclair at q4 \u2014 needs review",
         "2027-06-04: \u26a0 APTU brych at q4 \u2014 needs review",
-        "2027-06-06: \u26a0 Consult brych at q2 \u2014 needs review",
         "2027-06-06: \u26a0 APTU auclair at q4 \u2014 needs review",
-        "2027-06-07: \u26a0 Intern holsonback at q3 \u2014 needs review",
+        "2027-06-07: \u26a0 INTERN holsonback at q3 \u2014 needs review",
         "2027-06-10: \u26a0 APTU auclair at q4 \u2014 needs review",
-        "2027-06-13: \u26a0 Consult brych at q2 \u2014 needs review",
+        "2027-06-13: \u26a0 CONSULT brych at q2 \u2014 needs review",
         "2027-06-14: \u26a0 APTU auclair at q4 \u2014 needs review",
-        "2027-06-15: \u26a0 Intern gervais at q4 \u2014 needs review",
+        "2027-06-15: \u26a0 INTERN gervais at q4 \u2014 needs review",
         "2027-06-18: \u26a0 APTU auclair at q4 \u2014 needs review",
         "2027-06-20: \u26a0 APTU ramirez at q3 \u2014 needs review",
-        "2027-06-24: \u26a0 Intern li at q3 \u2014 needs review"
+        "2027-06-24: \u26a0 INTERN li at q3 \u2014 needs review"
       ]
     }
   },
