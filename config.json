@@ -3080,6 +3080,10 @@
     {
       "resident": "smith",
       "date": "2027-05-17"
+    },
+    {
+      "resident": "smith",
+      "date": "2027-05-04"
     }
   ],
   "last_schedule": {
