@@ -5958,11 +5958,8 @@
         "2027-03-28": {
           "type": "weekend",
           "consult": "mastalerz",
-          "aptu": "kurtz",
-          "jeopardy": "wilson_braun",
-          "flags": [
-            "kurtz"
-          ]
+          "aptu": "auclair",
+          "jeopardy": "wilson_braun"
         },
         "2027-03-29": {
           "type": "weekday",
@@ -6589,9 +6586,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [],
-      "2027-3": [
-        "2027-03-28: \u26a0 APTU kurtz at q4 \u2014 needs review"
-      ],
+      "2027-3": [],
       "2027-4": [
         "2027-04-01: \u26a0 Intern li at q2 \u2014 needs review",
         "2027-04-03: \u26a0 APTU ali at q2 \u2014 needs review",
