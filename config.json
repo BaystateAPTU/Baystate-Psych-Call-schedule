@@ -6099,23 +6099,23 @@
         },
         "2027-04-23": {
           "type": "weekday",
-          "aptu": "wilson_braun",
+          "aptu": "mizrach",
           "jeopardy": "smith"
         },
         "2027-04-24": {
           "type": "weekend",
           "consult": "smith",
           "aptu": "mizrach",
-          "jeopardy": "wilson_braun"
+          "jeopardy": "wilson_braun",
+          "flags": [
+            "mizrach"
+          ]
         },
         "2027-04-25": {
           "type": "weekend",
           "consult": "wilson_braun",
           "aptu": "tsandilas",
-          "jeopardy": "ali",
-          "flags": [
-            "wilson_braun"
-          ]
+          "jeopardy": "ali"
         },
         "2027-04-26": {
           "type": "weekday",
@@ -6556,7 +6556,7 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
-        "2027-04-25: \u26a0 CONSULT wilson_braun at q2 \u2014 needs review"
+        "2027-04-24: \u26a0 APTU mizrach at q4 \u2014 needs review"
       ],
       "2027-5": [
         "2027-05-02: \u26a0 Consult smith at q3 \u2014 needs review",
