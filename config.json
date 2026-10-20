@@ -6201,7 +6201,7 @@
         },
         "2027-05-12": {
           "type": "weekday",
-          "aptu": "ali",
+          "aptu": "kurtz",
           "jeopardy": "dame"
         },
         "2027-05-13": {
@@ -6218,10 +6218,7 @@
           "type": "weekend",
           "consult": "ali",
           "aptu": "ramirez",
-          "jeopardy": "siemiatkoski",
-          "flags": [
-            "ali"
-          ]
+          "jeopardy": "siemiatkoski"
         },
         "2027-05-16": {
           "type": "weekend",
@@ -6529,7 +6526,6 @@
         "2027-05-02: \u26a0 APTU ramirez at q2 \u2014 needs review",
         "2027-05-02: \u26a0 CONSULT smith at q3 \u2014 needs review",
         "2027-05-04: \u26a0 APTU ramirez at q2 \u2014 needs review",
-        "2027-05-15: \u26a0 CONSULT ali at q3 \u2014 needs review",
         "2027-05-17: \u26a0 APTU siemiatkoski at q4 \u2014 needs review",
         "2027-05-18: \u26a0 APTU ali at q3 \u2014 needs review"
       ],
