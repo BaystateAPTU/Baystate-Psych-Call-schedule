@@ -6151,41 +6151,39 @@
         },
         "2027-05-02": {
           "type": "weekend",
-          "flags": [
-            "smith",
-            "ramirez"
-          ],
           "consult": "smith",
           "aptu": "ramirez",
-          "jeopardy": "mastalerz"
+          "jeopardy": "mastalerz",
+          "flags": [
+            "ramirez",
+            "smith"
+          ]
         },
         "2027-05-03": {
           "type": "weekday",
-          "flags": [
-            "mastalerz",
-            "tsandilas"
-          ],
           "aptu": "mastalerz",
-          "intern": "tsandilas",
-          "jeopardy": "smith"
+          "jeopardy": "smith",
+          "flags": [
+            "mastalerz"
+          ]
         },
         "2027-05-04": {
           "type": "weekday",
+          "aptu": "ramirez",
+          "jeopardy": "brych",
           "flags": [
             "ramirez"
-          ],
-          "aptu": "ramirez",
-          "jeopardy": "brych"
+          ]
         },
         "2027-05-05": {
           "type": "weekday",
+          "aptu": "smith",
+          "intern": "tsandilas",
+          "jeopardy": "mann",
           "flags": [
             "smith",
             "tsandilas"
-          ],
-          "aptu": "smith",
-          "intern": "tsandilas",
-          "jeopardy": "mann"
+          ]
         },
         "2027-05-06": {
           "type": "weekday",
@@ -6221,10 +6219,10 @@
           "type": "weekday",
           "aptu": "ali",
           "intern": "li",
+          "jeopardy": "dame",
           "flags": [
             "li"
-          ],
-          "jeopardy": "dame"
+          ]
         },
         "2027-05-13": {
           "type": "weekday",
@@ -6235,10 +6233,10 @@
           "type": "weekday",
           "aptu": "wilson_braun",
           "intern": "li",
+          "jeopardy": "mastalerz",
           "flags": [
             "li"
-          ],
-          "jeopardy": "mastalerz"
+          ]
         },
         "2027-05-15": {
           "type": "weekend",
@@ -6254,11 +6252,11 @@
         },
         "2027-05-17": {
           "type": "weekday",
+          "aptu": "siemiatkoski",
+          "jeopardy": "brych",
           "flags": [
             "siemiatkoski"
-          ],
-          "aptu": "siemiatkoski",
-          "jeopardy": "brych"
+          ]
         },
         "2027-05-18": {
           "type": "weekday",
@@ -6312,10 +6310,10 @@
           "type": "weekday",
           "aptu": "dame",
           "intern": "holsonback",
+          "jeopardy": "brych",
           "flags": [
             "holsonback"
-          ],
-          "jeopardy": "brych"
+          ]
         },
         "2027-05-28": {
           "type": "weekday",
@@ -6327,9 +6325,6 @@
           "name": "Memorial Day",
           "aptu": "auclair",
           "consult": "wilson_braun",
-          "flags": [
-            "auclair"
-          ],
           "jeopardy": "mastalerz"
         },
         "2027-05-30": {
@@ -6344,9 +6339,6 @@
           "name": "Memorial Day",
           "aptu": "tsandilas",
           "consult": "brych",
-          "flags": [
-            "brych"
-          ],
           "jeopardy": "mann"
         }
       },
@@ -6556,19 +6548,16 @@
       "2027-3": [],
       "2027-4": [],
       "2027-5": [
-        "2027-05-02: \u26a0 Consult smith at q3 \u2014 needs review",
         "2027-05-02: \u26a0 APTU ramirez at q2 \u2014 needs review",
+        "2027-05-02: \u26a0 CONSULT smith at q3 \u2014 needs review",
         "2027-05-03: \u26a0 APTU mastalerz at q2 \u2014 needs review",
-        "2027-05-03: \u26a0 Intern tsandilas at q2 \u2014 needs review",
         "2027-05-04: \u26a0 APTU ramirez at q2 \u2014 needs review",
         "2027-05-05: \u26a0 APTU smith at q3 \u2014 needs review",
-        "2027-05-05: \u26a0 Intern tsandilas at q2 \u2014 needs review",
-        "2027-05-12: \u26a0 Intern li at q3 \u2014 needs review",
-        "2027-05-14: \u26a0 Intern li at q2 \u2014 needs review",
+        "2027-05-05: \u26a0 INTERN tsandilas at q4 \u2014 needs review",
+        "2027-05-12: \u26a0 INTERN li at q3 \u2014 needs review",
+        "2027-05-14: \u26a0 INTERN li at q2 \u2014 needs review",
         "2027-05-17: \u26a0 APTU siemiatkoski at q4 \u2014 needs review",
-        "2027-05-27: \u26a0 Intern holsonback at q3 \u2014 needs review",
-        "2027-05-29: \u26a0 APTU auclair at q4 \u2014 needs review",
-        "2027-05-31: \u26a0 Consult brych at q4 \u2014 needs review"
+        "2027-05-27: \u26a0 INTERN holsonback at q3 \u2014 needs review"
       ],
       "2027-6": [
         "2027-06-02: \u26a0 APTU auclair at q4 \u2014 needs review",
