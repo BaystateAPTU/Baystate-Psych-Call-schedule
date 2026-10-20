@@ -6021,7 +6021,6 @@
         "2027-04-08": {
           "type": "weekday",
           "aptu": "smith",
-          "intern": "tsandilas",
           "jeopardy": "ali"
         },
         "2027-04-09": {
@@ -6039,10 +6038,7 @@
           "type": "weekend",
           "consult": "siemiatkoski",
           "aptu": "tsandilas",
-          "jeopardy": "dame",
-          "flags": [
-            "tsandilas"
-          ]
+          "jeopardy": "dame"
         },
         "2027-04-12": {
           "type": "weekday",
@@ -6570,7 +6566,6 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
-        "2027-04-11: \u26a0 APTU tsandilas at q3 \u2014 needs review",
         "2027-04-17: \u26a0 APTU ramirez at q4 \u2014 needs review",
         "2027-04-18: \u26a0 APTU wilson_braun at q4 \u2014 needs review",
         "2027-04-19: \u26a0 APTU ali at q4 \u2014 needs review",
