@@ -5491,10 +5491,6 @@
           "name": "New Year's",
           "aptu": "holsonback",
           "consult": "dame",
-          "flags": [
-            "holsonback",
-            "dame"
-          ],
           "jeopardy": "ali"
         },
         "2027-01-02": {
@@ -5502,10 +5498,6 @@
           "name": "New Year's",
           "aptu": "tsandilas",
           "consult": "mastalerz",
-          "flags": [
-            "tsandilas",
-            "mastalerz"
-          ],
           "jeopardy": "brych"
         },
         "2027-01-03": {
@@ -5513,71 +5505,64 @@
           "name": "New Year's",
           "aptu": "gervais",
           "consult": "smith",
-          "flags": [
-            "gervais",
-            "smith"
-          ],
           "jeopardy": "dame"
         },
         "2027-01-04": {
           "type": "weekday",
+          "aptu": "mastalerz",
+          "jeopardy": "mann",
           "flags": [
             "mastalerz"
-          ],
-          "aptu": "mastalerz",
-          "jeopardy": "mann"
+          ]
         },
         "2027-01-05": {
           "type": "weekday",
+          "aptu": "dame",
+          "jeopardy": "mastalerz",
           "flags": [
             "dame"
-          ],
-          "aptu": "dame",
-          "jeopardy": "mastalerz"
+          ]
         },
         "2027-01-06": {
           "type": "weekday",
-          "flags": [
-            "smith"
-          ],
-          "aptu": "smith",
+          "aptu": "ali",
           "jeopardy": "siemiatkoski"
         },
         "2027-01-07": {
           "type": "weekday",
+          "aptu": "mastalerz",
+          "jeopardy": "smith",
           "flags": [
             "mastalerz"
-          ],
-          "aptu": "mastalerz",
-          "jeopardy": "smith"
+          ]
         },
         "2027-01-08": {
           "type": "weekday",
+          "aptu": "dame",
+          "jeopardy": "ali",
           "flags": [
             "dame"
-          ],
-          "aptu": "dame",
-          "jeopardy": "ali"
+          ]
         },
         "2027-01-09": {
           "type": "weekend",
-          "flags": [
-            "mastalerz",
-            "dame"
-          ],
           "consult": "mastalerz",
           "aptu": "dame",
-          "jeopardy": "brych"
+          "jeopardy": "brych",
+          "flags": [
+            "dame",
+            "mastalerz"
+          ]
         },
         "2027-01-10": {
           "type": "weekend",
-          "flags": [
-            "mastalerz",
-            "dame"
-          ],
           "consult": "mastalerz",
           "aptu": "dame",
-          "jeopardy": "siemiatkoski"
+          "jeopardy": "siemiatkoski",
+          "flags": [
+            "dame",
+            "mastalerz"
+          ]
         },
         "2027-01-11": {
           "type": "weekday",
@@ -5586,45 +5571,41 @@
         },
         "2027-01-12": {
           "type": "weekday",
+          "aptu": "mastalerz",
+          "jeopardy": "mann",
           "flags": [
             "mastalerz"
-          ],
-          "aptu": "mastalerz",
-          "jeopardy": "mann"
+          ]
         },
         "2027-01-13": {
           "type": "weekday",
+          "aptu": "smith",
+          "jeopardy": "wilson_braun",
           "flags": [
             "smith"
-          ],
-          "aptu": "smith",
-          "jeopardy": "wilson_braun"
+          ]
         },
         "2027-01-14": {
           "type": "weekday",
+          "aptu": "dame",
+          "jeopardy": "mastalerz",
           "flags": [
             "dame"
-          ],
-          "aptu": "dame",
-          "jeopardy": "mastalerz"
+          ]
         },
         "2027-01-15": {
           "type": "weekday",
+          "aptu": "smith",
+          "jeopardy": "wilson_braun",
           "flags": [
             "smith"
-          ],
-          "aptu": "smith",
-          "jeopardy": "wilson_braun"
+          ]
         },
         "2027-01-16": {
           "type": "holiday",
           "name": "MLK Day",
           "aptu": "wilson_braun",
           "consult": "siemiatkoski",
-          "flags": [
-            "wilson_braun",
-            "siemiatkoski"
-          ],
           "jeopardy": "smith"
         },
         "2027-01-17": {
@@ -5632,10 +5613,6 @@
           "name": "MLK Day",
           "aptu": "ramirez",
           "consult": "ali",
-          "flags": [
-            "ramirez",
-            "ali"
-          ],
           "jeopardy": "brych"
         },
         "2027-01-18": {
@@ -5643,11 +5620,10 @@
           "name": "MLK Day",
           "aptu": "mizrach",
           "consult": "dame",
+          "jeopardy": "ali",
           "flags": [
-            "mizrach",
             "dame"
-          ],
-          "jeopardy": "ali"
+          ]
         },
         "2027-01-19": {
           "type": "weekday",
@@ -5677,12 +5653,12 @@
         },
         "2027-01-24": {
           "type": "weekend",
-          "flags": [
-            "ramirez"
-          ],
           "consult": "siemiatkoski",
           "aptu": "ramirez",
-          "jeopardy": "wilson_braun"
+          "jeopardy": "wilson_braun",
+          "flags": [
+            "ramirez"
+          ]
         },
         "2027-01-25": {
           "type": "weekday",
@@ -5717,13 +5693,13 @@
         },
         "2027-01-31": {
           "type": "weekend",
-          "flags": [
-            "mastalerz",
-            "dame"
-          ],
           "consult": "mastalerz",
           "aptu": "dame",
-          "jeopardy": "smith"
+          "jeopardy": "smith",
+          "flags": [
+            "dame",
+            "mastalerz"
+          ]
         }
       },
       "2027-2": {
@@ -6692,34 +6668,22 @@
     },
     "warns": {
       "2027-1": [
-        "2027-01-01: \u26a0 APTU holsonback at q4 \u2014 needs review",
-        "2027-01-01: \u26a0 Consult dame at q4 \u2014 needs review",
-        "2027-01-02: \u26a0 APTU tsandilas at q4 \u2014 needs review",
-        "2027-01-02: \u26a0 Consult mastalerz at q4 \u2014 needs review",
-        "2027-01-03: \u26a0 APTU gervais at q4 \u2014 needs review",
-        "2027-01-03: \u26a0 Consult smith at q4 \u2014 needs review",
         "2027-01-04: \u26a0 APTU mastalerz at q2 \u2014 needs review",
         "2027-01-05: \u26a0 APTU dame at q4 \u2014 needs review",
-        "2027-01-06: \u26a0 APTU smith at q3 \u2014 needs review",
         "2027-01-07: \u26a0 APTU mastalerz at q3 \u2014 needs review",
         "2027-01-08: \u26a0 APTU dame at q3 \u2014 needs review",
-        "2027-01-09: \u26a0 Consult mastalerz at q2 \u2014 needs review",
         "2027-01-09: \u26a0 APTU dame at q4 \u2014 needs review",
-        "2027-01-10: \u26a0 Consult mastalerz at q4 \u2014 needs review",
+        "2027-01-09: \u26a0 CONSULT mastalerz at q2 \u2014 needs review",
         "2027-01-10: \u26a0 APTU dame at q4 \u2014 needs review",
+        "2027-01-10: \u26a0 CONSULT mastalerz at q4 \u2014 needs review",
         "2027-01-12: \u26a0 APTU mastalerz at q2 \u2014 needs review",
         "2027-01-13: \u26a0 APTU smith at q2 \u2014 needs review",
         "2027-01-14: \u26a0 APTU dame at q4 \u2014 needs review",
         "2027-01-15: \u26a0 APTU smith at q2 \u2014 needs review",
-        "2027-01-16: \u26a0 APTU wilson_braun at q4 \u2014 needs review",
-        "2027-01-16: \u26a0 Consult siemiatkoski at q4 \u2014 needs review",
-        "2027-01-17: \u26a0 APTU ramirez at q4 \u2014 needs review",
-        "2027-01-17: \u26a0 Consult ali at q4 \u2014 needs review",
-        "2027-01-18: \u26a0 APTU mizrach at q4 \u2014 needs review",
-        "2027-01-18: \u26a0 Consult dame at q4 \u2014 needs review",
+        "2027-01-18: \u26a0 CONSULT dame at q4 \u2014 needs review",
         "2027-01-24: \u26a0 APTU ramirez at q2 \u2014 needs review",
-        "2027-01-31: \u26a0 Consult mastalerz at q4 \u2014 needs review",
-        "2027-01-31: \u26a0 APTU dame at q4 \u2014 needs review"
+        "2027-01-31: \u26a0 APTU dame at q4 \u2014 needs review",
+        "2027-01-31: \u26a0 CONSULT mastalerz at q4 \u2014 needs review"
       ],
       "2027-2": [
         "2027-02-07: \u26a0 Consult ali at q4 \u2014 needs review",
