@@ -5889,11 +5889,8 @@
         "2027-03-13": {
           "type": "weekend",
           "consult": "dame",
-          "aptu": "gervais",
-          "jeopardy": "mastalerz",
-          "flags": [
-            "gervais"
-          ]
+          "aptu": "holsonback",
+          "jeopardy": "mastalerz"
         },
         "2027-03-14": {
           "type": "weekend",
@@ -6610,7 +6607,6 @@
         "2027-03-05: \u26a0 INTERN holsonback at q4 \u2014 needs review",
         "2027-03-06: \u26a0 APTU gervais at q4 \u2014 needs review",
         "2027-03-07: \u26a0 APTU mizrach at q4 \u2014 needs review",
-        "2027-03-13: \u26a0 APTU gervais at q2 \u2014 needs review",
         "2027-03-21: \u26a0 APTU mizrach at q4 \u2014 needs review",
         "2027-03-28: \u26a0 APTU ramirez at q4 \u2014 needs review"
       ],
