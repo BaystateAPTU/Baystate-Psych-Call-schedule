@@ -5990,11 +5990,8 @@
         },
         "2027-04-02": {
           "type": "weekday",
-          "aptu": "ramirez",
-          "jeopardy": "ali",
-          "flags": [
-            "ramirez"
-          ]
+          "aptu": "brych",
+          "jeopardy": "ali"
         },
         "2027-04-03": {
           "type": "weekend",
@@ -6588,7 +6585,6 @@
       "2027-3": [],
       "2027-4": [
         "2027-04-01: \u26a0 APTU ramirez at q3 \u2014 needs review",
-        "2027-04-02: \u26a0 APTU ramirez at q4 \u2014 needs review",
         "2027-04-04: \u26a0 APTU ali at q4 \u2014 needs review",
         "2027-04-04: \u26a0 CONSULT dame at q4 \u2014 needs review",
         "2027-04-10: \u26a0 APTU li at q4 \u2014 needs review",
