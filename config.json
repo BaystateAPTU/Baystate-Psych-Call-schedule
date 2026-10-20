@@ -5952,17 +5952,17 @@
         "2027-03-27": {
           "type": "weekend",
           "consult": "siemiatkoski",
-          "aptu": "auclair",
-          "jeopardy": "mann",
-          "flags": [
-            "auclair"
-          ]
+          "aptu": "kurtz",
+          "jeopardy": "mann"
         },
         "2027-03-28": {
           "type": "weekend",
           "consult": "mastalerz",
           "aptu": "kurtz",
-          "jeopardy": "wilson_braun"
+          "jeopardy": "wilson_braun",
+          "flags": [
+            "kurtz"
+          ]
         },
         "2027-03-29": {
           "type": "weekday",
@@ -6590,7 +6590,7 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [
-        "2027-03-27: \u26a0 APTU auclair at q4 \u2014 needs review"
+        "2027-03-28: \u26a0 APTU kurtz at q4 \u2014 needs review"
       ],
       "2027-4": [
         "2027-04-01: \u26a0 Intern li at q2 \u2014 needs review",
