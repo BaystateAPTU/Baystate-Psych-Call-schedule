@@ -5541,11 +5541,8 @@
         "2027-01-09": {
           "type": "weekend",
           "consult": "mastalerz",
-          "aptu": "dame",
-          "jeopardy": "brych",
-          "flags": [
-            "dame"
-          ]
+          "aptu": "brych",
+          "jeopardy": "brych"
         },
         "2027-01-10": {
           "type": "weekend",
@@ -5553,7 +5550,6 @@
           "aptu": "dame",
           "jeopardy": "siemiatkoski",
           "flags": [
-            "dame",
             "mastalerz"
           ]
         },
@@ -6663,8 +6659,6 @@
       "2027-1": [
         "2027-01-04: \u26a0 APTU mastalerz at q2 \u2014 needs review",
         "2027-01-05: \u26a0 APTU dame at q4 \u2014 needs review",
-        "2027-01-09: \u26a0 APTU dame at q4 \u2014 needs review",
-        "2027-01-10: \u26a0 APTU dame at q4 \u2014 needs review",
         "2027-01-10: \u26a0 CONSULT mastalerz at q4 \u2014 needs review",
         "2027-01-12: \u26a0 APTU mastalerz at q2 \u2014 needs review",
         "2027-01-13: \u26a0 APTU smith at q2 \u2014 needs review",
