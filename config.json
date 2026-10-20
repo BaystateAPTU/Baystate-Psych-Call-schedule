@@ -6000,7 +6000,7 @@
         "2027-04-04": {
           "type": "weekend",
           "consult": "mastalerz",
-          "aptu": "wilson_braun",
+          "aptu": "ramirez",
           "jeopardy": "mastalerz"
         },
         "2027-04-05": {
@@ -6016,7 +6016,10 @@
         "2027-04-07": {
           "type": "weekday",
           "aptu": "ramirez",
-          "jeopardy": "siemiatkoski"
+          "jeopardy": "siemiatkoski",
+          "flags": [
+            "ramirez"
+          ]
         },
         "2027-04-08": {
           "type": "weekday",
@@ -6570,6 +6573,7 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
+        "2027-04-07: \u26a0 APTU ramirez at q3 \u2014 needs review",
         "2027-04-11: \u26a0 APTU tsandilas at q3 \u2014 needs review",
         "2027-04-17: \u26a0 APTU ramirez at q4 \u2014 needs review",
         "2027-04-18: \u26a0 APTU wilson_braun at q4 \u2014 needs review",
