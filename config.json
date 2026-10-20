@@ -5947,7 +5947,8 @@
         "2027-03-25": {
           "type": "weekday",
           "aptu": "smith",
-          "jeopardy": "ali"
+          "jeopardy": "ali",
+          "intern": "holsonback"
         },
         "2027-03-26": {
           "type": "weekday",
@@ -5958,7 +5959,10 @@
           "type": "weekend",
           "consult": "ali",
           "aptu": "holsonback",
-          "jeopardy": "mann"
+          "jeopardy": "mann",
+          "flags": [
+            "holsonback"
+          ]
         },
         "2027-03-28": {
           "type": "weekend",
@@ -6597,6 +6601,7 @@
       "2027-3": [
         "2027-03-07: \u26a0 APTU mizrach at q4 \u2014 needs review",
         "2027-03-21: \u26a0 APTU mizrach at q4 \u2014 needs review",
+        "2027-03-27: \u26a0 APTU holsonback at q2 \u2014 needs review",
         "2027-03-28: \u26a0 APTU ramirez at q4 \u2014 needs review"
       ],
       "2027-4": [
