@@ -5650,8 +5650,11 @@
         },
         "2027-01-29": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
-          "jeopardy": "mastalerz"
+          "aptu": "kurtz",
+          "jeopardy": "mastalerz",
+          "flags": [
+            "kurtz"
+          ]
         },
         "2027-01-30": {
           "type": "weekend",
@@ -6637,6 +6640,7 @@
       "2027-1": [
         "2027-01-27: \u26a0 APTU ali at q4 \u2014 needs review",
         "2027-01-28: \u26a0 APTU kurtz at q4 \u2014 needs review",
+        "2027-01-29: \u26a0 APTU kurtz at q4 \u2014 needs review",
         "2027-01-31: \u26a0 APTU dame at q4 \u2014 needs review"
       ],
       "2027-2": [
