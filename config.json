@@ -5814,14 +5814,17 @@
         "2027-03-01": {
           "type": "weekday",
           "aptu": "ali",
-          "intern": "holsonback",
+          "intern": "gervais",
           "jeopardy": "mann"
         },
         "2027-03-02": {
           "type": "weekday",
           "aptu": "wilson_braun",
           "intern": "gervais",
-          "jeopardy": "ali"
+          "jeopardy": "ali",
+          "flags": [
+            "gervais"
+          ]
         },
         "2027-03-03": {
           "type": "weekday",
@@ -6600,6 +6603,7 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [
+        "2027-03-02: \u26a0 INTERN gervais at q4 \u2014 needs review",
         "2027-03-06: \u26a0 APTU gervais at q4 \u2014 needs review",
         "2027-03-07: \u26a0 APTU mizrach at q4 \u2014 needs review",
         "2027-03-21: \u26a0 APTU mizrach at q4 \u2014 needs review",
