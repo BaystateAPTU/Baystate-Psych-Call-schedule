@@ -5900,7 +5900,8 @@
         "2027-03-15": {
           "type": "weekday",
           "aptu": "ali",
-          "jeopardy": "smith"
+          "jeopardy": "smith",
+          "intern": "gervais"
         },
         "2027-03-16": {
           "type": "weekday",
