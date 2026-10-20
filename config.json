@@ -5663,13 +5663,19 @@
       "2027-2": {
         "2027-02-01": {
           "type": "weekday",
-          "aptu": "mann",
-          "jeopardy": "ali"
+          "aptu": "ali",
+          "jeopardy": "ali",
+          "flags": [
+            "ali"
+          ]
         },
         "2027-02-02": {
           "type": "weekday",
           "aptu": "ali",
-          "jeopardy": "brych"
+          "jeopardy": "brych",
+          "flags": [
+            "ali"
+          ]
         },
         "2027-02-03": {
           "type": "weekday",
@@ -6624,6 +6630,8 @@
     "warns": {
       "2027-1": [],
       "2027-2": [
+        "2027-02-01: \u26a0 APTU ali at q4 \u2014 needs review",
+        "2027-02-02: \u26a0 APTU ali at q4 \u2014 needs review",
         "2027-02-06: \u26a0 CONSULT ali at q4 \u2014 needs review",
         "2027-02-14: \u26a0 CONSULT mastalerz at q4 \u2014 needs review",
         "2027-02-15: \u26a0 APTU ramirez at q2 \u2014 needs review",
