@@ -5943,7 +5943,8 @@
         "2027-03-25": {
           "type": "weekday",
           "aptu": "smith",
-          "jeopardy": "ali"
+          "jeopardy": "ali",
+          "intern": "holsonback"
         },
         "2027-03-26": {
           "type": "weekday",
