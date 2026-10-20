@@ -6216,11 +6216,11 @@
         },
         "2027-05-15": {
           "type": "weekend",
-          "consult": "siemiatkoski",
+          "consult": "ali",
           "aptu": "ramirez",
           "jeopardy": "siemiatkoski",
           "flags": [
-            "siemiatkoski"
+            "ali"
           ]
         },
         "2027-05-16": {
@@ -6240,7 +6240,10 @@
         "2027-05-18": {
           "type": "weekday",
           "aptu": "ali",
-          "jeopardy": "dame"
+          "jeopardy": "dame",
+          "flags": [
+            "ali"
+          ]
         },
         "2027-05-19": {
           "type": "weekday",
@@ -6526,8 +6529,9 @@
         "2027-05-02: \u26a0 APTU ramirez at q2 \u2014 needs review",
         "2027-05-02: \u26a0 CONSULT smith at q3 \u2014 needs review",
         "2027-05-04: \u26a0 APTU ramirez at q2 \u2014 needs review",
-        "2027-05-15: \u26a0 CONSULT siemiatkoski at q2 \u2014 needs review",
-        "2027-05-17: \u26a0 APTU siemiatkoski at q2 \u2014 needs review"
+        "2027-05-15: \u26a0 CONSULT ali at q3 \u2014 needs review",
+        "2027-05-17: \u26a0 APTU siemiatkoski at q4 \u2014 needs review",
+        "2027-05-18: \u26a0 APTU ali at q3 \u2014 needs review"
       ],
       "2027-6": [
         "2027-06-02: \u26a0 APTU auclair at q4 \u2014 needs review",
