@@ -5936,7 +5936,8 @@
         "2027-03-24": {
           "type": "weekday",
           "aptu": "dame",
-          "jeopardy": "siemiatkoski"
+          "jeopardy": "siemiatkoski",
+          "intern": "gervais"
         },
         "2027-03-25": {
           "type": "weekday",
