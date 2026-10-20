@@ -5872,7 +5872,8 @@
         "2027-03-10": {
           "type": "weekday",
           "aptu": "siemiatkoski",
-          "jeopardy": "brych"
+          "jeopardy": "brych",
+          "intern": "holsonback"
         },
         "2027-03-11": {
           "type": "weekday",
@@ -5888,7 +5889,10 @@
           "type": "weekend",
           "consult": "dame",
           "aptu": "holsonback",
-          "jeopardy": "mastalerz"
+          "jeopardy": "mastalerz",
+          "flags": [
+            "holsonback"
+          ]
         },
         "2027-03-14": {
           "type": "weekend",
@@ -6605,6 +6609,7 @@
         "2027-03-02: \u26a0 INTERN gervais at q4 \u2014 needs review",
         "2027-03-06: \u26a0 APTU gervais at q4 \u2014 needs review",
         "2027-03-07: \u26a0 APTU mizrach at q4 \u2014 needs review",
+        "2027-03-13: \u26a0 APTU holsonback at q3 \u2014 needs review",
         "2027-03-21: \u26a0 APTU mizrach at q4 \u2014 needs review",
         "2027-03-28: \u26a0 APTU ramirez at q4 \u2014 needs review"
       ],
