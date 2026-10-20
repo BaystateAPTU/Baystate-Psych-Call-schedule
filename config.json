@@ -5906,8 +5906,11 @@
         },
         "2027-03-18": {
           "type": "weekday",
-          "aptu": "smith",
-          "jeopardy": "brych"
+          "aptu": "kurtz",
+          "jeopardy": "brych",
+          "flags": [
+            "kurtz"
+          ]
         },
         "2027-03-19": {
           "type": "weekday",
@@ -6590,7 +6593,8 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [
-        "2027-03-15: \u26a0 APTU kurtz at q4 \u2014 needs review"
+        "2027-03-15: \u26a0 APTU kurtz at q4 \u2014 needs review",
+        "2027-03-18: \u26a0 APTU kurtz at q3 \u2014 needs review"
       ],
       "2027-4": [
         "2027-04-01: \u26a0 Intern li at q2 \u2014 needs review",
