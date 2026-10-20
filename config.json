@@ -5800,11 +5800,8 @@
         "2027-02-27": {
           "type": "weekend",
           "consult": "siemiatkoski",
-          "aptu": "ramirez",
-          "jeopardy": "mann",
-          "flags": [
-            "ramirez"
-          ]
+          "aptu": "kurtz",
+          "jeopardy": "mann"
         },
         "2027-02-28": {
           "type": "weekend",
@@ -6611,9 +6608,7 @@
     },
     "warns": {
       "2027-1": [],
-      "2027-2": [
-        "2027-02-27: \u26a0 APTU ramirez at q2 \u2014 needs review"
-      ],
+      "2027-2": [],
       "2027-3": [
         "2027-03-05: \u26a0 Intern holsonback at q4 \u2014 needs review",
         "2027-03-06: \u26a0 APTU gervais at q4 \u2014 needs review",
