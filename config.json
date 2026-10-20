@@ -6210,11 +6210,8 @@
         },
         "2027-05-14": {
           "type": "weekday",
-          "aptu": "kurtz",
-          "jeopardy": "mastalerz",
-          "flags": [
-            "kurtz"
-          ]
+          "aptu": "auclair",
+          "jeopardy": "mastalerz"
         },
         "2027-05-15": {
           "type": "weekend",
@@ -6524,7 +6521,6 @@
       "2027-5": [
         "2027-05-02: \u26a0 APTU ramirez at q2 \u2014 needs review",
         "2027-05-03: \u26a0 APTU mastalerz at q4 \u2014 needs review",
-        "2027-05-14: \u26a0 APTU kurtz at q2 \u2014 needs review",
         "2027-05-19: \u26a0 APTU ali at q4 \u2014 needs review"
       ],
       "2027-6": [
