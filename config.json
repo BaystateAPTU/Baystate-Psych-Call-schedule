@@ -5695,10 +5695,9 @@
         "2027-02-07": {
           "type": "weekend",
           "consult": "ali",
-          "aptu": "smith",
+          "aptu": "kurtz",
           "jeopardy": "wilson_braun",
           "flags": [
-            "smith",
             "ali"
           ]
         },
@@ -6627,7 +6626,6 @@
     "warns": {
       "2027-1": [],
       "2027-2": [
-        "2027-02-07: \u26a0 APTU smith at q3 \u2014 needs review",
         "2027-02-07: \u26a0 CONSULT ali at q4 \u2014 needs review",
         "2027-02-13: \u26a0 APTU mizrach at q4 \u2014 needs review",
         "2027-02-13: \u26a0 CONSULT wilson_braun at q2 \u2014 needs review",
