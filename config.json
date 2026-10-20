@@ -2192,6 +2192,14 @@
     {
       "resident": "li",
       "date": "2027-02-11"
+    },
+    {
+      "resident": "li",
+      "date": "2027-01-01"
+    },
+    {
+      "resident": "li",
+      "date": "2027-01-02"
     }
   ],
   "last_schedule": {
