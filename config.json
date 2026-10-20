@@ -6074,11 +6074,8 @@
         "2027-04-18": {
           "type": "weekend",
           "consult": "dame",
-          "aptu": "wilson_braun",
-          "jeopardy": "brych",
-          "flags": [
-            "wilson_braun"
-          ]
+          "aptu": "kurtz",
+          "jeopardy": "brych"
         },
         "2027-04-19": {
           "type": "weekday",
@@ -6563,7 +6560,6 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
-        "2027-04-18: \u26a0 APTU wilson_braun at q4 \u2014 needs review",
         "2027-04-19: \u26a0 APTU ali at q4 \u2014 needs review",
         "2027-04-25: \u26a0 APTU ramirez at q3 \u2014 needs review",
         "2027-04-25: \u26a0 CONSULT wilson_braun at q2 \u2014 needs review"
