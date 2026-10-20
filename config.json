@@ -5529,11 +5529,8 @@
         },
         "2027-01-08": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
-          "jeopardy": "ali",
-          "flags": [
-            "siemiatkoski"
-          ]
+          "aptu": "ali",
+          "jeopardy": "ali"
         },
         "2027-01-09": {
           "type": "weekend",
@@ -6639,7 +6636,6 @@
     },
     "warns": {
       "2027-1": [
-        "2027-01-08: \u26a0 APTU siemiatkoski at q2 \u2014 needs review",
         "2027-01-17: \u26a0 CONSULT ali at q2 \u2014 needs review",
         "2027-01-24: \u26a0 APTU ramirez at q2 \u2014 needs review",
         "2027-01-31: \u26a0 APTU dame at q4 \u2014 needs review",
