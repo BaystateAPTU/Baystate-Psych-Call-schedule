@@ -5697,12 +5697,9 @@
         },
         "2027-02-07": {
           "type": "weekend",
-          "consult": "ali",
+          "consult": "dame",
           "aptu": "kurtz",
-          "jeopardy": "wilson_braun",
-          "flags": [
-            "ali"
-          ]
+          "jeopardy": "wilson_braun"
         },
         "2027-02-08": {
           "type": "weekday",
@@ -5722,10 +5719,7 @@
         "2027-02-11": {
           "type": "weekday",
           "aptu": "ali",
-          "jeopardy": "dame",
-          "flags": [
-            "ali"
-          ]
+          "jeopardy": "dame"
         },
         "2027-02-12": {
           "type": "weekday",
@@ -6631,8 +6625,6 @@
       "2027-1": [],
       "2027-2": [
         "2027-02-06: \u26a0 CONSULT ali at q3 \u2014 needs review",
-        "2027-02-07: \u26a0 CONSULT ali at q4 \u2014 needs review",
-        "2027-02-11: \u26a0 APTU ali at q4 \u2014 needs review",
         "2027-02-14: \u26a0 CONSULT mastalerz at q4 \u2014 needs review",
         "2027-02-15: \u26a0 APTU ramirez at q2 \u2014 needs review",
         "2027-02-21: \u26a0 APTU mizrach at q3 \u2014 needs review",
