@@ -6015,11 +6015,7 @@
         "2027-04-06": {
           "type": "weekday",
           "aptu": "siemiatkoski",
-          "intern": "li",
-          "jeopardy": "smith",
-          "flags": [
-            "li"
-          ]
+          "jeopardy": "smith"
         },
         "2027-04-07": {
           "type": "weekday",
@@ -6041,10 +6037,7 @@
           "type": "weekend",
           "consult": "dame",
           "aptu": "li",
-          "jeopardy": "mann",
-          "flags": [
-            "li"
-          ]
+          "jeopardy": "mann"
         },
         "2027-04-11": {
           "type": "weekend",
@@ -6587,8 +6580,6 @@
       "2027-4": [
         "2027-04-04: \u26a0 APTU ali at q4 \u2014 needs review",
         "2027-04-04: \u26a0 CONSULT dame at q4 \u2014 needs review",
-        "2027-04-06: \u26a0 INTERN li at q4 \u2014 needs review",
-        "2027-04-10: \u26a0 APTU li at q4 \u2014 needs review",
         "2027-04-11: \u26a0 APTU tsandilas at q3 \u2014 needs review",
         "2027-04-14: \u26a0 INTERN tsandilas at q3 \u2014 needs review",
         "2027-04-17: \u26a0 APTU ramirez at q4 \u2014 needs review",
