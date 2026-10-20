@@ -6122,11 +6122,8 @@
         },
         "2027-04-26": {
           "type": "weekday",
-          "aptu": "mizrach",
-          "jeopardy": "brych",
-          "flags": [
-            "mizrach"
-          ]
+          "aptu": "brych",
+          "jeopardy": "brych"
         },
         "2027-04-27": {
           "type": "weekday",
@@ -6563,8 +6560,7 @@
       "2027-3": [],
       "2027-4": [
         "2027-04-24: \u26a0 APTU mizrach at q4 \u2014 needs review",
-        "2027-04-25: \u26a0 CONSULT wilson_braun at q2 \u2014 needs review",
-        "2027-04-26: \u26a0 APTU mizrach at q2 \u2014 needs review"
+        "2027-04-25: \u26a0 CONSULT wilson_braun at q2 \u2014 needs review"
       ],
       "2027-5": [
         "2027-05-02: \u26a0 Consult smith at q3 \u2014 needs review",
