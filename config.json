@@ -5951,9 +5951,12 @@
         },
         "2027-03-27": {
           "type": "weekend",
-          "consult": "ali",
+          "consult": "siemiatkoski",
           "aptu": "auclair",
-          "jeopardy": "mann"
+          "jeopardy": "mann",
+          "flags": [
+            "siemiatkoski"
+          ]
         },
         "2027-03-28": {
           "type": "weekend",
@@ -5965,7 +5968,10 @@
           "type": "weekday",
           "aptu": "siemiatkoski",
           "intern": "tsandilas",
-          "jeopardy": "mastalerz"
+          "jeopardy": "mastalerz",
+          "flags": [
+            "siemiatkoski"
+          ]
         },
         "2027-03-30": {
           "type": "weekday",
@@ -6586,7 +6592,10 @@
     "warns": {
       "2027-1": [],
       "2027-2": [],
-      "2027-3": [],
+      "2027-3": [
+        "2027-03-27: \u26a0 CONSULT siemiatkoski at q4 \u2014 needs review",
+        "2027-03-29: \u26a0 APTU siemiatkoski at q2 \u2014 needs review"
+      ],
       "2027-4": [
         "2027-04-01: \u26a0 Intern li at q2 \u2014 needs review",
         "2027-04-03: \u26a0 APTU ali at q2 \u2014 needs review",
