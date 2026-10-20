@@ -5673,11 +5673,8 @@
         },
         "2027-02-03": {
           "type": "weekday",
-          "aptu": "ali",
-          "jeopardy": "dame",
-          "flags": [
-            "ali"
-          ]
+          "aptu": "ramirez",
+          "jeopardy": "dame"
         },
         "2027-02-04": {
           "type": "weekday",
@@ -6627,8 +6624,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [
-        "2027-02-03: \u26a0 APTU ali at q4 \u2014 needs review",
-        "2027-02-06: \u26a0 CONSULT ali at q3 \u2014 needs review",
+        "2027-02-06: \u26a0 CONSULT ali at q4 \u2014 needs review",
         "2027-02-14: \u26a0 CONSULT mastalerz at q4 \u2014 needs review",
         "2027-02-15: \u26a0 APTU ramirez at q2 \u2014 needs review",
         "2027-02-21: \u26a0 APTU mizrach at q3 \u2014 needs review",
