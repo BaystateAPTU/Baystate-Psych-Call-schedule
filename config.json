@@ -5650,17 +5650,14 @@
         "2027-01-30": {
           "type": "weekend",
           "consult": "smith",
-          "aptu": "dame",
+          "aptu": "auclair",
           "jeopardy": "siemiatkoski"
         },
         "2027-01-31": {
           "type": "weekend",
           "consult": "mastalerz",
           "aptu": "dame",
-          "jeopardy": "smith",
-          "flags": [
-            "dame"
-          ]
+          "jeopardy": "smith"
         }
       },
       "2027-2": {
@@ -6628,9 +6625,7 @@
       }
     },
     "warns": {
-      "2027-1": [
-        "2027-01-31: \u26a0 APTU dame at q4 \u2014 needs review"
-      ],
+      "2027-1": [],
       "2027-2": [
         "2027-02-07: \u26a0 Consult ali at q4 \u2014 needs review",
         "2027-02-07: \u26a0 APTU smith at q2 \u2014 needs review",
