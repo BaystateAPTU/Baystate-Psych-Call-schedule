@@ -5893,11 +5893,8 @@
         },
         "2027-03-16": {
           "type": "weekday",
-          "aptu": "ali",
-          "jeopardy": "wilson_braun",
-          "flags": [
-            "ali"
-          ]
+          "aptu": "smith",
+          "jeopardy": "wilson_braun"
         },
         "2027-03-17": {
           "type": "weekday",
@@ -6593,7 +6590,6 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [
-        "2027-03-16: \u26a0 APTU ali at q4 \u2014 needs review",
         "2027-03-18: \u26a0 APTU kurtz at q4 \u2014 needs review"
       ],
       "2027-4": [
