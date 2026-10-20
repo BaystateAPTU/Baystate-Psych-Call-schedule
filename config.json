@@ -5509,11 +5509,8 @@
         },
         "2027-01-04": {
           "type": "weekday",
-          "aptu": "mastalerz",
-          "jeopardy": "mann",
-          "flags": [
-            "mastalerz"
-          ]
+          "aptu": "wilson_braun",
+          "jeopardy": "mann"
         },
         "2027-01-05": {
           "type": "weekday",
@@ -6654,7 +6651,6 @@
     },
     "warns": {
       "2027-1": [
-        "2027-01-04: \u26a0 APTU mastalerz at q2 \u2014 needs review",
         "2027-01-05: \u26a0 APTU dame at q4 \u2014 needs review",
         "2027-01-12: \u26a0 APTU mastalerz at q3 \u2014 needs review",
         "2027-01-13: \u26a0 APTU smith at q2 \u2014 needs review",
