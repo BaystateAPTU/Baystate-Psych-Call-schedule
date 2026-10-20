@@ -5877,14 +5877,20 @@
         "2027-03-13": {
           "type": "weekend",
           "consult": "dame",
-          "aptu": "mizrach",
-          "jeopardy": "mastalerz"
+          "aptu": "ramirez",
+          "jeopardy": "mastalerz",
+          "flags": [
+            "ramirez"
+          ]
         },
         "2027-03-14": {
           "type": "weekend",
           "consult": "mann",
           "aptu": "ramirez",
-          "jeopardy": "siemiatkoski"
+          "jeopardy": "siemiatkoski",
+          "flags": [
+            "ramirez"
+          ]
         },
         "2027-03-15": {
           "type": "weekday",
@@ -6585,7 +6591,10 @@
     "warns": {
       "2027-1": [],
       "2027-2": [],
-      "2027-3": [],
+      "2027-3": [
+        "2027-03-13: \u26a0 APTU ramirez at q4 \u2014 needs review",
+        "2027-03-14: \u26a0 APTU ramirez at q4 \u2014 needs review"
+      ],
       "2027-4": [
         "2027-04-01: \u26a0 Intern li at q2 \u2014 needs review",
         "2027-04-03: \u26a0 APTU ali at q2 \u2014 needs review",
