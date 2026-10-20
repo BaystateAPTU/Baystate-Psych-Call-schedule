@@ -5820,11 +5820,7 @@
         "2027-03-02": {
           "type": "weekday",
           "aptu": "wilson_braun",
-          "intern": "gervais",
-          "jeopardy": "ali",
-          "flags": [
-            "gervais"
-          ]
+          "jeopardy": "ali"
         },
         "2027-03-03": {
           "type": "weekday",
@@ -5845,10 +5841,7 @@
           "type": "weekend",
           "consult": "smith",
           "aptu": "gervais",
-          "jeopardy": "wilson_braun",
-          "flags": [
-            "gervais"
-          ]
+          "jeopardy": "wilson_braun"
         },
         "2027-03-07": {
           "type": "weekend",
@@ -6606,8 +6599,6 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [
-        "2027-03-02: \u26a0 INTERN gervais at q4 \u2014 needs review",
-        "2027-03-06: \u26a0 APTU gervais at q4 \u2014 needs review",
         "2027-03-07: \u26a0 APTU mizrach at q4 \u2014 needs review",
         "2027-03-10: \u26a0 INTERN gervais at q4 \u2014 needs review",
         "2027-03-21: \u26a0 APTU mizrach at q4 \u2014 needs review",
