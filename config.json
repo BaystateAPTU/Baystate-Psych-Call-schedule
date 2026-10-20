@@ -5983,7 +5983,8 @@
         "2027-04-01": {
           "type": "weekday",
           "aptu": "mann",
-          "jeopardy": "brych"
+          "jeopardy": "brych",
+          "intern": "tsandilas"
         },
         "2027-04-02": {
           "type": "weekday",
