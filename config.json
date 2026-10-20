@@ -3004,6 +3004,10 @@
     {
       "resident": "smith",
       "date": "2027-01-10"
+    },
+    {
+      "resident": "smith",
+      "date": "2027-01-18"
     }
   ],
   "last_schedule": {
