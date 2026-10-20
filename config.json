@@ -5634,8 +5634,11 @@
         },
         "2027-01-27": {
           "type": "weekday",
-          "aptu": "mastalerz",
-          "jeopardy": "dame"
+          "aptu": "kurtz",
+          "jeopardy": "dame",
+          "flags": [
+            "kurtz"
+          ]
         },
         "2027-01-28": {
           "type": "weekday",
@@ -5659,8 +5662,7 @@
           "aptu": "dame",
           "jeopardy": "smith",
           "flags": [
-            "dame",
-            "mastalerz"
+            "dame"
           ]
         }
       },
@@ -6630,8 +6632,8 @@
     },
     "warns": {
       "2027-1": [
-        "2027-01-31: \u26a0 APTU dame at q4 \u2014 needs review",
-        "2027-01-31: \u26a0 CONSULT mastalerz at q4 \u2014 needs review"
+        "2027-01-27: \u26a0 APTU kurtz at q3 \u2014 needs review",
+        "2027-01-31: \u26a0 APTU dame at q4 \u2014 needs review"
       ],
       "2027-2": [
         "2027-02-07: \u26a0 Consult ali at q4 \u2014 needs review",
