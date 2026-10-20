@@ -5826,11 +5826,8 @@
         },
         "2027-03-03": {
           "type": "weekday",
-          "aptu": "mizrach",
-          "jeopardy": "mastalerz",
-          "flags": [
-            "mizrach"
-          ]
+          "aptu": "mann",
+          "jeopardy": "mastalerz"
         },
         "2027-03-04": {
           "type": "weekday",
@@ -5852,10 +5849,7 @@
           "type": "weekend",
           "consult": "wilson_braun",
           "aptu": "mizrach",
-          "jeopardy": "ali",
-          "flags": [
-            "mizrach"
-          ]
+          "jeopardy": "ali"
         },
         "2027-03-08": {
           "type": "weekday",
@@ -6601,8 +6595,6 @@
       "2027-2": [],
       "2027-3": [
         "2027-03-01: \u26a0 APTU mizrach at q3 \u2014 needs review",
-        "2027-03-03: \u26a0 APTU mizrach at q2 \u2014 needs review",
-        "2027-03-07: \u26a0 APTU mizrach at q4 \u2014 needs review",
         "2027-03-21: \u26a0 APTU mizrach at q4 \u2014 needs review",
         "2027-03-28: \u26a0 APTU ramirez at q4 \u2014 needs review"
       ],
