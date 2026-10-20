@@ -5737,11 +5737,8 @@
         },
         "2027-02-15": {
           "type": "weekday",
-          "aptu": "ramirez",
-          "jeopardy": "smith",
-          "flags": [
-            "ramirez"
-          ]
+          "aptu": "mizrach",
+          "jeopardy": "smith"
         },
         "2027-02-16": {
           "type": "weekday",
@@ -5756,10 +5753,7 @@
         "2027-02-18": {
           "type": "weekday",
           "aptu": "ramirez",
-          "jeopardy": "siemiatkoski",
-          "flags": [
-            "ramirez"
-          ]
+          "jeopardy": "siemiatkoski"
         },
         "2027-02-19": {
           "type": "weekday",
@@ -6618,8 +6612,6 @@
     "warns": {
       "2027-1": [],
       "2027-2": [
-        "2027-02-15: \u26a0 APTU ramirez at q2 \u2014 needs review",
-        "2027-02-18: \u26a0 APTU ramirez at q3 \u2014 needs review",
         "2027-02-27: \u26a0 APTU ramirez at q2 \u2014 needs review"
       ],
       "2027-3": [
