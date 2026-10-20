@@ -2992,6 +2992,18 @@
     {
       "resident": "mizrach",
       "date": "2027-06-21"
+    },
+    {
+      "resident": "smith",
+      "date": "2027-01-08"
+    },
+    {
+      "resident": "smith",
+      "date": "2027-01-09"
+    },
+    {
+      "resident": "smith",
+      "date": "2027-01-10"
     }
   ],
   "last_schedule": {
