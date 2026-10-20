@@ -6213,8 +6213,11 @@
         },
         "2027-05-14": {
           "type": "weekday",
-          "aptu": "wilson_braun",
-          "jeopardy": "mastalerz"
+          "aptu": "kurtz",
+          "jeopardy": "mastalerz",
+          "flags": [
+            "kurtz"
+          ]
         },
         "2027-05-15": {
           "type": "weekend",
@@ -6231,10 +6234,7 @@
         "2027-05-17": {
           "type": "weekday",
           "aptu": "wilson_braun",
-          "jeopardy": "brych",
-          "flags": [
-            "wilson_braun"
-          ]
+          "jeopardy": "brych"
         },
         "2027-05-18": {
           "type": "weekday",
@@ -6531,7 +6531,7 @@
         "2027-05-02: \u26a0 APTU ramirez at q2 \u2014 needs review",
         "2027-05-03: \u26a0 APTU mastalerz at q4 \u2014 needs review",
         "2027-05-04: \u26a0 APTU ramirez at q2 \u2014 needs review",
-        "2027-05-17: \u26a0 APTU wilson_braun at q3 \u2014 needs review",
+        "2027-05-14: \u26a0 APTU kurtz at q2 \u2014 needs review",
         "2027-05-18: \u26a0 APTU ali at q3 \u2014 needs review",
         "2027-05-19: \u26a0 APTU wilson_braun at q2 \u2014 needs review"
       ],
