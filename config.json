@@ -6000,10 +6000,9 @@
         "2027-04-04": {
           "type": "weekend",
           "consult": "dame",
-          "aptu": "ali",
+          "aptu": "wilson_braun",
           "jeopardy": "mastalerz",
           "flags": [
-            "ali",
             "dame"
           ]
         },
@@ -6574,7 +6573,6 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
-        "2027-04-04: \u26a0 APTU ali at q4 \u2014 needs review",
         "2027-04-04: \u26a0 CONSULT dame at q4 \u2014 needs review",
         "2027-04-11: \u26a0 APTU tsandilas at q3 \u2014 needs review",
         "2027-04-17: \u26a0 APTU ramirez at q4 \u2014 needs review",
