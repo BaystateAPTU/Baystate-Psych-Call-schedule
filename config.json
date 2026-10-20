@@ -3096,6 +3096,14 @@
     {
       "resident": "smith",
       "date": "2027-05-20"
+    },
+    {
+      "resident": "ali",
+      "date": "2027-01-02"
+    },
+    {
+      "resident": "ali",
+      "date": "2027-01-03"
     }
   ],
   "last_schedule": {
