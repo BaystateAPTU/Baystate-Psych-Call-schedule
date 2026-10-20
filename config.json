@@ -3044,6 +3044,14 @@
     {
       "resident": "smith",
       "date": "2027-03-29"
+    },
+    {
+      "resident": "smith",
+      "date": "2027-04-03"
+    },
+    {
+      "resident": "smith",
+      "date": "2027-04-04"
     }
   ],
   "last_schedule": {
