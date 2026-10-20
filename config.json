@@ -5987,9 +5987,12 @@
         },
         "2027-04-02": {
           "type": "weekday",
-          "aptu": "mastalerz",
+          "aptu": "wilson_braun",
           "jeopardy": "ali",
-          "intern": "li"
+          "intern": "li",
+          "flags": [
+            "wilson_braun"
+          ]
         },
         "2027-04-03": {
           "type": "weekend",
@@ -6556,6 +6559,7 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
+        "2027-04-02: \u26a0 APTU wilson_braun at q3 \u2014 needs review",
         "2027-04-25: \u26a0 CONSULT wilson_braun at q2 \u2014 needs review"
       ],
       "2027-5": [
