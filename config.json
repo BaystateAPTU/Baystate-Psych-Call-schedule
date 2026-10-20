@@ -5678,16 +5678,13 @@
         },
         "2027-02-04": {
           "type": "weekday",
-          "aptu": "auclair",
+          "aptu": "smith",
           "jeopardy": "mann"
         },
         "2027-02-05": {
           "type": "weekday",
           "aptu": "auclair",
-          "jeopardy": "siemiatkoski",
-          "flags": [
-            "auclair"
-          ]
+          "jeopardy": "siemiatkoski"
         },
         "2027-02-06": {
           "type": "weekend",
@@ -5701,6 +5698,7 @@
           "aptu": "smith",
           "jeopardy": "wilson_braun",
           "flags": [
+            "smith",
             "ali"
           ]
         },
@@ -6629,7 +6627,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [
-        "2027-02-05: \u26a0 APTU auclair at q4 \u2014 needs review",
+        "2027-02-07: \u26a0 APTU smith at q3 \u2014 needs review",
         "2027-02-07: \u26a0 CONSULT ali at q4 \u2014 needs review",
         "2027-02-13: \u26a0 APTU mizrach at q4 \u2014 needs review",
         "2027-02-13: \u26a0 CONSULT wilson_braun at q2 \u2014 needs review",
