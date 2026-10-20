@@ -3897,6 +3897,14 @@
     {
       "resident": "dame",
       "date": "2027-06-30"
+    },
+    {
+      "resident": "kurtz",
+      "date": "2027-01-04"
+    },
+    {
+      "resident": "kurtz",
+      "date": "2027-01-05"
     }
   ],
   "last_schedule": {
