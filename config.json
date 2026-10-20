@@ -6115,7 +6115,7 @@
         },
         "2027-04-27": {
           "type": "weekday",
-          "aptu": "ali",
+          "aptu": "mastalerz",
           "jeopardy": "dame"
         },
         "2027-04-28": {
@@ -6126,7 +6126,10 @@
         "2027-04-29": {
           "type": "weekday",
           "aptu": "mastalerz",
-          "jeopardy": "mastalerz"
+          "jeopardy": "mastalerz",
+          "flags": [
+            "mastalerz"
+          ]
         },
         "2027-04-30": {
           "type": "weekday",
@@ -6511,7 +6514,9 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [],
-      "2027-4": [],
+      "2027-4": [
+        "2027-04-29: \u26a0 APTU mastalerz at q2 \u2014 needs review"
+      ],
       "2027-5": [
         "2027-05-03: \u26a0 APTU mastalerz at q4 \u2014 needs review"
       ],
