@@ -5619,11 +5619,8 @@
         "2027-01-24": {
           "type": "weekend",
           "consult": "siemiatkoski",
-          "aptu": "ramirez",
-          "jeopardy": "wilson_braun",
-          "flags": [
-            "ramirez"
-          ]
+          "aptu": "kurtz",
+          "jeopardy": "wilson_braun"
         },
         "2027-01-25": {
           "type": "weekday",
@@ -6633,7 +6630,6 @@
     },
     "warns": {
       "2027-1": [
-        "2027-01-24: \u26a0 APTU ramirez at q2 \u2014 needs review",
         "2027-01-31: \u26a0 APTU dame at q4 \u2014 needs review",
         "2027-01-31: \u26a0 CONSULT mastalerz at q4 \u2014 needs review"
       ],
