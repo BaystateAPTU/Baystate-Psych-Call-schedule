@@ -5642,10 +5642,10 @@
         },
         "2027-01-28": {
           "type": "weekday",
-          "aptu": "ali",
+          "aptu": "kurtz",
           "jeopardy": "mann",
           "flags": [
-            "ali"
+            "kurtz"
           ]
         },
         "2027-01-29": {
@@ -6636,7 +6636,7 @@
     "warns": {
       "2027-1": [
         "2027-01-27: \u26a0 APTU ali at q4 \u2014 needs review",
-        "2027-01-28: \u26a0 APTU ali at q4 \u2014 needs review",
+        "2027-01-28: \u26a0 APTU kurtz at q4 \u2014 needs review",
         "2027-01-31: \u26a0 APTU dame at q4 \u2014 needs review"
       ],
       "2027-2": [
