@@ -5888,16 +5888,16 @@
         },
         "2027-03-15": {
           "type": "weekday",
-          "aptu": "smith",
-          "jeopardy": "dame",
-          "flags": [
-            "smith"
-          ]
+          "aptu": "ali",
+          "jeopardy": "dame"
         },
         "2027-03-16": {
           "type": "weekday",
           "aptu": "ali",
-          "jeopardy": "wilson_braun"
+          "jeopardy": "wilson_braun",
+          "flags": [
+            "ali"
+          ]
         },
         "2027-03-17": {
           "type": "weekday",
@@ -6593,7 +6593,7 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [
-        "2027-03-15: \u26a0 APTU smith at q4 \u2014 needs review",
+        "2027-03-16: \u26a0 APTU ali at q4 \u2014 needs review",
         "2027-03-18: \u26a0 APTU kurtz at q4 \u2014 needs review"
       ],
       "2027-4": [
