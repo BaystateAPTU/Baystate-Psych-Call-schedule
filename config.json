@@ -5566,11 +5566,8 @@
         },
         "2027-01-15": {
           "type": "weekday",
-          "aptu": "smith",
-          "jeopardy": "wilson_braun",
-          "flags": [
-            "smith"
-          ]
+          "aptu": "mizrach",
+          "jeopardy": "wilson_braun"
         },
         "2027-01-16": {
           "type": "holiday",
@@ -5591,7 +5588,10 @@
           "name": "MLK Day",
           "aptu": "mizrach",
           "consult": "dame",
-          "jeopardy": "ali"
+          "jeopardy": "ali",
+          "flags": [
+            "mizrach"
+          ]
         },
         "2027-01-19": {
           "type": "weekday",
@@ -6636,7 +6636,7 @@
     },
     "warns": {
       "2027-1": [
-        "2027-01-15: \u26a0 APTU smith at q4 \u2014 needs review",
+        "2027-01-18: \u26a0 APTU mizrach at q3 \u2014 needs review",
         "2027-01-24: \u26a0 APTU ramirez at q2 \u2014 needs review",
         "2027-01-31: \u26a0 APTU dame at q4 \u2014 needs review",
         "2027-01-31: \u26a0 CONSULT mastalerz at q4 \u2014 needs review"
