@@ -5535,11 +5535,8 @@
         },
         "2027-01-08": {
           "type": "weekday",
-          "aptu": "dame",
-          "jeopardy": "ali",
-          "flags": [
-            "dame"
-          ]
+          "aptu": "siemiatkoski",
+          "jeopardy": "ali"
         },
         "2027-01-09": {
           "type": "weekend",
@@ -6666,7 +6663,6 @@
       "2027-1": [
         "2027-01-04: \u26a0 APTU mastalerz at q2 \u2014 needs review",
         "2027-01-05: \u26a0 APTU dame at q4 \u2014 needs review",
-        "2027-01-08: \u26a0 APTU dame at q3 \u2014 needs review",
         "2027-01-09: \u26a0 APTU dame at q4 \u2014 needs review",
         "2027-01-10: \u26a0 APTU dame at q4 \u2014 needs review",
         "2027-01-10: \u26a0 CONSULT mastalerz at q4 \u2014 needs review",
