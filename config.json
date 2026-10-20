@@ -5824,7 +5824,8 @@
         "2027-03-03": {
           "type": "weekday",
           "aptu": "mann",
-          "jeopardy": "mastalerz"
+          "jeopardy": "mastalerz",
+          "intern": "holsonback"
         },
         "2027-03-04": {
           "type": "weekday",
