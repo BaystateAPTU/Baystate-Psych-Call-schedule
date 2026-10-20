@@ -5556,7 +5556,7 @@
         },
         "2027-01-13": {
           "type": "weekday",
-          "aptu": "wilson_braun",
+          "aptu": "auclair",
           "jeopardy": "wilson_braun"
         },
         "2027-01-14": {
@@ -5580,10 +5580,7 @@
           "name": "MLK Day",
           "aptu": "wilson_braun",
           "consult": "siemiatkoski",
-          "jeopardy": "smith",
-          "flags": [
-            "wilson_braun"
-          ]
+          "jeopardy": "smith"
         },
         "2027-01-17": {
           "type": "holiday",
@@ -6647,7 +6644,6 @@
       "2027-1": [
         "2027-01-14: \u26a0 APTU dame at q4 \u2014 needs review",
         "2027-01-15: \u26a0 APTU smith at q4 \u2014 needs review",
-        "2027-01-16: \u26a0 APTU wilson_braun at q3 \u2014 needs review",
         "2027-01-18: \u26a0 CONSULT dame at q4 \u2014 needs review",
         "2027-01-24: \u26a0 APTU ramirez at q2 \u2014 needs review",
         "2027-01-31: \u26a0 APTU dame at q4 \u2014 needs review",
