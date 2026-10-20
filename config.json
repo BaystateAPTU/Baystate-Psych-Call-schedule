@@ -5634,19 +5634,13 @@
         },
         "2027-01-27": {
           "type": "weekday",
-          "aptu": "ali",
-          "jeopardy": "dame",
-          "flags": [
-            "ali"
-          ]
+          "aptu": "brych",
+          "jeopardy": "dame"
         },
         "2027-01-28": {
           "type": "weekday",
           "aptu": "ali",
-          "jeopardy": "mann",
-          "flags": [
-            "ali"
-          ]
+          "jeopardy": "mann"
         },
         "2027-01-29": {
           "type": "weekday",
@@ -6635,8 +6629,6 @@
     },
     "warns": {
       "2027-1": [
-        "2027-01-27: \u26a0 APTU ali at q4 \u2014 needs review",
-        "2027-01-28: \u26a0 APTU ali at q4 \u2014 needs review",
         "2027-01-31: \u26a0 APTU dame at q4 \u2014 needs review"
       ],
       "2027-2": [
