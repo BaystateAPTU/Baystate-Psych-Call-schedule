@@ -5813,10 +5813,10 @@
       "2027-3": {
         "2027-03-01": {
           "type": "weekday",
-          "aptu": "mizrach",
+          "aptu": "kurtz",
           "jeopardy": "mann",
           "flags": [
-            "mizrach"
+            "kurtz"
           ]
         },
         "2027-03-02": {
@@ -6594,7 +6594,7 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [
-        "2027-03-01: \u26a0 APTU mizrach at q3 \u2014 needs review",
+        "2027-03-01: \u26a0 APTU kurtz at q2 \u2014 needs review",
         "2027-03-21: \u26a0 APTU mizrach at q4 \u2014 needs review",
         "2027-03-28: \u26a0 APTU ramirez at q4 \u2014 needs review"
       ],
