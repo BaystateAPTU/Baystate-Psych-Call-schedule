@@ -5856,7 +5856,7 @@
         },
         "2027-03-09": {
           "type": "weekday",
-          "aptu": "auclair",
+          "aptu": "kurtz",
           "jeopardy": "dame"
         },
         "2027-03-10": {
@@ -5872,10 +5872,7 @@
         "2027-03-12": {
           "type": "weekday",
           "aptu": "auclair",
-          "jeopardy": "mann",
-          "flags": [
-            "auclair"
-          ]
+          "jeopardy": "mann"
         },
         "2027-03-13": {
           "type": "weekend",
@@ -6588,9 +6585,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [],
-      "2027-3": [
-        "2027-03-12: \u26a0 APTU auclair at q3 \u2014 needs review"
-      ],
+      "2027-3": [],
       "2027-4": [
         "2027-04-01: \u26a0 Intern li at q2 \u2014 needs review",
         "2027-04-03: \u26a0 APTU ali at q2 \u2014 needs review",
