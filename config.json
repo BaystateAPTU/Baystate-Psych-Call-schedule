@@ -5522,41 +5522,33 @@
         "2027-01-04": {
           "type": "weekday",
           "flags": [
-            "mastalerz",
-            "holsonback"
+            "mastalerz"
           ],
           "aptu": "mastalerz",
-          "intern": "holsonback",
           "jeopardy": "mann"
         },
         "2027-01-05": {
           "type": "weekday",
           "flags": [
-            "dame",
-            "li"
+            "dame"
           ],
           "aptu": "dame",
-          "intern": "li",
           "jeopardy": "mastalerz"
         },
         "2027-01-06": {
           "type": "weekday",
           "flags": [
-            "smith",
-            "holsonback"
+            "smith"
           ],
           "aptu": "smith",
-          "intern": "holsonback",
           "jeopardy": "siemiatkoski"
         },
         "2027-01-07": {
           "type": "weekday",
           "flags": [
-            "mastalerz",
-            "li"
+            "mastalerz"
           ],
           "aptu": "mastalerz",
-          "intern": "li",
           "jeopardy": "smith"
         },
         "2027-01-08": {
@@ -5565,45 +5557,39 @@
             "dame"
           ],
           "aptu": "dame",
-          "intern": "tsandilas",
           "jeopardy": "ali"
         },
         "2027-01-09": {
           "type": "weekend",
           "flags": [
-            "mastalerz"
+            "mastalerz",
+            "dame"
           ],
           "consult": "mastalerz",
-          "aptu": "gervais",
+          "aptu": "dame",
           "jeopardy": "brych"
         },
         "2027-01-10": {
           "type": "weekend",
           "flags": [
-            "dame",
-            "holsonback"
+            "mastalerz",
+            "dame"
           ],
-          "consult": "dame",
-          "aptu": "holsonback",
-          "jeopardy": "mastalerz"
+          "consult": "mastalerz",
+          "aptu": "dame",
+          "jeopardy": "siemiatkoski"
         },
         "2027-01-11": {
           "type": "weekday",
           "aptu": "smith",
-          "intern": "tsandilas",
-          "flags": [
-            "tsandilas"
-          ],
           "jeopardy": "dame"
         },
         "2027-01-12": {
           "type": "weekday",
           "flags": [
-            "mastalerz",
-            "gervais"
+            "mastalerz"
           ],
           "aptu": "mastalerz",
-          "intern": "gervais",
           "jeopardy": "mann"
         },
         "2027-01-13": {
@@ -5617,12 +5603,10 @@
         "2027-01-14": {
           "type": "weekday",
           "flags": [
-            "dame",
-            "gervais"
+            "dame"
           ],
           "aptu": "dame",
-          "intern": "gervais",
-          "jeopardy": "siemiatkoski"
+          "jeopardy": "mastalerz"
         },
         "2027-01-15": {
           "type": "weekday",
@@ -5677,7 +5661,7 @@
         },
         "2027-01-21": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
+          "aptu": "wilson_braun",
           "jeopardy": "mastalerz"
         },
         "2027-01-22": {
@@ -5693,18 +5677,21 @@
         },
         "2027-01-24": {
           "type": "weekend",
-          "consult": "wilson_braun",
-          "aptu": "li",
-          "jeopardy": "ali"
+          "flags": [
+            "ramirez"
+          ],
+          "consult": "siemiatkoski",
+          "aptu": "ramirez",
+          "jeopardy": "wilson_braun"
         },
         "2027-01-25": {
           "type": "weekday",
           "aptu": "smith",
-          "jeopardy": "wilson_braun"
+          "jeopardy": "ali"
         },
         "2027-01-26": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
+          "aptu": "wilson_braun",
           "jeopardy": "brych"
         },
         "2027-01-27": {
@@ -5719,27 +5706,30 @@
         },
         "2027-01-29": {
           "type": "weekday",
-          "aptu": "wilson_braun",
+          "aptu": "siemiatkoski",
           "jeopardy": "mastalerz"
         },
         "2027-01-30": {
           "type": "weekend",
           "consult": "smith",
-          "aptu": "tsandilas",
+          "aptu": "dame",
           "jeopardy": "siemiatkoski"
         },
         "2027-01-31": {
           "type": "weekend",
-          "consult": "siemiatkoski",
-          "aptu": "li",
+          "flags": [
+            "mastalerz",
+            "dame"
+          ],
+          "consult": "mastalerz",
+          "aptu": "dame",
           "jeopardy": "smith"
         }
       },
       "2027-2": {
         "2027-02-01": {
           "type": "weekday",
-          "aptu": "mastalerz",
-          "intern": "holsonback",
+          "aptu": "wilson_braun",
           "jeopardy": "ali"
         },
         "2027-02-02": {
@@ -5750,46 +5740,37 @@
         "2027-02-03": {
           "type": "weekday",
           "aptu": "ali",
-          "intern": "holsonback",
-          "flags": [
-            "holsonback"
-          ],
           "jeopardy": "dame"
         },
         "2027-02-04": {
           "type": "weekday",
-          "aptu": "wilson_braun",
-          "intern": "li",
-          "flags": [
-            "li"
-          ],
+          "aptu": "siemiatkoski",
           "jeopardy": "mann"
         },
         "2027-02-05": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
-          "intern": "tsandilas",
-          "jeopardy": "smith"
+          "aptu": "smith",
+          "jeopardy": "siemiatkoski"
         },
         "2027-02-06": {
           "type": "weekend",
-          "consult": "smith",
-          "aptu": "gervais",
-          "jeopardy": "siemiatkoski"
+          "consult": "wilson_braun",
+          "aptu": "dame",
+          "jeopardy": "smith"
         },
         "2027-02-07": {
           "type": "weekend",
-          "consult": "dame",
-          "aptu": "ramirez",
+          "flags": [
+            "ali",
+            "smith"
+          ],
+          "consult": "ali",
+          "aptu": "smith",
           "jeopardy": "wilson_braun"
         },
         "2027-02-08": {
           "type": "weekday",
-          "aptu": "ali",
-          "intern": "tsandilas",
-          "flags": [
-            "tsandilas"
-          ],
+          "aptu": "ramirez",
           "jeopardy": "mastalerz"
         },
         "2027-02-09": {
@@ -5799,107 +5780,118 @@
         },
         "2027-02-10": {
           "type": "weekday",
-          "aptu": "wilson_braun",
+          "aptu": "mastalerz",
           "jeopardy": "brych"
         },
         "2027-02-11": {
           "type": "weekday",
-          "aptu": "smith",
-          "intern": "gervais",
+          "aptu": "wilson_braun",
           "jeopardy": "dame"
         },
         "2027-02-12": {
           "type": "weekday",
-          "aptu": "ramirez",
+          "aptu": "ali",
           "jeopardy": "mann"
         },
         "2027-02-13": {
           "type": "weekend",
-          "consult": "ali",
-          "aptu": "holsonback",
+          "flags": [
+            "wilson_braun",
+            "mizrach"
+          ],
+          "consult": "wilson_braun",
+          "aptu": "mizrach",
           "jeopardy": "mastalerz"
         },
         "2027-02-14": {
           "type": "weekend",
+          "flags": [
+            "mastalerz",
+            "ali"
+          ],
           "consult": "mastalerz",
-          "aptu": "tsandilas",
+          "aptu": "ali",
           "jeopardy": "wilson_braun"
         },
         "2027-02-15": {
           "type": "weekday",
-          "aptu": "mizrach",
+          "aptu": "ramirez",
           "jeopardy": "smith"
         },
         "2027-02-16": {
           "type": "weekday",
-          "aptu": "wilson_braun",
-          "intern": "li",
+          "aptu": "smith",
           "jeopardy": "ali"
         },
         "2027-02-17": {
           "type": "weekday",
-          "aptu": "ramirez",
-          "jeopardy": "siemiatkoski"
+          "aptu": "siemiatkoski",
+          "jeopardy": "brych"
         },
         "2027-02-18": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
-          "intern": "gervais",
-          "jeopardy": "brych"
+          "aptu": "mizrach",
+          "jeopardy": "siemiatkoski"
         },
         "2027-02-19": {
           "type": "weekday",
-          "aptu": "ali",
+          "aptu": "wilson_braun",
           "jeopardy": "mastalerz"
         },
         "2027-02-20": {
           "type": "weekend",
-          "consult": "mastalerz",
-          "aptu": "mizrach",
+          "consult": "ali",
+          "aptu": "ramirez",
           "jeopardy": "siemiatkoski"
         },
         "2027-02-21": {
           "type": "weekend",
-          "consult": "wilson_braun",
-          "aptu": "li",
+          "flags": [
+            "mizrach"
+          ],
+          "consult": "mastalerz",
+          "aptu": "mizrach",
           "jeopardy": "smith"
         },
         "2027-02-22": {
           "type": "weekday",
-          "aptu": "ramirez",
+          "aptu": "siemiatkoski",
           "jeopardy": "mann"
         },
         "2027-02-23": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
+          "aptu": "smith",
           "jeopardy": "wilson_braun"
         },
         "2027-02-24": {
           "type": "weekday",
-          "aptu": "ali",
+          "aptu": "wilson_braun",
           "jeopardy": "dame"
         },
         "2027-02-25": {
           "type": "weekday",
-          "aptu": "mizrach",
+          "aptu": "ramirez",
           "jeopardy": "ali"
         },
         "2027-02-26": {
           "type": "weekday",
-          "aptu": "wilson_braun",
+          "aptu": "mizrach",
           "jeopardy": "brych"
         },
         "2027-02-27": {
           "type": "weekend",
-          "consult": "smith",
+          "flags": [
+            "ramirez"
+          ],
+          "consult": "siemiatkoski",
           "aptu": "ramirez",
           "jeopardy": "mann"
         },
         "2027-02-28": {
           "type": "weekend",
-          "consult": "siemiatkoski",
-          "aptu": "tsandilas",
-          "jeopardy": "mastalerz"
+          "consult": "smith",
+          "aptu": "mastalerz",
+          "jeopardy": "siemiatkoski"
         }
       },
       "2027-3": {
@@ -5911,16 +5903,13 @@
         },
         "2027-03-02": {
           "type": "weekday",
-          "aptu": "mizrach",
+          "aptu": "wilson_braun",
+          "intern": "gervais",
           "jeopardy": "ali"
         },
         "2027-03-03": {
           "type": "weekday",
-          "aptu": "wilson_braun",
-          "intern": "holsonback",
-          "flags": [
-            "holsonback"
-          ],
+          "aptu": "mizrach",
           "jeopardy": "mastalerz"
         },
         "2027-03-04": {
@@ -5931,27 +5920,36 @@
         "2027-03-05": {
           "type": "weekday",
           "aptu": "siemiatkoski",
-          "intern": "li",
+          "intern": "holsonback",
+          "flags": [
+            "holsonback"
+          ],
           "jeopardy": "smith"
         },
         "2027-03-06": {
           "type": "weekend",
-          "consult": "ali",
-          "aptu": "tsandilas",
+          "flags": [
+            "gervais"
+          ],
+          "consult": "smith",
+          "aptu": "gervais",
           "jeopardy": "wilson_braun"
         },
         "2027-03-07": {
           "type": "weekend",
-          "consult": "smith",
+          "flags": [
+            "mizrach"
+          ],
+          "consult": "wilson_braun",
           "aptu": "mizrach",
           "jeopardy": "ali"
         },
         "2027-03-08": {
           "type": "weekday",
-          "aptu": "wilson_braun",
-          "intern": "li",
+          "aptu": "ali",
+          "intern": "gervais",
           "flags": [
-            "li"
+            "gervais"
           ],
           "jeopardy": "brych"
         },
@@ -5963,16 +5961,11 @@
         "2027-03-10": {
           "type": "weekday",
           "aptu": "siemiatkoski",
-          "intern": "tsandilas",
-          "flags": [
-            "tsandilas"
-          ],
           "jeopardy": "brych"
         },
         "2027-03-11": {
           "type": "weekday",
-          "aptu": "ali",
-          "intern": "gervais",
+          "aptu": "smith",
           "jeopardy": "dame"
         },
         "2027-03-12": {
@@ -5982,26 +5975,24 @@
         },
         "2027-03-13": {
           "type": "weekend",
-          "consult": "wilson_braun",
-          "aptu": "li",
+          "consult": "dame",
+          "aptu": "gervais",
           "jeopardy": "mastalerz"
         },
         "2027-03-14": {
           "type": "weekend",
-          "consult": "dame",
+          "consult": "wilson_braun",
           "aptu": "ramirez",
           "jeopardy": "siemiatkoski"
         },
         "2027-03-15": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
-          "intern": "tsandilas",
+          "aptu": "ali",
           "jeopardy": "smith"
         },
         "2027-03-16": {
           "type": "weekday",
-          "aptu": "ali",
-          "intern": "gervais",
+          "aptu": "siemiatkoski",
           "jeopardy": "wilson_braun"
         },
         "2027-03-17": {
@@ -6011,7 +6002,7 @@
         },
         "2027-03-18": {
           "type": "weekday",
-          "aptu": "wilson_braun",
+          "aptu": "smith",
           "jeopardy": "brych"
         },
         "2027-03-19": {
@@ -6021,19 +6012,22 @@
         },
         "2027-03-20": {
           "type": "weekend",
-          "consult": "mastalerz",
+          "consult": "dame",
           "aptu": "holsonback",
-          "jeopardy": "smith"
+          "jeopardy": "mastalerz"
         },
         "2027-03-21": {
           "type": "weekend",
-          "consult": "dame",
-          "aptu": "li",
-          "jeopardy": "mastalerz"
+          "flags": [
+            "mizrach"
+          ],
+          "consult": "wilson_braun",
+          "aptu": "mizrach",
+          "jeopardy": "smith"
         },
         "2027-03-22": {
           "type": "weekday",
-          "aptu": "mizrach",
+          "aptu": "ali",
           "jeopardy": "mann"
         },
         "2027-03-23": {
@@ -6053,114 +6047,127 @@
         },
         "2027-03-26": {
           "type": "weekday",
-          "aptu": "ali",
+          "aptu": "mizrach",
           "jeopardy": "brych"
         },
         "2027-03-27": {
           "type": "weekend",
-          "consult": "wilson_braun",
-          "aptu": "mizrach",
+          "consult": "ali",
+          "aptu": "holsonback",
           "jeopardy": "mann"
         },
         "2027-03-28": {
           "type": "weekend",
+          "flags": [
+            "ramirez"
+          ],
           "consult": "mastalerz",
-          "aptu": "holsonback",
+          "aptu": "ramirez",
           "jeopardy": "wilson_braun"
         },
         "2027-03-29": {
           "type": "weekday",
-          "aptu": "ramirez",
+          "aptu": "siemiatkoski",
+          "intern": "tsandilas",
           "jeopardy": "mastalerz"
         },
         "2027-03-30": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
+          "aptu": "wilson_braun",
+          "intern": "li",
+          "flags": [
+            "li"
+          ],
           "jeopardy": "dame"
         },
         "2027-03-31": {
           "type": "weekday",
-          "aptu": "smith",
+          "aptu": "mizrach",
           "jeopardy": "siemiatkoski"
         }
       },
       "2027-4": {
         "2027-04-01": {
           "type": "weekday",
-          "aptu": "mizrach",
-          "jeopardy": "ali"
-        },
-        "2027-04-02": {
-          "type": "weekday",
-          "aptu": "wilson_braun",
-          "intern": "holsonback",
-          "jeopardy": "brych"
-        },
-        "2027-04-03": {
-          "type": "weekend",
-          "consult": "ali",
-          "aptu": "ramirez",
-          "jeopardy": "dame"
-        },
-        "2027-04-04": {
-          "type": "weekend",
-          "consult": "dame",
-          "aptu": "gervais",
-          "jeopardy": "mastalerz"
-        },
-        "2027-04-05": {
-          "type": "weekday",
-          "aptu": "siemiatkoski",
-          "intern": "holsonback",
-          "flags": [
-            "holsonback"
-          ],
-          "jeopardy": "mann"
-        },
-        "2027-04-06": {
-          "type": "weekday",
-          "aptu": "mizrach",
-          "jeopardy": "siemiatkoski"
-        },
-        "2027-04-07": {
-          "type": "weekday",
-          "aptu": "smith",
-          "intern": "li",
-          "jeopardy": "ali"
-        },
-        "2027-04-08": {
-          "type": "weekday",
-          "aptu": "ramirez",
-          "jeopardy": "smith"
-        },
-        "2027-04-09": {
-          "type": "weekday",
-          "aptu": "dame",
+          "aptu": "ali",
           "intern": "li",
           "flags": [
             "li"
           ],
           "jeopardy": "brych"
         },
+        "2027-04-02": {
+          "type": "weekday",
+          "aptu": "ramirez",
+          "jeopardy": "ali"
+        },
+        "2027-04-03": {
+          "type": "weekend",
+          "flags": [
+            "ali"
+          ],
+          "consult": "dame",
+          "aptu": "ali",
+          "jeopardy": "mann"
+        },
+        "2027-04-04": {
+          "type": "weekend",
+          "flags": [
+            "dame",
+            "ali"
+          ],
+          "consult": "dame",
+          "aptu": "ali",
+          "jeopardy": "mastalerz"
+        },
+        "2027-04-05": {
+          "type": "weekday",
+          "aptu": "mizrach",
+          "jeopardy": "dame"
+        },
+        "2027-04-06": {
+          "type": "weekday",
+          "aptu": "siemiatkoski",
+          "intern": "li",
+          "jeopardy": "smith"
+        },
+        "2027-04-07": {
+          "type": "weekday",
+          "aptu": "ramirez",
+          "jeopardy": "siemiatkoski"
+        },
+        "2027-04-08": {
+          "type": "weekday",
+          "aptu": "smith",
+          "intern": "tsandilas",
+          "jeopardy": "ali"
+        },
+        "2027-04-09": {
+          "type": "weekday",
+          "aptu": "mastalerz",
+          "jeopardy": "brych"
+        },
         "2027-04-10": {
           "type": "weekend",
+          "flags": [
+            "li"
+          ],
+          "consult": "dame",
+          "aptu": "li",
+          "jeopardy": "mann"
+        },
+        "2027-04-11": {
+          "type": "weekend",
+          "flags": [
+            "tsandilas"
+          ],
           "consult": "siemiatkoski",
           "aptu": "tsandilas",
           "jeopardy": "dame"
         },
-        "2027-04-11": {
-          "type": "weekend",
-          "consult": "mastalerz",
-          "aptu": "mizrach",
-          "jeopardy": "mann"
-        },
         "2027-04-12": {
           "type": "weekday",
-          "aptu": "ali",
-          "intern": "tsandilas",
-          "flags": [
-            "tsandilas"
-          ],
+          "aptu": "mizrach",
           "jeopardy": "mastalerz"
         },
         "2027-04-13": {
@@ -6179,88 +6186,99 @@
         },
         "2027-04-15": {
           "type": "weekday",
-          "aptu": "smith",
-          "intern": "gervais",
-          "jeopardy": "wilson_braun"
+          "aptu": "ali",
+          "jeopardy": "smith"
         },
         "2027-04-16": {
           "type": "weekday",
-          "aptu": "mizrach",
-          "jeopardy": "ali"
+          "aptu": "siemiatkoski",
+          "jeopardy": "wilson_braun"
         },
         "2027-04-17": {
           "type": "weekend",
-          "consult": "siemiatkoski",
-          "aptu": "holsonback",
-          "jeopardy": "brych"
+          "flags": [
+            "ramirez"
+          ],
+          "consult": "mastalerz",
+          "aptu": "ramirez",
+          "jeopardy": "ali"
         },
         "2027-04-18": {
           "type": "weekend",
-          "consult": "ali",
-          "aptu": "ramirez",
-          "jeopardy": "dame"
+          "flags": [
+            "wilson_braun"
+          ],
+          "consult": "dame",
+          "aptu": "wilson_braun",
+          "jeopardy": "brych"
         },
         "2027-04-19": {
           "type": "weekday",
-          "aptu": "wilson_braun",
-          "jeopardy": "mann"
+          "flags": [
+            "ali"
+          ],
+          "aptu": "ali",
+          "jeopardy": "dame"
         },
         "2027-04-20": {
           "type": "weekday",
-          "aptu": "smith",
-          "jeopardy": "mastalerz"
+          "aptu": "mizrach",
+          "jeopardy": "mann"
         },
         "2027-04-21": {
           "type": "weekday",
-          "aptu": "dame",
-          "intern": "gervais",
-          "jeopardy": "smith"
+          "aptu": "siemiatkoski",
+          "jeopardy": "mastalerz"
         },
         "2027-04-22": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
-          "jeopardy": "smith"
+          "aptu": "ramirez",
+          "jeopardy": "siemiatkoski"
         },
         "2027-04-23": {
           "type": "weekday",
-          "aptu": "mizrach",
-          "jeopardy": "siemiatkoski"
+          "aptu": "wilson_braun",
+          "jeopardy": "smith"
         },
         "2027-04-24": {
           "type": "weekend",
+          "consult": "smith",
+          "aptu": "tsandilas",
+          "jeopardy": "wilson_braun"
+        },
+        "2027-04-25": {
+          "type": "weekend",
+          "flags": [
+            "wilson_braun",
+            "ramirez"
+          ],
           "consult": "wilson_braun",
           "aptu": "ramirez",
           "jeopardy": "ali"
         },
-        "2027-04-25": {
-          "type": "weekend",
-          "consult": "smith",
-          "aptu": "holsonback",
-          "jeopardy": "wilson_braun"
-        },
         "2027-04-26": {
           "type": "weekday",
-          "aptu": "ali",
+          "aptu": "mizrach",
           "jeopardy": "brych"
         },
         "2027-04-27": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
+          "aptu": "ali",
           "jeopardy": "dame"
         },
         "2027-04-28": {
           "type": "weekday",
-          "aptu": "mizrach",
+          "aptu": "siemiatkoski",
           "jeopardy": "mann"
         },
         "2027-04-29": {
           "type": "weekday",
-          "aptu": "ramirez",
+          "aptu": "smith",
           "jeopardy": "mastalerz"
         },
         "2027-04-30": {
           "type": "weekday",
-          "aptu": "smith",
+          "aptu": "ramirez",
           "jeopardy": "siemiatkoski"
         }
       },
@@ -6274,36 +6292,39 @@
         "2027-05-02": {
           "type": "weekend",
           "flags": [
-            "smith"
+            "smith",
+            "ramirez"
           ],
           "consult": "smith",
-          "aptu": "holsonback",
+          "aptu": "ramirez",
           "jeopardy": "mastalerz"
         },
         "2027-05-03": {
           "type": "weekday",
           "flags": [
-            "ramirez"
+            "mastalerz",
+            "tsandilas"
           ],
-          "aptu": "ramirez",
+          "aptu": "mastalerz",
+          "intern": "tsandilas",
           "jeopardy": "smith"
         },
         "2027-05-04": {
           "type": "weekday",
           "flags": [
-            "mastalerz",
-            "holsonback"
+            "ramirez"
           ],
-          "aptu": "mastalerz",
-          "intern": "holsonback",
+          "aptu": "ramirez",
           "jeopardy": "brych"
         },
         "2027-05-05": {
           "type": "weekday",
           "flags": [
-            "ramirez"
+            "smith",
+            "tsandilas"
           ],
-          "aptu": "ramirez",
+          "aptu": "smith",
+          "intern": "tsandilas",
           "jeopardy": "mann"
         },
         "2027-05-06": {
@@ -6317,12 +6338,12 @@
         "2027-05-08": {
           "type": "weekend",
           "consult": "siemiatkoski",
-          "aptu": "wilson_braun",
-          "jeopardy": "mastalerz"
+          "aptu": "mastalerz",
+          "jeopardy": "wilson_braun"
         },
         "2027-05-09": {
           "type": "weekend",
-          "consult": "smith",
+          "consult": "wilson_braun",
           "aptu": "li",
           "jeopardy": "siemiatkoski"
         },
@@ -6334,64 +6355,59 @@
         "2027-05-11": {
           "type": "weekday",
           "aptu": "mizrach",
-          "jeopardy": "wilson_braun"
+          "jeopardy": "ali"
         },
         "2027-05-12": {
           "type": "weekday",
           "aptu": "ali",
-          "intern": "holsonback",
+          "intern": "li",
+          "flags": [
+            "li"
+          ],
           "jeopardy": "dame"
         },
         "2027-05-13": {
           "type": "weekday",
           "aptu": "siemiatkoski",
-          "intern": "li",
-          "flags": [
-            "li"
-          ],
-          "jeopardy": "ali"
+          "jeopardy": "mann"
         },
         "2027-05-14": {
           "type": "weekday",
           "aptu": "wilson_braun",
-          "intern": "tsandilas",
-          "jeopardy": "siemiatkoski"
+          "intern": "li",
+          "flags": [
+            "li"
+          ],
+          "jeopardy": "mastalerz"
         },
         "2027-05-15": {
           "type": "weekend",
           "consult": "dame",
           "aptu": "ramirez",
-          "jeopardy": "wilson_braun"
+          "jeopardy": "siemiatkoski"
         },
         "2027-05-16": {
           "type": "weekend",
           "consult": "mastalerz",
           "aptu": "mizrach",
-          "jeopardy": "mann"
+          "jeopardy": "wilson_braun"
         },
         "2027-05-17": {
           "type": "weekday",
           "flags": [
-            "siemiatkoski",
-            "li"
+            "siemiatkoski"
           ],
           "aptu": "siemiatkoski",
-          "intern": "li",
           "jeopardy": "brych"
         },
         "2027-05-18": {
           "type": "weekday",
           "aptu": "ali",
-          "intern": "tsandilas",
-          "flags": [
-            "tsandilas"
-          ],
           "jeopardy": "dame"
         },
         "2027-05-19": {
           "type": "weekday",
           "aptu": "wilson_braun",
-          "intern": "gervais",
           "jeopardy": "ali"
         },
         "2027-05-20": {
@@ -6412,14 +6428,14 @@
         },
         "2027-05-23": {
           "type": "weekend",
-          "consult": "dame",
-          "aptu": "holsonback",
+          "consult": "smith",
+          "aptu": "tsandilas",
           "jeopardy": "siemiatkoski"
         },
         "2027-05-24": {
           "type": "weekday",
           "aptu": "ali",
-          "intern": "gervais",
+          "intern": "holsonback",
           "jeopardy": "smith"
         },
         "2027-05-25": {
@@ -6434,13 +6450,17 @@
         },
         "2027-05-27": {
           "type": "weekday",
-          "aptu": "mastalerz",
+          "aptu": "dame",
+          "intern": "holsonback",
+          "flags": [
+            "holsonback"
+          ],
           "jeopardy": "brych"
         },
         "2027-05-28": {
           "type": "weekday",
-          "aptu": "dame",
-          "jeopardy": "mann"
+          "aptu": "mastalerz",
+          "jeopardy": "dame"
         },
         "2027-05-29": {
           "type": "holiday",
@@ -6450,14 +6470,14 @@
           "flags": [
             "auclair"
           ],
-          "jeopardy": "dame"
+          "jeopardy": "mastalerz"
         },
         "2027-05-30": {
           "type": "holiday",
           "name": "Memorial Day",
           "aptu": "gervais",
           "consult": "smith",
-          "jeopardy": "mastalerz"
+          "jeopardy": "wilson_braun"
         },
         "2027-05-31": {
           "type": "holiday",
@@ -6467,7 +6487,7 @@
           "flags": [
             "brych"
           ],
-          "jeopardy": "smith"
+          "jeopardy": "mann"
         }
       },
       "2027-6": {
@@ -6478,118 +6498,142 @@
         },
         "2027-06-02": {
           "type": "weekday",
-          "aptu": "ramirez",
+          "flags": [
+            "auclair"
+          ],
+          "aptu": "auclair",
           "jeopardy": "brych"
         },
         "2027-06-03": {
           "type": "weekday",
-          "aptu": "auclair",
+          "aptu": "ramirez",
           "jeopardy": "dame"
         },
         "2027-06-04": {
           "type": "weekday",
-          "aptu": "ali",
+          "flags": [
+            "brych"
+          ],
+          "aptu": "brych",
           "intern": "holsonback",
           "jeopardy": "mann"
         },
         "2027-06-05": {
           "type": "weekend",
-          "consult": "brych",
+          "consult": "siemiatkoski",
           "aptu": "gervais",
           "jeopardy": "mastalerz"
         },
         "2027-06-06": {
           "type": "weekend",
-          "consult": "siemiatkoski",
-          "aptu": "li",
-          "jeopardy": "smith"
+          "flags": [
+            "brych",
+            "auclair"
+          ],
+          "consult": "brych",
+          "aptu": "auclair",
+          "jeopardy": "siemiatkoski"
         },
         "2027-06-07": {
           "type": "weekday",
-          "aptu": "ramirez",
-          "jeopardy": "siemiatkoski"
+          "aptu": "ali",
+          "intern": "holsonback",
+          "flags": [
+            "holsonback"
+          ],
+          "jeopardy": "smith"
         },
         "2027-06-08": {
           "type": "no_call"
         },
         "2027-06-09": {
           "type": "weekday",
-          "aptu": "auclair",
+          "aptu": "mizrach",
           "jeopardy": "ali"
         },
         "2027-06-10": {
           "type": "weekday",
-          "aptu": "brych",
-          "intern": "holsonback",
+          "flags": [
+            "auclair"
+          ],
+          "aptu": "auclair",
           "jeopardy": "wilson_braun"
         },
         "2027-06-11": {
           "type": "weekday",
-          "aptu": "ali",
-          "intern": "li",
-          "jeopardy": "brych"
+          "aptu": "brych",
+          "intern": "gervais",
+          "jeopardy": "mann"
         },
         "2027-06-12": {
           "type": "weekend",
-          "consult": "wilson_braun",
+          "consult": "siemiatkoski",
           "aptu": "ramirez",
-          "jeopardy": "mann"
+          "jeopardy": "brych"
         },
         "2027-06-13": {
           "type": "weekend",
           "flags": [
-            "auclair"
+            "brych"
           ],
-          "consult": "smith",
-          "aptu": "auclair",
+          "consult": "brych",
+          "aptu": "holsonback",
           "jeopardy": "mastalerz"
         },
         "2027-06-14": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
-          "intern": "li",
           "flags": [
-            "li"
+            "auclair"
           ],
-          "jeopardy": "smith"
+          "aptu": "auclair",
+          "jeopardy": "siemiatkoski"
         },
         "2027-06-15": {
           "type": "weekday",
-          "aptu": "brych",
+          "aptu": "ali",
           "intern": "gervais",
-          "jeopardy": "siemiatkoski"
+          "flags": [
+            "gervais"
+          ],
+          "jeopardy": "smith"
         },
         "2027-06-16": {
           "type": "weekday",
-          "aptu": "ali",
-          "jeopardy": "wilson_braun"
+          "aptu": "wilson_braun",
+          "jeopardy": "ali"
         },
         "2027-06-17": {
           "type": "weekday",
           "aptu": "ramirez",
-          "jeopardy": "ali"
+          "jeopardy": "wilson_braun"
         },
         "2027-06-18": {
           "type": "weekday",
+          "flags": [
+            "auclair"
+          ],
           "aptu": "auclair",
           "jeopardy": "mastalerz"
         },
         "2027-06-19": {
           "type": "weekend",
-          "consult": "wilson_braun",
-          "aptu": "li",
+          "consult": "smith",
+          "aptu": "holsonback",
           "jeopardy": "siemiatkoski"
         },
         "2027-06-20": {
           "type": "weekend",
+          "flags": [
+            "ramirez"
+          ],
           "consult": "siemiatkoski",
-          "aptu": "holsonback",
+          "aptu": "ramirez",
           "jeopardy": "mann"
         },
         "2027-06-21": {
           "type": "weekday",
           "aptu": "brych",
-          "intern": "tsandilas",
+          "intern": "li",
           "jeopardy": "smith"
         },
         "2027-06-22": {
@@ -6604,27 +6648,27 @@
         },
         "2027-06-24": {
           "type": "weekday",
-          "aptu": "ramirez",
-          "jeopardy": "ali"
+          "aptu": "ali",
+          "intern": "li",
+          "flags": [
+            "li"
+          ],
+          "jeopardy": "brych"
         },
         "2027-06-25": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
-          "intern": "tsandilas",
-          "flags": [
-            "tsandilas"
-          ],
-          "jeopardy": "brych"
+          "aptu": "ramirez",
+          "jeopardy": "ali"
         },
         "2027-06-26": {
           "type": "weekend",
           "consult": "brych",
-          "aptu": "li",
+          "aptu": "holsonback",
           "jeopardy": "mann"
         },
         "2027-06-27": {
           "type": "weekend",
-          "consult": "ali",
+          "consult": "smith",
           "aptu": "mizrach",
           "jeopardy": "siemiatkoski"
         },
@@ -6635,14 +6679,14 @@
         },
         "2027-06-29": {
           "type": "weekday",
-          "aptu": "ramirez",
-          "jeopardy": "wilson_braun"
+          "aptu": "wilson_braun",
+          "intern": "tsandilas",
+          "jeopardy": "ali"
         },
         "2027-06-30": {
           "type": "weekday",
-          "aptu": "mann",
-          "intern": "gervais",
-          "jeopardy": "ali"
+          "aptu": "ramirez",
+          "jeopardy": "wilson_braun"
         }
       }
     },
@@ -6655,126 +6699,151 @@
         "2027-01-03: \u26a0 APTU gervais at q4 \u2014 needs review",
         "2027-01-03: \u26a0 Consult smith at q4 \u2014 needs review",
         "2027-01-04: \u26a0 APTU mastalerz at q2 \u2014 needs review",
-        "2027-01-04: \u26a0 Intern holsonback at q3 \u2014 needs review",
         "2027-01-05: \u26a0 APTU dame at q4 \u2014 needs review",
-        "2027-01-05: \u26a0 Intern li at q4 \u2014 needs review",
         "2027-01-06: \u26a0 APTU smith at q3 \u2014 needs review",
-        "2027-01-06: \u26a0 Intern holsonback at q2 \u2014 needs review",
         "2027-01-07: \u26a0 APTU mastalerz at q3 \u2014 needs review",
-        "2027-01-07: \u26a0 Intern li at q2 \u2014 needs review",
         "2027-01-08: \u26a0 APTU dame at q3 \u2014 needs review",
         "2027-01-09: \u26a0 Consult mastalerz at q2 \u2014 needs review",
-        "2027-01-10: \u26a0 Consult dame at q2 \u2014 needs review",
-        "2027-01-10: \u26a0 APTU holsonback at q4 \u2014 needs review",
-        "2027-01-11: \u26a0 Intern tsandilas at q3 \u2014 needs review",
-        "2027-01-12: \u26a0 APTU mastalerz at q3 \u2014 needs review",
-        "2027-01-12: \u26a0 Intern gervais at q3 \u2014 needs review",
+        "2027-01-09: \u26a0 APTU dame at q4 \u2014 needs review",
+        "2027-01-10: \u26a0 Consult mastalerz at q4 \u2014 needs review",
+        "2027-01-10: \u26a0 APTU dame at q4 \u2014 needs review",
+        "2027-01-12: \u26a0 APTU mastalerz at q2 \u2014 needs review",
         "2027-01-13: \u26a0 APTU smith at q2 \u2014 needs review",
         "2027-01-14: \u26a0 APTU dame at q4 \u2014 needs review",
-        "2027-01-14: \u26a0 Intern gervais at q2 \u2014 needs review",
         "2027-01-15: \u26a0 APTU smith at q2 \u2014 needs review",
         "2027-01-16: \u26a0 APTU wilson_braun at q4 \u2014 needs review",
         "2027-01-16: \u26a0 Consult siemiatkoski at q4 \u2014 needs review",
         "2027-01-17: \u26a0 APTU ramirez at q4 \u2014 needs review",
         "2027-01-17: \u26a0 Consult ali at q4 \u2014 needs review",
         "2027-01-18: \u26a0 APTU mizrach at q4 \u2014 needs review",
-        "2027-01-18: \u26a0 Consult dame at q4 \u2014 needs review"
+        "2027-01-18: \u26a0 Consult dame at q4 \u2014 needs review",
+        "2027-01-24: \u26a0 APTU ramirez at q2 \u2014 needs review",
+        "2027-01-31: \u26a0 Consult mastalerz at q4 \u2014 needs review",
+        "2027-01-31: \u26a0 APTU dame at q4 \u2014 needs review"
       ],
       "2027-2": [
-        "2027-02-03: \u26a0 Intern holsonback at q2 \u2014 needs review",
-        "2027-02-04: \u26a0 Intern li at q4 \u2014 needs review",
-        "2027-02-08: \u26a0 Intern tsandilas at q3 \u2014 needs review"
+        "2027-02-07: \u26a0 Consult ali at q4 \u2014 needs review",
+        "2027-02-07: \u26a0 APTU smith at q2 \u2014 needs review",
+        "2027-02-13: \u26a0 Consult wilson_braun at q2 \u2014 needs review",
+        "2027-02-13: \u26a0 APTU mizrach at q4 \u2014 needs review",
+        "2027-02-14: \u26a0 Consult mastalerz at q4 \u2014 needs review",
+        "2027-02-14: \u26a0 APTU ali at q2 \u2014 needs review",
+        "2027-02-21: \u26a0 APTU mizrach at q3 \u2014 needs review",
+        "2027-02-27: \u26a0 APTU ramirez at q2 \u2014 needs review"
       ],
       "2027-3": [
-        "2027-03-03: \u26a0 Intern holsonback at q2 \u2014 needs review",
-        "2027-03-08: \u26a0 Intern li at q3 \u2014 needs review",
-        "2027-03-10: \u26a0 Intern tsandilas at q4 \u2014 needs review"
+        "2027-03-05: \u26a0 Intern holsonback at q4 \u2014 needs review",
+        "2027-03-06: \u26a0 APTU gervais at q4 \u2014 needs review",
+        "2027-03-07: \u26a0 APTU mizrach at q4 \u2014 needs review",
+        "2027-03-08: \u26a0 Intern gervais at q2 \u2014 needs review",
+        "2027-03-21: \u26a0 APTU mizrach at q4 \u2014 needs review",
+        "2027-03-28: \u26a0 APTU ramirez at q4 \u2014 needs review",
+        "2027-03-30: \u26a0 Intern li at q4 \u2014 needs review"
       ],
       "2027-4": [
-        "2027-04-05: \u26a0 Intern holsonback at q3 \u2014 needs review",
-        "2027-04-09: \u26a0 Intern li at q2 \u2014 needs review",
-        "2027-04-12: \u26a0 Intern tsandilas at q2 \u2014 needs review",
-        "2027-04-14: \u26a0 Intern tsandilas at q2 \u2014 needs review"
+        "2027-04-01: \u26a0 Intern li at q2 \u2014 needs review",
+        "2027-04-03: \u26a0 APTU ali at q2 \u2014 needs review",
+        "2027-04-04: \u26a0 Consult dame at q4 \u2014 needs review",
+        "2027-04-04: \u26a0 APTU ali at q4 \u2014 needs review",
+        "2027-04-10: \u26a0 APTU li at q4 \u2014 needs review",
+        "2027-04-11: \u26a0 APTU tsandilas at q3 \u2014 needs review",
+        "2027-04-14: \u26a0 Intern tsandilas at q3 \u2014 needs review",
+        "2027-04-17: \u26a0 APTU ramirez at q4 \u2014 needs review",
+        "2027-04-18: \u26a0 APTU wilson_braun at q4 \u2014 needs review",
+        "2027-04-19: \u26a0 APTU ali at q4 \u2014 needs review",
+        "2027-04-25: \u26a0 Consult wilson_braun at q2 \u2014 needs review",
+        "2027-04-25: \u26a0 APTU ramirez at q3 \u2014 needs review"
       ],
       "2027-5": [
-        "2027-05-02: \u26a0 Consult smith at q2 \u2014 needs review",
-        "2027-05-03: \u26a0 APTU ramirez at q4 \u2014 needs review",
-        "2027-05-04: \u26a0 APTU mastalerz at q3 \u2014 needs review",
-        "2027-05-04: \u26a0 Intern holsonback at q2 \u2014 needs review",
-        "2027-05-05: \u26a0 APTU ramirez at q2 \u2014 needs review",
-        "2027-05-13: \u26a0 Intern li at q4 \u2014 needs review",
+        "2027-05-02: \u26a0 Consult smith at q3 \u2014 needs review",
+        "2027-05-02: \u26a0 APTU ramirez at q2 \u2014 needs review",
+        "2027-05-03: \u26a0 APTU mastalerz at q2 \u2014 needs review",
+        "2027-05-03: \u26a0 Intern tsandilas at q2 \u2014 needs review",
+        "2027-05-04: \u26a0 APTU ramirez at q2 \u2014 needs review",
+        "2027-05-05: \u26a0 APTU smith at q3 \u2014 needs review",
+        "2027-05-05: \u26a0 Intern tsandilas at q2 \u2014 needs review",
+        "2027-05-12: \u26a0 Intern li at q3 \u2014 needs review",
+        "2027-05-14: \u26a0 Intern li at q2 \u2014 needs review",
         "2027-05-17: \u26a0 APTU siemiatkoski at q4 \u2014 needs review",
-        "2027-05-17: \u26a0 Intern li at q4 \u2014 needs review",
-        "2027-05-18: \u26a0 Intern tsandilas at q4 \u2014 needs review",
+        "2027-05-27: \u26a0 Intern holsonback at q3 \u2014 needs review",
         "2027-05-29: \u26a0 APTU auclair at q4 \u2014 needs review",
         "2027-05-31: \u26a0 Consult brych at q4 \u2014 needs review"
       ],
       "2027-6": [
-        "2027-06-13: \u26a0 APTU auclair at q4 \u2014 needs review",
-        "2027-06-14: \u26a0 Intern li at q3 \u2014 needs review",
-        "2027-06-25: \u26a0 Intern tsandilas at q4 \u2014 needs review"
+        "2027-06-02: \u26a0 APTU auclair at q4 \u2014 needs review",
+        "2027-06-04: \u26a0 APTU brych at q4 \u2014 needs review",
+        "2027-06-06: \u26a0 Consult brych at q2 \u2014 needs review",
+        "2027-06-06: \u26a0 APTU auclair at q4 \u2014 needs review",
+        "2027-06-07: \u26a0 Intern holsonback at q3 \u2014 needs review",
+        "2027-06-10: \u26a0 APTU auclair at q4 \u2014 needs review",
+        "2027-06-13: \u26a0 Consult brych at q2 \u2014 needs review",
+        "2027-06-14: \u26a0 APTU auclair at q4 \u2014 needs review",
+        "2027-06-15: \u26a0 Intern gervais at q4 \u2014 needs review",
+        "2027-06-18: \u26a0 APTU auclair at q4 \u2014 needs review",
+        "2027-06-20: \u26a0 APTU ramirez at q3 \u2014 needs review",
+        "2027-06-24: \u26a0 Intern li at q3 \u2014 needs review"
       ]
     }
   },
   "scheduler_state": {
     "last": {
-      "holsonback": "2027-06-20",
-      "li": "2027-06-26",
-      "tsandilas": "2027-06-25",
-      "gervais": "2027-06-30",
+      "holsonback": "2027-06-26",
+      "li": "2027-06-24",
+      "tsandilas": "2027-06-29",
+      "gervais": "2027-06-15",
       "auclair": "2027-06-28",
-      "ramirez": "2027-06-29",
+      "ramirez": "2027-06-30",
       "kurtz": "2027-06-27",
       "mizrach": "2027-06-27",
-      "smith": "2027-06-13",
-      "ali": "2027-06-27",
-      "siemiatkoski": "2027-06-25",
-      "wilson_braun": "2027-06-19",
-      "mastalerz": "2027-05-27",
+      "smith": "2027-06-27",
+      "ali": "2027-06-24",
+      "siemiatkoski": "2027-06-20",
+      "wilson_braun": "2027-06-29",
+      "mastalerz": "2027-05-28",
       "brych": "2027-06-26",
       "mann": "2027-06-30",
-      "dame": "2027-05-28"
+      "dame": "2027-05-27"
     },
     "month": {
-      "holsonback": 41,
-      "li": 39,
-      "tsandilas": 41,
-      "gervais": 37,
-      "auclair": 36,
-      "ramirez": 61,
+      "holsonback": 54,
+      "li": 49,
+      "tsandilas": 55,
+      "gervais": 48,
+      "auclair": 45,
+      "ramirez": 96,
       "kurtz": 24,
-      "mizrach": 55,
-      "smith": 42,
-      "ali": 42,
-      "siemiatkoski": 44,
-      "wilson_braun": 42,
-      "mastalerz": 30,
-      "brych": 21,
+      "mizrach": 83,
+      "smith": 70,
+      "ali": 68,
+      "siemiatkoski": 69,
+      "wilson_braun": 68,
+      "mastalerz": 52,
+      "brych": 29,
       "mann": 13,
-      "dame": 30
+      "dame": 50
     },
     "wf": {
-      "holsonback": 2,
+      "holsonback": 3,
       "li": 0,
       "tsandilas": 0,
       "gervais": 0,
-      "auclair": 8,
-      "ramirez": 12,
+      "auclair": 11,
+      "ramirez": 20,
       "kurtz": 7,
-      "mizrach": 13,
-      "smith": 11,
-      "ali": 13,
-      "siemiatkoski": 8,
-      "wilson_braun": 12,
-      "mastalerz": 5,
-      "brych": 2,
+      "mizrach": 22,
+      "smith": 17,
+      "ali": 16,
+      "siemiatkoski": 15,
+      "wilson_braun": 19,
+      "mastalerz": 9,
+      "brych": 4,
       "mann": 4,
-      "dame": 6
+      "dame": 7
     },
     "iwd": {
       "holsonback": 2,
       "li": 2,
-      "tsandilas": 2,
+      "tsandilas": 1,
       "gervais": 2
     },
     "we_sats": {
@@ -6785,6 +6854,8 @@
         "2027-05-01",
         "2027-01-09",
         "2027-02-13",
+        "2027-06-26",
+        "2027-06-12",
         "2027-04-24",
         "2027-03-27",
         "2027-04-17",
@@ -6792,26 +6863,29 @@
       ],
       "li": [
         "2027-06-19",
+        "2027-04-10",
         "2027-06-05",
         "2027-05-08",
         "2027-02-06",
         "2027-02-20",
         "2027-05-22",
+        "2027-01-23",
         "2027-01-30",
-        "2027-03-20",
         "2027-06-26",
         "2027-03-27",
         "2027-03-13",
-        "2027-01-23"
+        "2027-03-20"
       ],
       "tsandilas": [
         "2027-04-10",
         "2027-01-02",
+        "2027-05-22",
         "2027-05-01",
         "2027-04-03",
         "2027-02-13",
         "2027-01-30",
         "2027-06-12",
+        "2027-04-24",
         "2027-02-27",
         "2027-03-06"
       ],
@@ -6825,7 +6899,8 @@
         "2027-04-03",
         "2027-05-29",
         "2027-04-24",
-        "2027-03-13"
+        "2027-03-13",
+        "2027-03-06"
       ],
       "auclair": [
         "2027-04-10",
@@ -6842,12 +6917,16 @@
         "2027-06-19",
         "2027-05-15",
         "2027-02-06",
+        "2027-02-20",
+        "2027-05-01",
         "2027-04-03",
+        "2027-01-23",
         "2027-01-30",
         "2027-06-12",
         "2027-01-16",
         "2027-04-24",
         "2027-04-17",
+        "2027-03-27",
         "2027-02-27",
         "2027-03-13",
         "2027-03-20"
@@ -6865,10 +6944,12 @@
         "2027-04-10",
         "2027-05-08",
         "2027-05-22",
-        "2027-02-06",
         "2027-02-20",
+        "2027-02-06",
         "2027-05-15",
         "2027-04-03",
+        "2027-02-13",
+        "2027-03-20",
         "2027-06-26",
         "2027-04-17",
         "2027-03-27",
@@ -6879,12 +6960,14 @@
       "smith": [
         "2027-04-10",
         "2027-01-02",
+        "2027-06-19",
+        "2027-05-08",
         "2027-02-06",
         "2027-05-22",
-        "2027-05-08",
         "2027-05-01",
         "2027-01-30",
         "2027-02-13",
+        "2027-06-26",
         "2027-06-12",
         "2027-05-29",
         "2027-04-24",
@@ -6895,16 +6978,19 @@
       "ali": [
         "2027-04-10",
         "2027-05-08",
+        "2027-02-06",
+        "2027-02-20",
         "2027-01-09",
         "2027-04-03",
-        "2027-01-23",
         "2027-02-13",
+        "2027-03-20",
         "2027-06-26",
         "2027-06-12",
         "2027-01-16",
         "2027-04-17",
+        "2027-03-27",
         "2027-02-27",
-        "2027-03-20",
+        "2027-01-23",
         "2027-03-06"
       ],
       "siemiatkoski": [
@@ -6917,23 +7003,29 @@
         "2027-01-09",
         "2027-04-03",
         "2027-01-30",
+        "2027-06-12",
         "2027-01-16",
         "2027-04-24",
         "2027-04-17",
-        "2027-02-27"
+        "2027-02-27",
+        "2027-01-23"
       ],
       "wilson_braun": [
         "2027-06-19",
         "2027-05-15",
         "2027-05-08",
         "2027-02-20",
+        "2027-02-06",
         "2027-01-09",
         "2027-04-03",
+        "2027-02-13",
+        "2027-03-20",
         "2027-06-12",
         "2027-01-16",
         "2027-05-29",
         "2027-04-24",
         "2027-03-27",
+        "2027-04-17",
         "2027-03-13",
         "2027-01-23",
         "2027-03-06"
@@ -6944,6 +7036,7 @@
         "2027-06-05",
         "2027-04-10",
         "2027-05-15",
+        "2027-05-08",
         "2027-02-20",
         "2027-05-01",
         "2027-01-09",
@@ -6951,6 +7044,7 @@
         "2027-02-13",
         "2027-04-17",
         "2027-03-27",
+        "2027-02-27",
         "2027-03-13",
         "2027-03-20"
       ],
@@ -6973,19 +7067,21 @@
         "2027-03-06"
       ],
       "dame": [
+        "2027-04-10",
         "2027-06-05",
         "2027-02-06",
-        "2027-05-15",
         "2027-05-22",
+        "2027-05-15",
         "2027-05-01",
         "2027-01-09",
         "2027-04-03",
+        "2027-01-23",
         "2027-02-13",
-        "2027-03-20",
+        "2027-01-30",
         "2027-06-26",
         "2027-04-17",
         "2027-03-13",
-        "2027-01-23"
+        "2027-03-20"
       ]
     }
   }
