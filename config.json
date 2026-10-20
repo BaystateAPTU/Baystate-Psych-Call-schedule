@@ -5930,11 +5930,8 @@
         },
         "2027-03-23": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
-          "jeopardy": "wilson_braun",
-          "flags": [
-            "siemiatkoski"
-          ]
+          "aptu": "auclair",
+          "jeopardy": "wilson_braun"
         },
         "2027-03-24": {
           "type": "weekday",
@@ -5958,7 +5955,7 @@
           "aptu": "auclair",
           "jeopardy": "mann",
           "flags": [
-            "siemiatkoski"
+            "auclair"
           ]
         },
         "2027-03-28": {
@@ -6593,8 +6590,7 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [
-        "2027-03-23: \u26a0 APTU siemiatkoski at q4 \u2014 needs review",
-        "2027-03-27: \u26a0 CONSULT siemiatkoski at q4 \u2014 needs review"
+        "2027-03-27: \u26a0 APTU auclair at q4 \u2014 needs review"
       ],
       "2027-4": [
         "2027-04-01: \u26a0 Intern li at q2 \u2014 needs review",
