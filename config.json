@@ -5883,13 +5883,16 @@
         "2027-03-14": {
           "type": "weekend",
           "consult": "mann",
-          "aptu": "mizrach",
+          "aptu": "kurtz",
           "jeopardy": "siemiatkoski"
         },
         "2027-03-15": {
           "type": "weekday",
           "aptu": "kurtz",
-          "jeopardy": "smith"
+          "jeopardy": "smith",
+          "flags": [
+            "kurtz"
+          ]
         },
         "2027-03-16": {
           "type": "weekday",
@@ -6586,7 +6589,9 @@
     "warns": {
       "2027-1": [],
       "2027-2": [],
-      "2027-3": [],
+      "2027-3": [
+        "2027-03-15: \u26a0 APTU kurtz at q4 \u2014 needs review"
+      ],
       "2027-4": [
         "2027-04-01: \u26a0 Intern li at q2 \u2014 needs review",
         "2027-04-03: \u26a0 APTU ali at q2 \u2014 needs review",
