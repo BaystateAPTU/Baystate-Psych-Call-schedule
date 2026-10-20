@@ -5731,11 +5731,11 @@
         },
         "2027-02-14": {
           "type": "weekend",
-          "consult": "mastalerz",
+          "consult": "brych",
           "aptu": "mann",
           "jeopardy": "wilson_braun",
           "flags": [
-            "mastalerz"
+            "brych"
           ]
         },
         "2027-02-15": {
@@ -6621,7 +6621,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [
-        "2027-02-14: \u26a0 CONSULT mastalerz at q4 \u2014 needs review",
+        "2027-02-14: \u26a0 CONSULT brych at q2 \u2014 needs review",
         "2027-02-15: \u26a0 APTU ramirez at q2 \u2014 needs review",
         "2027-02-21: \u26a0 APTU mizrach at q3 \u2014 needs review",
         "2027-02-27: \u26a0 APTU ramirez at q2 \u2014 needs review"
