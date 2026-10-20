@@ -6238,11 +6238,8 @@
         },
         "2027-05-18": {
           "type": "weekday",
-          "aptu": "kurtz",
-          "jeopardy": "dame",
-          "flags": [
-            "kurtz"
-          ]
+          "aptu": "mann",
+          "jeopardy": "dame"
         },
         "2027-05-19": {
           "type": "weekday",
@@ -6255,10 +6252,7 @@
         "2027-05-20": {
           "type": "weekday",
           "aptu": "kurtz",
-          "jeopardy": "mann",
-          "flags": [
-            "kurtz"
-          ]
+          "jeopardy": "mann"
         },
         "2027-05-21": {
           "type": "weekday",
@@ -6535,9 +6529,7 @@
         "2027-05-03: \u26a0 APTU mastalerz at q4 \u2014 needs review",
         "2027-05-04: \u26a0 APTU ramirez at q2 \u2014 needs review",
         "2027-05-14: \u26a0 APTU kurtz at q2 \u2014 needs review",
-        "2027-05-18: \u26a0 APTU kurtz at q4 \u2014 needs review",
-        "2027-05-19: \u26a0 APTU ali at q4 \u2014 needs review",
-        "2027-05-20: \u26a0 APTU kurtz at q2 \u2014 needs review"
+        "2027-05-19: \u26a0 APTU ali at q4 \u2014 needs review"
       ],
       "2027-6": [
         "2027-06-02: \u26a0 APTU auclair at q4 \u2014 needs review",
