@@ -5678,11 +5678,8 @@
         },
         "2027-02-04": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
-          "jeopardy": "mann",
-          "flags": [
-            "siemiatkoski"
-          ]
+          "aptu": "auclair",
+          "jeopardy": "mann"
         },
         "2027-02-05": {
           "type": "weekday",
@@ -6630,7 +6627,6 @@
     "warns": {
       "2027-1": [],
       "2027-2": [
-        "2027-02-04: \u26a0 APTU siemiatkoski at q4 \u2014 needs review",
         "2027-02-07: \u26a0 APTU smith at q2 \u2014 needs review",
         "2027-02-07: \u26a0 CONSULT ali at q4 \u2014 needs review",
         "2027-02-13: \u26a0 APTU mizrach at q4 \u2014 needs review",
