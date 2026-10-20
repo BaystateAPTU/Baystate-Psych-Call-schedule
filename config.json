@@ -6068,11 +6068,8 @@
         "2027-04-17": {
           "type": "weekend",
           "consult": "mastalerz",
-          "aptu": "ramirez",
-          "jeopardy": "ali",
-          "flags": [
-            "ramirez"
-          ]
+          "aptu": "auclair",
+          "jeopardy": "ali"
         },
         "2027-04-18": {
           "type": "weekend",
@@ -6566,7 +6563,6 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
-        "2027-04-17: \u26a0 APTU ramirez at q4 \u2014 needs review",
         "2027-04-18: \u26a0 APTU wilson_braun at q4 \u2014 needs review",
         "2027-04-19: \u26a0 APTU ali at q4 \u2014 needs review",
         "2027-04-25: \u26a0 APTU ramirez at q3 \u2014 needs review",
