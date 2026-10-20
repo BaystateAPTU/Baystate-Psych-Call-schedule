@@ -5893,11 +5893,8 @@
         },
         "2027-03-16": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
-          "jeopardy": "wilson_braun",
-          "flags": [
-            "siemiatkoski"
-          ]
+          "aptu": "ali",
+          "jeopardy": "wilson_braun"
         },
         "2027-03-17": {
           "type": "weekday",
@@ -6588,9 +6585,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [],
-      "2027-3": [
-        "2027-03-16: \u26a0 APTU siemiatkoski at q4 \u2014 needs review"
-      ],
+      "2027-3": [],
       "2027-4": [
         "2027-04-01: \u26a0 Intern li at q2 \u2014 needs review",
         "2027-04-03: \u26a0 APTU ali at q2 \u2014 needs review",
