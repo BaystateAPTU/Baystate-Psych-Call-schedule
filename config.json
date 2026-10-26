@@ -6101,7 +6101,7 @@
         },
         "2027-04-24": {
           "type": "weekend",
-          "consult": "smith",
+          "consult": "ali",
           "aptu": "mizrach",
           "jeopardy": "wilson_braun"
         },
@@ -6109,7 +6109,10 @@
           "type": "weekend",
           "consult": "ali",
           "aptu": "tsandilas",
-          "jeopardy": "ali"
+          "jeopardy": "ali",
+          "flags": [
+            "ali"
+          ]
         },
         "2027-04-26": {
           "type": "weekday",
@@ -6482,6 +6485,7 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
+        "2027-04-25: \u26a0 CONSULT ali at q4 \u2014 needs review",
         "2027-04-29: \u26a0 APTU ali at q4 \u2014 needs review"
       ],
       "2027-5": [],
