@@ -6026,14 +6026,20 @@
         "2027-04-10": {
           "type": "weekend",
           "consult": "mann",
-          "aptu": "li",
-          "jeopardy": "siemiatkoski"
+          "aptu": "tsandilas",
+          "jeopardy": "siemiatkoski",
+          "flags": [
+            "tsandilas"
+          ]
         },
         "2027-04-11": {
           "type": "weekend",
           "consult": "siemiatkoski",
           "aptu": "tsandilas",
-          "jeopardy": "dame"
+          "jeopardy": "dame",
+          "flags": [
+            "tsandilas"
+          ]
         },
         "2027-04-12": {
           "type": "weekday",
@@ -6482,6 +6488,8 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
+        "2027-04-10: \u26a0 APTU tsandilas at q4 \u2014 needs review",
+        "2027-04-11: \u26a0 APTU tsandilas at q4 \u2014 needs review",
         "2027-04-14: \u26a0 INTERN tsandilas at q3 \u2014 needs review"
       ],
       "2027-5": [],
