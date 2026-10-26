@@ -5883,7 +5883,8 @@
         "2027-03-15": {
           "type": "weekday",
           "aptu": "siemiatkoski",
-          "jeopardy": "dame"
+          "jeopardy": "dame",
+          "intern": "holsonback"
         },
         "2027-03-16": {
           "type": "weekday",
