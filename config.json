@@ -5860,7 +5860,8 @@
         "2027-03-11": {
           "type": "weekday",
           "aptu": "smith",
-          "jeopardy": "dame"
+          "jeopardy": "dame",
+          "intern": "gervais"
         },
         "2027-03-12": {
           "type": "weekday",
