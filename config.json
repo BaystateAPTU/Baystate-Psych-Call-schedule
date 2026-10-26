@@ -5774,11 +5774,8 @@
         },
         "2027-02-23": {
           "type": "weekday",
-          "aptu": "smith",
-          "jeopardy": "wilson_braun",
-          "flags": [
-            "smith"
-          ]
+          "aptu": "brych",
+          "jeopardy": "wilson_braun"
         },
         "2027-02-24": {
           "type": "weekday",
@@ -5788,7 +5785,10 @@
         "2027-02-25": {
           "type": "weekday",
           "aptu": "brych",
-          "jeopardy": "ali"
+          "jeopardy": "ali",
+          "flags": [
+            "brych"
+          ]
         },
         "2027-02-26": {
           "type": "weekday",
@@ -5799,10 +5799,7 @@
           "type": "weekend",
           "consult": "smith",
           "aptu": "kurtz",
-          "jeopardy": "mann",
-          "flags": [
-            "smith"
-          ]
+          "jeopardy": "mann"
         },
         "2027-02-28": {
           "type": "weekend",
@@ -6485,8 +6482,7 @@
       "2027-1": [],
       "2027-2": [
         "2027-02-21: \u26a0 CONSULT siemiatkoski at q4 \u2014 needs review",
-        "2027-02-23: \u26a0 APTU smith at q4 \u2014 needs review",
-        "2027-02-27: \u26a0 CONSULT smith at q4 \u2014 needs review"
+        "2027-02-25: \u26a0 APTU brych at q2 \u2014 needs review"
       ],
       "2027-3": [],
       "2027-4": [],
