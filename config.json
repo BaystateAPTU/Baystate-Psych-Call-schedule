@@ -5888,8 +5888,11 @@
         },
         "2027-03-16": {
           "type": "weekday",
-          "aptu": "smith",
-          "jeopardy": "wilson_braun"
+          "aptu": "auclair",
+          "jeopardy": "wilson_braun",
+          "flags": [
+            "auclair"
+          ]
         },
         "2027-03-17": {
           "type": "weekday",
@@ -6477,7 +6480,9 @@
     "warns": {
       "2027-1": [],
       "2027-2": [],
-      "2027-3": [],
+      "2027-3": [
+        "2027-03-16: \u26a0 APTU auclair at q4 \u2014 needs review"
+      ],
       "2027-4": [],
       "2027-5": [],
       "2027-6": []
