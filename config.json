@@ -6107,12 +6107,9 @@
         },
         "2027-04-25": {
           "type": "weekend",
-          "consult": "siemiatkoski",
+          "consult": "ali",
           "aptu": "tsandilas",
-          "jeopardy": "ali",
-          "flags": [
-            "siemiatkoski"
-          ]
+          "jeopardy": "ali"
         },
         "2027-04-26": {
           "type": "weekday",
@@ -6132,7 +6129,10 @@
         "2027-04-29": {
           "type": "weekday",
           "aptu": "ali",
-          "jeopardy": "mastalerz"
+          "jeopardy": "mastalerz",
+          "flags": [
+            "ali"
+          ]
         },
         "2027-04-30": {
           "type": "weekday",
@@ -6482,7 +6482,7 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
-        "2027-04-25: \u26a0 CONSULT siemiatkoski at q4 \u2014 needs review"
+        "2027-04-29: \u26a0 APTU ali at q4 \u2014 needs review"
       ],
       "2027-5": [],
       "2027-6": []
