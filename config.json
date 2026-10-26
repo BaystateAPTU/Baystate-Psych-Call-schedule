@@ -5871,17 +5871,17 @@
         "2027-03-13": {
           "type": "weekend",
           "consult": "dame",
-          "aptu": "ramirez",
-          "jeopardy": "mastalerz",
-          "flags": [
-            "ramirez"
-          ]
+          "aptu": "kurtz",
+          "jeopardy": "mastalerz"
         },
         "2027-03-14": {
           "type": "weekend",
           "consult": "mann",
           "aptu": "kurtz",
-          "jeopardy": "siemiatkoski"
+          "jeopardy": "siemiatkoski",
+          "flags": [
+            "kurtz"
+          ]
         },
         "2027-03-15": {
           "type": "weekday",
@@ -6484,7 +6484,7 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [
-        "2027-03-13: \u26a0 APTU ramirez at q4 \u2014 needs review"
+        "2027-03-14: \u26a0 APTU kurtz at q4 \u2014 needs review"
       ],
       "2027-4": [
         "2027-04-02: \u26a0 INTERN li at q3 \u2014 needs review",
