@@ -6015,8 +6015,11 @@
         },
         "2027-04-08": {
           "type": "weekday",
-          "aptu": "mastalerz",
-          "jeopardy": "ali"
+          "aptu": "mizrach",
+          "jeopardy": "ali",
+          "flags": [
+            "mizrach"
+          ]
         },
         "2027-04-09": {
           "type": "weekday",
@@ -6476,7 +6479,9 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [],
-      "2027-4": [],
+      "2027-4": [
+        "2027-04-08: \u26a0 APTU mizrach at q3 \u2014 needs review"
+      ],
       "2027-5": [],
       "2027-6": []
     }
