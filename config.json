@@ -6423,7 +6423,8 @@
         "2027-06-21": {
           "type": "weekday",
           "aptu": "brych",
-          "jeopardy": "smith"
+          "jeopardy": "smith",
+          "intern": "tsandilas"
         },
         "2027-06-22": {
           "type": "weekday",
