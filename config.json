@@ -6386,11 +6386,8 @@
         },
         "2027-06-15": {
           "type": "weekday",
-          "aptu": "ramirez",
-          "jeopardy": "smith",
-          "flags": [
-            "ramirez"
-          ]
+          "aptu": "wilson_braun",
+          "jeopardy": "smith"
         },
         "2027-06-16": {
           "type": "weekday",
@@ -6490,7 +6487,6 @@
       "2027-4": [],
       "2027-5": [],
       "2027-6": [
-        "2027-06-15: \u26a0 APTU ramirez at q3 \u2014 needs review",
         "2027-06-16: \u26a0 APTU ramirez at q4 \u2014 needs review",
         "2027-06-20: \u26a0 APTU ramirez at q4 \u2014 needs review"
       ]
