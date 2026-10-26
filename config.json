@@ -6048,11 +6048,7 @@
         "2027-04-14": {
           "type": "weekday",
           "aptu": "wilson_braun",
-          "jeopardy": "siemiatkoski",
-          "intern": "tsandilas",
-          "flags": [
-            "tsandilas"
-          ]
+          "jeopardy": "siemiatkoski"
         },
         "2027-04-15": {
           "type": "weekday",
@@ -6486,7 +6482,6 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
-        "2027-04-14: \u26a0 INTERN tsandilas at q4 \u2014 needs review",
         "2027-04-25: \u26a0 APTU tsandilas at q4 \u2014 needs review"
       ],
       "2027-5": [],
