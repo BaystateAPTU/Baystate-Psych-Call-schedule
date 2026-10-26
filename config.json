@@ -6315,10 +6315,10 @@
         },
         "2027-06-02": {
           "type": "weekday",
-          "aptu": "auclair",
+          "aptu": "smith",
           "jeopardy": "brych",
           "flags": [
-            "auclair"
+            "smith"
           ]
         },
         "2027-06-03": {
@@ -6345,10 +6345,7 @@
           "type": "weekend",
           "consult": "dame",
           "aptu": "auclair",
-          "jeopardy": "siemiatkoski",
-          "flags": [
-            "auclair"
-          ]
+          "jeopardy": "siemiatkoski"
         },
         "2027-06-07": {
           "type": "weekday",
@@ -6513,9 +6510,8 @@
       "2027-4": [],
       "2027-5": [],
       "2027-6": [
-        "2027-06-02: \u26a0 APTU auclair at q4 \u2014 needs review",
+        "2027-06-02: \u26a0 APTU smith at q3 \u2014 needs review",
         "2027-06-04: \u26a0 APTU brych at q4 \u2014 needs review",
-        "2027-06-06: \u26a0 APTU auclair at q4 \u2014 needs review",
         "2027-06-07: \u26a0 INTERN holsonback at q3 \u2014 needs review",
         "2027-06-10: \u26a0 APTU auclair at q4 \u2014 needs review",
         "2027-06-13: \u26a0 CONSULT brych at q2 \u2014 needs review",
