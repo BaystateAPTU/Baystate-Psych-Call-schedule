@@ -6470,7 +6470,8 @@
         "2027-06-30": {
           "type": "weekday",
           "aptu": "ali",
-          "jeopardy": "wilson_braun"
+          "jeopardy": "wilson_braun",
+          "intern": "li"
         }
       }
     },
