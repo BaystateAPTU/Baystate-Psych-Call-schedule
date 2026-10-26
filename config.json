@@ -5963,12 +5963,9 @@
         },
         "2027-03-30": {
           "type": "weekday",
-          "aptu": "wilson_braun",
+          "aptu": "ramirez",
           "jeopardy": "dame",
-          "intern": "li",
-          "flags": [
-            "wilson_braun"
-          ]
+          "intern": "li"
         },
         "2027-03-31": {
           "type": "weekday",
@@ -6484,9 +6481,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [],
-      "2027-3": [
-        "2027-03-30: \u26a0 APTU wilson_braun at q4 \u2014 needs review"
-      ],
+      "2027-3": [],
       "2027-4": [
         "2027-04-02: \u26a0 INTERN li at q3 \u2014 needs review",
         "2027-04-03: \u26a0 CONSULT wilson_braun at q4 \u2014 needs review"
