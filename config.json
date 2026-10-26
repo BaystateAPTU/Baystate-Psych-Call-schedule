@@ -5803,9 +5803,12 @@
         },
         "2027-02-28": {
           "type": "weekend",
-          "consult": "smith",
+          "consult": "siemiatkoski",
           "aptu": "mastalerz",
-          "jeopardy": "siemiatkoski"
+          "jeopardy": "siemiatkoski",
+          "flags": [
+            "siemiatkoski"
+          ]
         }
       },
       "2027-3": {
@@ -6482,7 +6485,8 @@
       "2027-1": [],
       "2027-2": [
         "2027-02-21: \u26a0 CONSULT siemiatkoski at q4 \u2014 needs review",
-        "2027-02-22: \u26a0 APTU siemiatkoski at q4 \u2014 needs review"
+        "2027-02-22: \u26a0 APTU siemiatkoski at q4 \u2014 needs review",
+        "2027-02-28: \u26a0 CONSULT siemiatkoski at q4 \u2014 needs review"
       ],
       "2027-3": [],
       "2027-4": [],
