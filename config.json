@@ -5811,17 +5811,17 @@
         },
         "2027-03-02": {
           "type": "weekday",
-          "aptu": "kurtz",
-          "jeopardy": "ali",
-          "flags": [
-            "kurtz"
-          ]
+          "aptu": "mann",
+          "jeopardy": "ali"
         },
         "2027-03-03": {
           "type": "weekday",
           "aptu": "mann",
           "jeopardy": "mastalerz",
-          "intern": "holsonback"
+          "intern": "holsonback",
+          "flags": [
+            "mann"
+          ]
         },
         "2027-03-04": {
           "type": "weekday",
@@ -6479,7 +6479,7 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [
-        "2027-03-02: \u26a0 APTU kurtz at q2 \u2014 needs review"
+        "2027-03-03: \u26a0 APTU mann at q4 \u2014 needs review"
       ],
       "2027-4": [],
       "2027-5": [],
