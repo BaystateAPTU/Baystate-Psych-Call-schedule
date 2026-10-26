@@ -6223,7 +6223,8 @@
         "2027-05-17": {
           "type": "weekday",
           "aptu": "wilson_braun",
-          "jeopardy": "brych"
+          "jeopardy": "brych",
+          "intern": "li"
         },
         "2027-05-18": {
           "type": "weekday",
