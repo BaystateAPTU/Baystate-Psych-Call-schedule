@@ -5811,7 +5811,7 @@
         },
         "2027-03-02": {
           "type": "weekday",
-          "aptu": "mann",
+          "aptu": "wilson_braun",
           "jeopardy": "ali"
         },
         "2027-03-03": {
@@ -5823,7 +5823,10 @@
         "2027-03-04": {
           "type": "weekday",
           "aptu": "wilson_braun",
-          "jeopardy": "siemiatkoski"
+          "jeopardy": "siemiatkoski",
+          "flags": [
+            "wilson_braun"
+          ]
         },
         "2027-03-05": {
           "type": "weekday",
@@ -6484,6 +6487,7 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [
+        "2027-03-04: \u26a0 APTU wilson_braun at q2 \u2014 needs review",
         "2027-03-07: \u26a0 CONSULT wilson_braun at q3 \u2014 needs review"
       ],
       "2027-4": [
