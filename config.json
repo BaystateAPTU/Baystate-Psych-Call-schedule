@@ -5621,16 +5621,13 @@
         },
         "2027-01-26": {
           "type": "weekday",
-          "aptu": "wilson_braun",
+          "aptu": "brych",
           "jeopardy": "brych"
         },
         "2027-01-27": {
           "type": "weekday",
           "aptu": "wilson_braun",
-          "jeopardy": "dame",
-          "flags": [
-            "wilson_braun"
-          ]
+          "jeopardy": "dame"
         },
         "2027-01-28": {
           "type": "weekday",
@@ -6478,9 +6475,7 @@
       }
     },
     "warns": {
-      "2027-1": [
-        "2027-01-27: \u26a0 APTU wilson_braun at q4 \u2014 needs review"
-      ],
+      "2027-1": [],
       "2027-2": [],
       "2027-3": [],
       "2027-4": [],
