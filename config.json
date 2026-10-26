@@ -5747,13 +5747,16 @@
         },
         "2027-02-18": {
           "type": "weekday",
-          "aptu": "ramirez",
+          "aptu": "kurtz",
           "jeopardy": "siemiatkoski"
         },
         "2027-02-19": {
           "type": "weekday",
           "aptu": "kurtz",
-          "jeopardy": "mastalerz"
+          "jeopardy": "mastalerz",
+          "flags": [
+            "kurtz"
+          ]
         },
         "2027-02-20": {
           "type": "weekend",
@@ -6482,6 +6485,7 @@
       "2027-1": [],
       "2027-2": [
         "2027-02-17: \u26a0 APTU wilson_braun at q4 \u2014 needs review",
+        "2027-02-19: \u26a0 APTU kurtz at q4 \u2014 needs review",
         "2027-02-24: \u26a0 APTU siemiatkoski at q4 \u2014 needs review"
       ],
       "2027-3": [],
