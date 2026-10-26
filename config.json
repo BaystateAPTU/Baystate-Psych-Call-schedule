@@ -6191,7 +6191,11 @@
         "2027-05-10": {
           "type": "weekday",
           "aptu": "siemiatkoski",
-          "jeopardy": "dame"
+          "jeopardy": "dame",
+          "intern": "li",
+          "flags": [
+            "li"
+          ]
         },
         "2027-05-11": {
           "type": "weekday",
@@ -6496,7 +6500,8 @@
       "2027-4": [],
       "2027-5": [
         "2027-05-03: \u26a0 INTERN tsandilas at q2 \u2014 needs review",
-        "2027-05-13: \u26a0 INTERN li at q4 \u2014 needs review",
+        "2027-05-10: \u26a0 INTERN li at q4 \u2014 needs review",
+        "2027-05-13: \u26a0 INTERN li at q3 \u2014 needs review",
         "2027-05-17: \u26a0 INTERN li at q4 \u2014 needs review",
         "2027-05-18: \u26a0 INTERN li at q4 \u2014 needs review",
         "2027-05-22: \u26a0 APTU li at q4 \u2014 needs review"
