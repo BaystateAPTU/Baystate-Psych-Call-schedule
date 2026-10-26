@@ -6206,7 +6206,7 @@
         },
         "2027-05-13": {
           "type": "weekday",
-          "aptu": "ramirez",
+          "aptu": "dame",
           "jeopardy": "mann",
           "intern": "tsandilas"
         },
@@ -6219,10 +6219,7 @@
           "type": "weekend",
           "consult": "ali",
           "aptu": "ramirez",
-          "jeopardy": "siemiatkoski",
-          "flags": [
-            "ramirez"
-          ]
+          "jeopardy": "siemiatkoski"
         },
         "2027-05-16": {
           "type": "weekend",
@@ -6488,9 +6485,7 @@
         "2027-04-02: \u26a0 INTERN li at q3 \u2014 needs review",
         "2027-04-03: \u26a0 CONSULT wilson_braun at q4 \u2014 needs review"
       ],
-      "2027-5": [
-        "2027-05-15: \u26a0 APTU ramirez at q2 \u2014 needs review"
-      ],
+      "2027-5": [],
       "2027-6": []
     }
   },
