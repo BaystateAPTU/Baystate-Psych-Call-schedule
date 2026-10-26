@@ -5993,12 +5993,9 @@
         },
         "2027-04-04": {
           "type": "weekend",
-          "consult": "auclair",
+          "consult": "wilson_braun",
           "aptu": "auclair",
-          "jeopardy": "mastalerz",
-          "flags": [
-            "auclair"
-          ]
+          "jeopardy": "mastalerz"
         },
         "2027-04-05": {
           "type": "weekday",
@@ -6479,9 +6476,7 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [],
-      "2027-4": [
-        "2027-04-04: \u26a0 CONSULT auclair at q4 \u2014 needs review"
-      ],
+      "2027-4": [],
       "2027-5": [],
       "2027-6": []
     }
