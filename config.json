@@ -5822,11 +5822,7 @@
         },
         "2027-03-04": {
           "type": "weekday",
-          "aptu": "ramirez",
-          "jeopardy": "siemiatkoski",
-          "flags": [
-            "ramirez"
-          ]
+          "jeopardy": "siemiatkoski"
         },
         "2027-03-05": {
           "type": "weekday",
@@ -6478,9 +6474,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [],
-      "2027-3": [
-        "2027-03-04: \u26a0 APTU ramirez at q4 \u2014 needs review"
-      ],
+      "2027-3": [],
       "2027-4": [],
       "2027-5": [],
       "2027-6": []
