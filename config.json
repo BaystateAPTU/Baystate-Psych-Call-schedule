@@ -6400,7 +6400,7 @@
         },
         "2027-06-17": {
           "type": "weekday",
-          "aptu": "ali",
+          "aptu": "ramirez",
           "jeopardy": "wilson_braun"
         },
         "2027-06-18": {
@@ -6413,10 +6413,7 @@
           "type": "weekend",
           "consult": "ali",
           "aptu": "holsonback",
-          "jeopardy": "siemiatkoski",
-          "flags": [
-            "ali"
-          ]
+          "jeopardy": "siemiatkoski"
         },
         "2027-06-20": {
           "type": "weekend",
@@ -6489,9 +6486,7 @@
         "2027-04-03: \u26a0 CONSULT wilson_braun at q4 \u2014 needs review"
       ],
       "2027-5": [],
-      "2027-6": [
-        "2027-06-19: \u26a0 CONSULT ali at q2 \u2014 needs review"
-      ]
+      "2027-6": []
     }
   },
   "scheduler_state": {
