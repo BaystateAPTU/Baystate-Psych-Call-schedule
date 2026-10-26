@@ -5984,24 +5984,21 @@
           "type": "weekday",
           "aptu": "mastalerz",
           "jeopardy": "ali",
-          "intern": "li",
-          "flags": [
-            "li"
-          ]
+          "intern": "li"
         },
         "2027-04-03": {
           "type": "weekend",
-          "consult": "wilson_braun",
-          "aptu": "ali",
-          "flags": [
-            "wilson_braun"
-          ]
+          "consult": "brych",
+          "aptu": "ali"
         },
         "2027-04-04": {
           "type": "weekend",
           "consult": "brych",
           "aptu": "auclair",
-          "jeopardy": "mastalerz"
+          "jeopardy": "mastalerz",
+          "flags": [
+            "brych"
+          ]
         },
         "2027-04-05": {
           "type": "weekday",
@@ -6483,8 +6480,7 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
-        "2027-04-02: \u26a0 INTERN li at q3 \u2014 needs review",
-        "2027-04-03: \u26a0 CONSULT wilson_braun at q4 \u2014 needs review"
+        "2027-04-04: \u26a0 CONSULT brych at q4 \u2014 needs review"
       ],
       "2027-5": [],
       "2027-6": []
