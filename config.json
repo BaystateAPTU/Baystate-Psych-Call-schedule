@@ -5647,12 +5647,9 @@
         },
         "2027-01-31": {
           "type": "weekend",
-          "consult": "siemiatkoski",
+          "consult": "ali",
           "aptu": "wilson_braun",
-          "jeopardy": "smith",
-          "flags": [
-            "siemiatkoski"
-          ]
+          "jeopardy": "smith"
         }
       },
       "2027-2": {
@@ -6478,9 +6475,7 @@
       }
     },
     "warns": {
-      "2027-1": [
-        "2027-01-31: \u26a0 CONSULT siemiatkoski at q3 \u2014 needs review"
-      ],
+      "2027-1": [],
       "2027-2": [],
       "2027-3": [],
       "2027-4": [],
