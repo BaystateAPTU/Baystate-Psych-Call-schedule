@@ -5757,7 +5757,7 @@
         },
         "2027-02-20": {
           "type": "weekend",
-          "consult": "ali",
+          "consult": "siemiatkoski",
           "aptu": "auclair",
           "jeopardy": "brych"
         },
@@ -5765,7 +5765,10 @@
           "type": "weekend",
           "consult": "siemiatkoski",
           "aptu": "mizrach",
-          "jeopardy": "smith"
+          "jeopardy": "smith",
+          "flags": [
+            "siemiatkoski"
+          ]
         },
         "2027-02-22": {
           "type": "weekday",
@@ -6482,6 +6485,7 @@
       "2027-1": [],
       "2027-2": [
         "2027-02-17: \u26a0 APTU wilson_braun at q4 \u2014 needs review",
+        "2027-02-21: \u26a0 CONSULT siemiatkoski at q4 \u2014 needs review",
         "2027-02-24: \u26a0 APTU siemiatkoski at q3 \u2014 needs review"
       ],
       "2027-3": [],
