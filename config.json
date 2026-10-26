@@ -6414,8 +6414,11 @@
         "2027-06-20": {
           "type": "weekend",
           "consult": "siemiatkoski",
-          "aptu": "kurtz",
-          "jeopardy": "mann"
+          "aptu": "ramirez",
+          "jeopardy": "mann",
+          "flags": [
+            "ramirez"
+          ]
         },
         "2027-06-21": {
           "type": "weekday",
@@ -6480,7 +6483,9 @@
       "2027-3": [],
       "2027-4": [],
       "2027-5": [],
-      "2027-6": []
+      "2027-6": [
+        "2027-06-20: \u26a0 APTU ramirez at q3 \u2014 needs review"
+      ]
     }
   },
   "scheduler_state": {
