@@ -5882,11 +5882,8 @@
         },
         "2027-03-15": {
           "type": "weekday",
-          "aptu": "ali",
-          "jeopardy": "dame",
-          "flags": [
-            "ali"
-          ]
+          "aptu": "siemiatkoski",
+          "jeopardy": "dame"
         },
         "2027-03-16": {
           "type": "weekday",
@@ -6483,9 +6480,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [],
-      "2027-3": [
-        "2027-03-15: \u26a0 APTU ali at q4 \u2014 needs review"
-      ],
+      "2027-3": [],
       "2027-4": [
         "2027-04-02: \u26a0 INTERN li at q3 \u2014 needs review",
         "2027-04-03: \u26a0 CONSULT wilson_braun at q4 \u2014 needs review"
