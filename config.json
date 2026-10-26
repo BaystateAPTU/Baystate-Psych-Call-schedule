@@ -6128,7 +6128,7 @@
         },
         "2027-04-29": {
           "type": "weekday",
-          "aptu": "auclair",
+          "aptu": "ali",
           "jeopardy": "mastalerz",
           "intern": "tsandilas",
           "flags": [
@@ -6138,10 +6138,7 @@
         "2027-04-30": {
           "type": "weekday",
           "aptu": "auclair",
-          "jeopardy": "siemiatkoski",
-          "flags": [
-            "auclair"
-          ]
+          "jeopardy": "siemiatkoski"
         }
       },
       "2027-5": {
@@ -6485,8 +6482,7 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
-        "2027-04-29: \u26a0 INTERN tsandilas at q4 \u2014 needs review",
-        "2027-04-30: \u26a0 APTU auclair at q4 \u2014 needs review"
+        "2027-04-29: \u26a0 INTERN tsandilas at q4 \u2014 needs review"
       ],
       "2027-5": [],
       "2027-6": []
