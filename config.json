@@ -5902,11 +5902,8 @@
         },
         "2027-03-19": {
           "type": "weekday",
-          "aptu": "kurtz",
-          "jeopardy": "dame",
-          "flags": [
-            "kurtz"
-          ]
+          "aptu": "ramirez",
+          "jeopardy": "dame"
         },
         "2027-03-20": {
           "type": "weekend",
@@ -6483,9 +6480,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [],
-      "2027-3": [
-        "2027-03-19: \u26a0 APTU kurtz at q4 \u2014 needs review"
-      ],
+      "2027-3": [],
       "2027-4": [
         "2027-04-02: \u26a0 INTERN li at q3 \u2014 needs review",
         "2027-04-03: \u26a0 CONSULT wilson_braun at q4 \u2014 needs review"
