@@ -5816,12 +5816,8 @@
         },
         "2027-03-03": {
           "type": "weekday",
-          "aptu": "mann",
           "jeopardy": "mastalerz",
-          "intern": "holsonback",
-          "flags": [
-            "mann"
-          ]
+          "intern": "holsonback"
         },
         "2027-03-04": {
           "type": "weekday",
@@ -6478,9 +6474,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [],
-      "2027-3": [
-        "2027-03-03: \u26a0 APTU mann at q4 \u2014 needs review"
-      ],
+      "2027-3": [],
       "2027-4": [],
       "2027-5": [],
       "2027-6": []
