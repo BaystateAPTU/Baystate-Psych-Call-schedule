@@ -6406,12 +6406,9 @@
         },
         "2027-06-19": {
           "type": "weekend",
-          "consult": "smith",
+          "consult": "ali",
           "aptu": "holsonback",
-          "jeopardy": "siemiatkoski",
-          "flags": [
-            "smith"
-          ]
+          "jeopardy": "siemiatkoski"
         },
         "2027-06-20": {
           "type": "weekend",
@@ -6482,8 +6479,7 @@
       "2027-4": [],
       "2027-5": [],
       "2027-6": [
-        "2027-06-16: \u26a0 APTU smith at q4 \u2014 needs review",
-        "2027-06-19: \u26a0 CONSULT smith at q3 \u2014 needs review"
+        "2027-06-16: \u26a0 APTU smith at q4 \u2014 needs review"
       ]
     }
   },
