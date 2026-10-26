@@ -5966,7 +5966,8 @@
         "2027-03-30": {
           "type": "weekday",
           "aptu": "wilson_braun",
-          "jeopardy": "dame"
+          "jeopardy": "dame",
+          "intern": "li"
         },
         "2027-03-31": {
           "type": "weekday",
