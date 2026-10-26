@@ -5760,11 +5760,11 @@
         },
         "2027-02-21": {
           "type": "weekend",
-          "consult": "siemiatkoski",
+          "consult": "ali",
           "aptu": "mizrach",
           "jeopardy": "smith",
           "flags": [
-            "siemiatkoski"
+            "ali"
           ]
         },
         "2027-02-22": {
@@ -6478,7 +6478,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [
-        "2027-02-21: \u26a0 CONSULT siemiatkoski at q4 \u2014 needs review"
+        "2027-02-21: \u26a0 CONSULT ali at q4 \u2014 needs review"
       ],
       "2027-3": [],
       "2027-4": [],
