@@ -6401,7 +6401,11 @@
         "2027-06-18": {
           "type": "weekday",
           "aptu": "smith",
-          "jeopardy": "ali"
+          "jeopardy": "ali",
+          "intern": "smith",
+          "flags": [
+            "smith"
+          ]
         },
         "2027-06-19": {
           "type": "weekend",
@@ -6477,7 +6481,9 @@
       "2027-3": [],
       "2027-4": [],
       "2027-5": [],
-      "2027-6": []
+      "2027-6": [
+        "2027-06-18: \u26a0 INTERN smith at q4 \u2014 needs review"
+      ]
     }
   },
   "scheduler_state": {
