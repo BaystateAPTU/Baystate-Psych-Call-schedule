@@ -6090,7 +6090,8 @@
         "2027-04-21": {
           "type": "weekday",
           "aptu": "siemiatkoski",
-          "jeopardy": "mastalerz"
+          "jeopardy": "mastalerz",
+          "intern": "tsandilas"
         },
         "2027-04-22": {
           "type": "weekday",
@@ -6112,7 +6113,10 @@
           "type": "weekend",
           "consult": "smith",
           "aptu": "tsandilas",
-          "jeopardy": "ali"
+          "jeopardy": "ali",
+          "flags": [
+            "tsandilas"
+          ]
         },
         "2027-04-26": {
           "type": "weekday",
@@ -6482,7 +6486,8 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
-        "2027-04-14: \u26a0 INTERN tsandilas at q4 \u2014 needs review"
+        "2027-04-14: \u26a0 INTERN tsandilas at q4 \u2014 needs review",
+        "2027-04-25: \u26a0 APTU tsandilas at q4 \u2014 needs review"
       ],
       "2027-5": [],
       "2027-6": []
