@@ -6207,7 +6207,10 @@
           "type": "weekday",
           "aptu": "dame",
           "jeopardy": "mann",
-          "intern": "tsandilas"
+          "intern": "li",
+          "flags": [
+            "li"
+          ]
         },
         "2027-05-14": {
           "type": "weekday",
@@ -6230,7 +6233,10 @@
           "type": "weekday",
           "aptu": "wilson_braun",
           "jeopardy": "brych",
-          "intern": "li"
+          "intern": "li",
+          "flags": [
+            "li"
+          ]
         },
         "2027-05-18": {
           "type": "weekday",
@@ -6483,7 +6489,9 @@
       "2027-3": [],
       "2027-4": [],
       "2027-5": [
-        "2027-05-03: \u26a0 INTERN tsandilas at q2 \u2014 needs review"
+        "2027-05-03: \u26a0 INTERN tsandilas at q2 \u2014 needs review",
+        "2027-05-13: \u26a0 INTERN li at q4 \u2014 needs review",
+        "2027-05-17: \u26a0 INTERN li at q4 \u2014 needs review"
       ],
       "2027-6": []
     }
