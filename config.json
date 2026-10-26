@@ -6335,11 +6335,8 @@
         "2027-06-05": {
           "type": "weekend",
           "consult": "siemiatkoski",
-          "aptu": "holsonback",
-          "jeopardy": "mastalerz",
-          "flags": [
-            "holsonback"
-          ]
+          "aptu": "gervais",
+          "jeopardy": "mastalerz"
         },
         "2027-06-06": {
           "type": "weekend",
@@ -6483,9 +6480,7 @@
       "2027-3": [],
       "2027-4": [],
       "2027-5": [],
-      "2027-6": [
-        "2027-06-05: \u26a0 APTU holsonback at q4 \u2014 needs review"
-      ]
+      "2027-6": []
     }
   },
   "scheduler_state": {
