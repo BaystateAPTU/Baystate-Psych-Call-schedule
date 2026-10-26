@@ -5822,11 +5822,8 @@
         },
         "2027-03-04": {
           "type": "weekday",
-          "aptu": "ramirez",
-          "jeopardy": "siemiatkoski",
-          "flags": [
-            "ramirez"
-          ]
+          "aptu": "wilson_braun",
+          "jeopardy": "siemiatkoski"
         },
         "2027-03-05": {
           "type": "weekday",
@@ -5843,15 +5840,15 @@
           "type": "weekend",
           "consult": "wilson_braun",
           "aptu": "auclair",
-          "jeopardy": "ali"
+          "jeopardy": "ali",
+          "flags": [
+            "wilson_braun"
+          ]
         },
         "2027-03-08": {
           "type": "weekday",
           "aptu": "ramirez",
-          "jeopardy": "brych",
-          "flags": [
-            "ramirez"
-          ]
+          "jeopardy": "brych"
         },
         "2027-03-09": {
           "type": "weekday",
@@ -6487,8 +6484,7 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [
-        "2027-03-04: \u26a0 APTU ramirez at q4 \u2014 needs review",
-        "2027-03-08: \u26a0 APTU ramirez at q4 \u2014 needs review"
+        "2027-03-07: \u26a0 CONSULT wilson_braun at q3 \u2014 needs review"
       ],
       "2027-4": [
         "2027-04-02: \u26a0 INTERN li at q3 \u2014 needs review",
