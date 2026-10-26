@@ -6398,10 +6398,10 @@
         },
         "2027-06-18": {
           "type": "weekday",
-          "aptu": "auclair",
+          "aptu": "wilson_braun",
           "jeopardy": "mastalerz",
           "flags": [
-            "auclair"
+            "wilson_braun"
           ]
         },
         "2027-06-19": {
@@ -6483,7 +6483,7 @@
       "2027-4": [],
       "2027-5": [],
       "2027-6": [
-        "2027-06-18: \u26a0 APTU auclair at q4 \u2014 needs review",
+        "2027-06-18: \u26a0 APTU wilson_braun at q2 \u2014 needs review",
         "2027-06-24: \u26a0 INTERN li at q3 \u2014 needs review"
       ]
     }
