@@ -6006,10 +6006,7 @@
           "type": "weekday",
           "aptu": "siemiatkoski",
           "jeopardy": "smith",
-          "intern": "tsandilas",
-          "flags": [
-            "tsandilas"
-          ]
+          "intern": "li"
         },
         "2027-04-07": {
           "type": "weekday",
@@ -6030,10 +6027,7 @@
           "type": "weekend",
           "consult": "mann",
           "aptu": "tsandilas",
-          "jeopardy": "siemiatkoski",
-          "flags": [
-            "tsandilas"
-          ]
+          "jeopardy": "siemiatkoski"
         },
         "2027-04-11": {
           "type": "weekend",
@@ -6488,8 +6482,6 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
-        "2027-04-06: \u26a0 INTERN tsandilas at q4 \u2014 needs review",
-        "2027-04-10: \u26a0 APTU tsandilas at q4 \u2014 needs review",
         "2027-04-14: \u26a0 INTERN tsandilas at q4 \u2014 needs review"
       ],
       "2027-5": [],
