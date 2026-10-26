@@ -6242,7 +6242,10 @@
           "type": "weekday",
           "aptu": "mann",
           "jeopardy": "dame",
-          "intern": "tsandilas"
+          "intern": "li",
+          "flags": [
+            "li"
+          ]
         },
         "2027-05-19": {
           "type": "weekday",
@@ -6263,7 +6266,10 @@
           "type": "weekend",
           "consult": "siemiatkoski",
           "aptu": "li",
-          "jeopardy": "mastalerz"
+          "jeopardy": "mastalerz",
+          "flags": [
+            "li"
+          ]
         },
         "2027-05-23": {
           "type": "weekend",
@@ -6491,7 +6497,9 @@
       "2027-5": [
         "2027-05-03: \u26a0 INTERN tsandilas at q2 \u2014 needs review",
         "2027-05-13: \u26a0 INTERN li at q4 \u2014 needs review",
-        "2027-05-17: \u26a0 INTERN li at q4 \u2014 needs review"
+        "2027-05-17: \u26a0 INTERN li at q4 \u2014 needs review",
+        "2027-05-18: \u26a0 INTERN li at q4 \u2014 needs review",
+        "2027-05-22: \u26a0 APTU li at q4 \u2014 needs review"
       ],
       "2027-6": []
     }
