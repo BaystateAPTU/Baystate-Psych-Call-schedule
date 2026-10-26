@@ -6137,8 +6137,11 @@
         },
         "2027-04-30": {
           "type": "weekday",
-          "aptu": "li",
-          "jeopardy": "siemiatkoski"
+          "aptu": "auclair",
+          "jeopardy": "siemiatkoski",
+          "flags": [
+            "auclair"
+          ]
         }
       },
       "2027-5": {
@@ -6482,7 +6485,8 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
-        "2027-04-29: \u26a0 INTERN tsandilas at q4 \u2014 needs review"
+        "2027-04-29: \u26a0 INTERN tsandilas at q4 \u2014 needs review",
+        "2027-04-30: \u26a0 APTU auclair at q4 \u2014 needs review"
       ],
       "2027-5": [],
       "2027-6": []
