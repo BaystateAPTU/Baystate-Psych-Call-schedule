@@ -5984,13 +5984,19 @@
           "type": "weekday",
           "aptu": "mastalerz",
           "jeopardy": "ali",
-          "intern": "li"
+          "intern": "li",
+          "flags": [
+            "li"
+          ]
         },
         "2027-04-03": {
           "type": "weekend",
-          "consult": "dame",
+          "consult": "mann",
           "aptu": "ali",
-          "jeopardy": "mann"
+          "jeopardy": "mann",
+          "flags": [
+            "mann"
+          ]
         },
         "2027-04-04": {
           "type": "weekend",
@@ -6477,7 +6483,10 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [],
-      "2027-4": [],
+      "2027-4": [
+        "2027-04-02: \u26a0 INTERN li at q3 \u2014 needs review",
+        "2027-04-03: \u26a0 CONSULT mann at q2 \u2014 needs review"
+      ],
       "2027-5": [],
       "2027-6": []
     }
