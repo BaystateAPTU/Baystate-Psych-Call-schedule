@@ -6047,13 +6047,16 @@
         },
         "2027-04-14": {
           "type": "weekday",
-          "aptu": "ramirez",
+          "aptu": "wilson_braun",
           "jeopardy": "siemiatkoski"
         },
         "2027-04-15": {
           "type": "weekday",
           "aptu": "wilson_braun",
-          "jeopardy": "smith"
+          "jeopardy": "smith",
+          "flags": [
+            "wilson_braun"
+          ]
         },
         "2027-04-16": {
           "type": "weekday",
@@ -6477,7 +6480,9 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [],
-      "2027-4": [],
+      "2027-4": [
+        "2027-04-15: \u26a0 APTU wilson_braun at q4 \u2014 needs review"
+      ],
       "2027-5": [],
       "2027-6": []
     }
