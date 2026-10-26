@@ -6229,7 +6229,8 @@
         "2027-05-18": {
           "type": "weekday",
           "aptu": "mann",
-          "jeopardy": "dame"
+          "jeopardy": "dame",
+          "intern": "tsandilas"
         },
         "2027-05-19": {
           "type": "weekday",
