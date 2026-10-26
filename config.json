@@ -5747,11 +5747,8 @@
         },
         "2027-02-18": {
           "type": "weekday",
-          "aptu": "wilson_braun",
-          "jeopardy": "siemiatkoski",
-          "flags": [
-            "wilson_braun"
-          ]
+          "aptu": "ramirez",
+          "jeopardy": "siemiatkoski"
         },
         "2027-02-19": {
           "type": "weekday",
@@ -6485,7 +6482,6 @@
       "2027-1": [],
       "2027-2": [
         "2027-02-17: \u26a0 APTU wilson_braun at q4 \u2014 needs review",
-        "2027-02-18: \u26a0 APTU wilson_braun at q4 \u2014 needs review",
         "2027-02-24: \u26a0 APTU siemiatkoski at q4 \u2014 needs review"
       ],
       "2027-3": [],
