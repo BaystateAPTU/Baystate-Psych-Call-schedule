@@ -5977,11 +5977,11 @@
       "2027-4": {
         "2027-04-01": {
           "type": "weekday",
-          "aptu": "mann",
+          "aptu": "li",
           "jeopardy": "brych",
           "intern": "tsandilas",
           "flags": [
-            "mann"
+            "li"
           ]
         },
         "2027-04-02": {
@@ -6004,7 +6004,10 @@
           "type": "weekday",
           "aptu": "mastalerz",
           "jeopardy": "dame",
-          "intern": "li"
+          "intern": "li",
+          "flags": [
+            "li"
+          ]
         },
         "2027-04-06": {
           "type": "weekday",
@@ -6482,7 +6485,8 @@
       "2027-2": [],
       "2027-3": [],
       "2027-4": [
-        "2027-04-01: \u26a0 APTU mann at q4 \u2014 needs review"
+        "2027-04-01: \u26a0 APTU li at q2 \u2014 needs review",
+        "2027-04-05: \u26a0 INTERN li at q4 \u2014 needs review"
       ],
       "2027-5": [],
       "2027-6": []
