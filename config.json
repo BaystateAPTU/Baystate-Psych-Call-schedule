@@ -5849,8 +5849,11 @@
         },
         "2027-03-09": {
           "type": "weekday",
-          "aptu": "kurtz",
-          "jeopardy": "dame"
+          "aptu": "siemiatkoski",
+          "jeopardy": "dame",
+          "flags": [
+            "siemiatkoski"
+          ]
         },
         "2027-03-10": {
           "type": "weekday",
@@ -6477,7 +6480,9 @@
     "warns": {
       "2027-1": [],
       "2027-2": [],
-      "2027-3": [],
+      "2027-3": [
+        "2027-03-09: \u26a0 APTU siemiatkoski at q4 \u2014 needs review"
+      ],
       "2027-4": [],
       "2027-5": [],
       "2027-6": []
