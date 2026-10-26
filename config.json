@@ -5894,8 +5894,7 @@
         "2027-03-17": {
           "type": "weekday",
           "aptu": "mastalerz",
-          "jeopardy": "ali",
-          "intern": "holsonback"
+          "jeopardy": "ali"
         },
         "2027-03-18": {
           "type": "weekday",
@@ -5911,10 +5910,7 @@
           "type": "weekend",
           "consult": "brych",
           "aptu": "holsonback",
-          "jeopardy": "mastalerz",
-          "flags": [
-            "holsonback"
-          ]
+          "jeopardy": "mastalerz"
         },
         "2027-03-21": {
           "type": "weekend",
@@ -6479,9 +6475,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [],
-      "2027-3": [
-        "2027-03-20: \u26a0 APTU holsonback at q3 \u2014 needs review"
-      ],
+      "2027-3": [],
       "2027-4": [],
       "2027-5": [],
       "2027-6": []
