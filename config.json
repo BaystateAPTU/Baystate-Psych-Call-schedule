@@ -5779,8 +5779,11 @@
         },
         "2027-02-24": {
           "type": "weekday",
-          "aptu": "wilson_braun",
-          "jeopardy": "dame"
+          "aptu": "siemiatkoski",
+          "jeopardy": "dame",
+          "flags": [
+            "siemiatkoski"
+          ]
         },
         "2027-02-25": {
           "type": "weekday",
@@ -5802,10 +5805,7 @@
           "type": "weekend",
           "consult": "wilson_braun",
           "aptu": "mastalerz",
-          "jeopardy": "mann",
-          "flags": [
-            "wilson_braun"
-          ]
+          "jeopardy": "mann"
         }
       },
       "2027-3": {
@@ -6482,7 +6482,7 @@
       "2027-1": [],
       "2027-2": [
         "2027-02-17: \u26a0 APTU wilson_braun at q4 \u2014 needs review",
-        "2027-02-28: \u26a0 CONSULT wilson_braun at q4 \u2014 needs review"
+        "2027-02-24: \u26a0 APTU siemiatkoski at q3 \u2014 needs review"
       ],
       "2027-3": [],
       "2027-4": [],
