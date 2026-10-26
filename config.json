@@ -6366,7 +6366,7 @@
         },
         "2027-06-12": {
           "type": "weekend",
-          "consult": "ali",
+          "consult": "smith",
           "aptu": "ramirez",
           "jeopardy": "brych"
         },
@@ -6389,7 +6389,10 @@
         "2027-06-16": {
           "type": "weekday",
           "aptu": "smith",
-          "jeopardy": "ali"
+          "jeopardy": "ali",
+          "flags": [
+            "smith"
+          ]
         },
         "2027-06-17": {
           "type": "weekday",
@@ -6479,6 +6482,7 @@
       "2027-4": [],
       "2027-5": [],
       "2027-6": [
+        "2027-06-16: \u26a0 APTU smith at q4 \u2014 needs review",
         "2027-06-19: \u26a0 CONSULT smith at q3 \u2014 needs review"
       ]
     }
