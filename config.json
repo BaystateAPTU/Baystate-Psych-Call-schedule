@@ -5888,7 +5888,8 @@
         "2027-03-16": {
           "type": "weekday",
           "aptu": "smith",
-          "jeopardy": "wilson_braun"
+          "jeopardy": "wilson_braun",
+          "intern": "gervais"
         },
         "2027-03-17": {
           "type": "weekday",
