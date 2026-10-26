@@ -6377,9 +6377,10 @@
         "2027-06-13": {
           "type": "weekend",
           "consult": "brych",
-          "aptu": "holsonback",
+          "aptu": "gervais",
           "jeopardy": "mastalerz",
           "flags": [
+            "gervais",
             "brych"
           ]
         },
@@ -6501,9 +6502,10 @@
       "2027-5": [],
       "2027-6": [
         "2027-06-10: \u26a0 APTU auclair at q4 \u2014 needs review",
+        "2027-06-13: \u26a0 APTU gervais at q2 \u2014 needs review",
         "2027-06-13: \u26a0 CONSULT brych at q2 \u2014 needs review",
         "2027-06-14: \u26a0 APTU auclair at q4 \u2014 needs review",
-        "2027-06-15: \u26a0 INTERN gervais at q4 \u2014 needs review",
+        "2027-06-15: \u26a0 INTERN gervais at q2 \u2014 needs review",
         "2027-06-18: \u26a0 APTU auclair at q4 \u2014 needs review",
         "2027-06-20: \u26a0 APTU ramirez at q3 \u2014 needs review",
         "2027-06-24: \u26a0 INTERN li at q3 \u2014 needs review"
