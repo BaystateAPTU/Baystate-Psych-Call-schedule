@@ -5739,16 +5739,16 @@
         },
         "2027-02-17": {
           "type": "weekday",
-          "aptu": "wilson_braun",
-          "jeopardy": "brych",
-          "flags": [
-            "wilson_braun"
-          ]
+          "aptu": "kurtz",
+          "jeopardy": "brych"
         },
         "2027-02-18": {
           "type": "weekday",
           "aptu": "kurtz",
-          "jeopardy": "siemiatkoski"
+          "jeopardy": "siemiatkoski",
+          "flags": [
+            "kurtz"
+          ]
         },
         "2027-02-19": {
           "type": "weekday",
@@ -6484,7 +6484,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [
-        "2027-02-17: \u26a0 APTU wilson_braun at q4 \u2014 needs review",
+        "2027-02-18: \u26a0 APTU kurtz at q4 \u2014 needs review",
         "2027-02-22: \u26a0 APTU kurtz at q4 \u2014 needs review",
         "2027-02-24: \u26a0 APTU siemiatkoski at q4 \u2014 needs review"
       ],
