@@ -5776,11 +5776,8 @@
         },
         "2027-02-24": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
-          "jeopardy": "dame",
-          "flags": [
-            "siemiatkoski"
-          ]
+          "aptu": "ramirez",
+          "jeopardy": "dame"
         },
         "2027-02-25": {
           "type": "weekday",
@@ -6477,9 +6474,7 @@
     },
     "warns": {
       "2027-1": [],
-      "2027-2": [
-        "2027-02-24: \u26a0 APTU siemiatkoski at q4 \u2014 needs review"
-      ],
+      "2027-2": [],
       "2027-3": [],
       "2027-4": [],
       "2027-5": [],
