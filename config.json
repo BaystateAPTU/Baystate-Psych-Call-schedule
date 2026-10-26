@@ -6399,11 +6399,8 @@
         },
         "2027-06-17": {
           "type": "weekday",
-          "aptu": "ramirez",
-          "jeopardy": "wilson_braun",
-          "flags": [
-            "ramirez"
-          ]
+          "aptu": "kurtz",
+          "jeopardy": "wilson_braun"
         },
         "2027-06-18": {
           "type": "weekday",
@@ -6421,10 +6418,7 @@
           "type": "weekend",
           "consult": "siemiatkoski",
           "aptu": "ramirez",
-          "jeopardy": "mann",
-          "flags": [
-            "ramirez"
-          ]
+          "jeopardy": "mann"
         },
         "2027-06-21": {
           "type": "weekday",
@@ -6490,9 +6484,7 @@
       "2027-4": [],
       "2027-5": [],
       "2027-6": [
-        "2027-06-15: \u26a0 APTU ramirez at q3 \u2014 needs review",
-        "2027-06-17: \u26a0 APTU ramirez at q2 \u2014 needs review",
-        "2027-06-20: \u26a0 APTU ramirez at q3 \u2014 needs review"
+        "2027-06-15: \u26a0 APTU ramirez at q3 \u2014 needs review"
       ]
     }
   },
