@@ -6419,8 +6419,11 @@
         "2027-06-21": {
           "type": "weekday",
           "aptu": "brych",
-          "intern": "li",
-          "jeopardy": "smith"
+          "intern": "holsonback",
+          "jeopardy": "smith",
+          "flags": [
+            "holsonback"
+          ]
         },
         "2027-06-22": {
           "type": "weekday",
@@ -6436,10 +6439,7 @@
           "type": "weekday",
           "aptu": "ali",
           "intern": "li",
-          "jeopardy": "brych",
-          "flags": [
-            "li"
-          ]
+          "jeopardy": "brych"
         },
         "2027-06-25": {
           "type": "weekday",
@@ -6484,7 +6484,7 @@
       "2027-5": [],
       "2027-6": [
         "2027-06-16: \u26a0 APTU mann at q3 \u2014 needs review",
-        "2027-06-24: \u26a0 INTERN li at q3 \u2014 needs review"
+        "2027-06-21: \u26a0 INTERN holsonback at q2 \u2014 needs review"
       ]
     }
   },
