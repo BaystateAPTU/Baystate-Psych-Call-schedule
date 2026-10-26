@@ -5584,11 +5584,8 @@
         },
         "2027-01-19": {
           "type": "weekday",
-          "aptu": "wilson_braun",
-          "jeopardy": "dame",
-          "flags": [
-            "wilson_braun"
-          ]
+          "aptu": "auclair",
+          "jeopardy": "dame"
         },
         "2027-01-20": {
           "type": "weekday",
@@ -5598,7 +5595,10 @@
         "2027-01-21": {
           "type": "weekday",
           "aptu": "auclair",
-          "jeopardy": "mastalerz"
+          "jeopardy": "mastalerz",
+          "flags": [
+            "auclair"
+          ]
         },
         "2027-01-22": {
           "type": "weekday",
@@ -6482,7 +6482,7 @@
     },
     "warns": {
       "2027-1": [
-        "2027-01-19: \u26a0 APTU wilson_braun at q3 \u2014 needs review",
+        "2027-01-21: \u26a0 APTU auclair at q2 \u2014 needs review",
         "2027-01-31: \u26a0 APTU brych at q4 \u2014 needs review"
       ],
       "2027-2": [],
