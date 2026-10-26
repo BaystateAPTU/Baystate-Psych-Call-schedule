@@ -5999,7 +5999,7 @@
         },
         "2027-04-05": {
           "type": "weekday",
-          "aptu": "mizrach",
+          "aptu": "mastalerz",
           "jeopardy": "dame"
         },
         "2027-04-06": {
@@ -6016,10 +6016,7 @@
         "2027-04-08": {
           "type": "weekday",
           "aptu": "mizrach",
-          "jeopardy": "ali",
-          "flags": [
-            "mizrach"
-          ]
+          "jeopardy": "ali"
         },
         "2027-04-09": {
           "type": "weekday",
@@ -6479,9 +6476,7 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [],
-      "2027-4": [
-        "2027-04-08: \u26a0 APTU mizrach at q3 \u2014 needs review"
-      ],
+      "2027-4": [],
       "2027-5": [],
       "2027-6": []
     }
