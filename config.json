@@ -6151,8 +6151,9 @@
           "type": "weekday",
           "aptu": "mastalerz",
           "jeopardy": "smith",
+          "intern": "tsandilas",
           "flags": [
-            "mastalerz"
+            "tsandilas"
           ]
         },
         "2027-05-04": {
@@ -6512,7 +6513,7 @@
       "2027-3": [],
       "2027-4": [],
       "2027-5": [
-        "2027-05-03: \u26a0 APTU mastalerz at q4 \u2014 needs review"
+        "2027-05-03: \u26a0 INTERN tsandilas at q2 \u2014 needs review"
       ],
       "2027-6": [
         "2027-06-02: \u26a0 APTU auclair at q4 \u2014 needs review",
