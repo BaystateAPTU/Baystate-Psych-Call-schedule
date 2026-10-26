@@ -5784,11 +5784,8 @@
         },
         "2027-02-25": {
           "type": "weekday",
-          "aptu": "brych",
-          "jeopardy": "ali",
-          "flags": [
-            "brych"
-          ]
+          "aptu": "auclair",
+          "jeopardy": "ali"
         },
         "2027-02-26": {
           "type": "weekday",
@@ -6481,8 +6478,7 @@
     "warns": {
       "2027-1": [],
       "2027-2": [
-        "2027-02-21: \u26a0 CONSULT siemiatkoski at q4 \u2014 needs review",
-        "2027-02-25: \u26a0 APTU brych at q2 \u2014 needs review"
+        "2027-02-21: \u26a0 CONSULT siemiatkoski at q4 \u2014 needs review"
       ],
       "2027-3": [],
       "2027-4": [],
