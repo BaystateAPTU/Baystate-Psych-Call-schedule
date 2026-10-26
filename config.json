@@ -5739,7 +5739,7 @@
         },
         "2027-02-17": {
           "type": "weekday",
-          "aptu": "siemiatkoski",
+          "aptu": "kurtz",
           "jeopardy": "brych"
         },
         "2027-02-18": {
@@ -5756,10 +5756,7 @@
           "type": "weekend",
           "consult": "siemiatkoski",
           "aptu": "auclair",
-          "jeopardy": "brych",
-          "flags": [
-            "siemiatkoski"
-          ]
+          "jeopardy": "brych"
         },
         "2027-02-21": {
           "type": "weekend",
@@ -6479,9 +6476,7 @@
     },
     "warns": {
       "2027-1": [],
-      "2027-2": [
-        "2027-02-20: \u26a0 CONSULT siemiatkoski at q3 \u2014 needs review"
-      ],
+      "2027-2": [],
       "2027-3": [],
       "2027-4": [],
       "2027-5": [],
