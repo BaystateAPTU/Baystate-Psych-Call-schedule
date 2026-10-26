@@ -5594,11 +5594,8 @@
         },
         "2027-01-21": {
           "type": "weekday",
-          "aptu": "auclair",
-          "jeopardy": "mastalerz",
-          "flags": [
-            "auclair"
-          ]
+          "aptu": "wilson_braun",
+          "jeopardy": "mastalerz"
         },
         "2027-01-22": {
           "type": "weekday",
@@ -6482,7 +6479,6 @@
     },
     "warns": {
       "2027-1": [
-        "2027-01-21: \u26a0 APTU auclair at q2 \u2014 needs review",
         "2027-01-31: \u26a0 APTU brych at q4 \u2014 needs review"
       ],
       "2027-2": [],
