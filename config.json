@@ -5626,8 +5626,11 @@
         },
         "2027-01-27": {
           "type": "weekday",
-          "aptu": "auclair",
-          "jeopardy": "dame"
+          "aptu": "wilson_braun",
+          "jeopardy": "dame",
+          "flags": [
+            "wilson_braun"
+          ]
         },
         "2027-01-28": {
           "type": "weekday",
@@ -5643,10 +5646,7 @@
           "type": "weekend",
           "consult": "smith",
           "aptu": "auclair",
-          "jeopardy": "siemiatkoski",
-          "flags": [
-            "auclair"
-          ]
+          "jeopardy": "siemiatkoski"
         },
         "2027-01-31": {
           "type": "weekend",
@@ -6479,7 +6479,7 @@
     },
     "warns": {
       "2027-1": [
-        "2027-01-30: \u26a0 APTU auclair at q3 \u2014 needs review"
+        "2027-01-27: \u26a0 APTU wilson_braun at q4 \u2014 needs review"
       ],
       "2027-2": [],
       "2027-3": [],
