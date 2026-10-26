@@ -6118,11 +6118,7 @@
         "2027-04-27": {
           "type": "weekday",
           "aptu": "mastalerz",
-          "jeopardy": "dame",
-          "intern": "tsandilas",
-          "flags": [
-            "tsandilas"
-          ]
+          "jeopardy": "dame"
         },
         "2027-04-28": {
           "type": "weekday",
@@ -6481,9 +6477,7 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [],
-      "2027-4": [
-        "2027-04-27: \u26a0 INTERN tsandilas at q2 \u2014 needs review"
-      ],
+      "2027-4": [],
       "2027-5": [],
       "2027-6": []
     }
