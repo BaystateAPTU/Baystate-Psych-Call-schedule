@@ -6000,7 +6000,8 @@
         "2027-04-05": {
           "type": "weekday",
           "aptu": "mastalerz",
-          "jeopardy": "dame"
+          "jeopardy": "dame",
+          "intern": "li"
         },
         "2027-04-06": {
           "type": "weekday",
