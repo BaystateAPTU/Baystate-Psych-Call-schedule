@@ -5985,7 +5985,10 @@
           "type": "weekday",
           "aptu": "kurtz",
           "jeopardy": "ali",
-          "intern": "li"
+          "intern": "li",
+          "flags": [
+            "li"
+          ]
         },
         "2027-04-03": {
           "type": "weekend",
@@ -6096,8 +6099,11 @@
         },
         "2027-04-23": {
           "type": "weekday",
-          "aptu": "brych",
-          "jeopardy": "smith"
+          "aptu": "mann",
+          "jeopardy": "smith",
+          "flags": [
+            "mann"
+          ]
         },
         "2027-04-24": {
           "type": "weekend",
@@ -6478,7 +6484,10 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [],
-      "2027-4": [],
+      "2027-4": [
+        "2027-04-02: \u26a0 INTERN li at q3 \u2014 needs review",
+        "2027-04-23: \u26a0 APTU mann at q4 \u2014 needs review"
+      ],
       "2027-5": [],
       "2027-6": []
     }
