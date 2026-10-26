@@ -5979,7 +5979,10 @@
           "type": "weekday",
           "aptu": "mann",
           "jeopardy": "brych",
-          "intern": "tsandilas"
+          "intern": "tsandilas",
+          "flags": [
+            "mann"
+          ]
         },
         "2027-04-02": {
           "type": "weekday",
@@ -6028,7 +6031,7 @@
           "type": "weekend",
           "consult": "mann",
           "aptu": "li",
-          "jeopardy": "mann"
+          "jeopardy": "siemiatkoski"
         },
         "2027-04-11": {
           "type": "weekend",
@@ -6478,7 +6481,9 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [],
-      "2027-4": [],
+      "2027-4": [
+        "2027-04-01: \u26a0 APTU mann at q4 \u2014 needs review"
+      ],
       "2027-5": [],
       "2027-6": []
     }
