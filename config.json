@@ -5648,8 +5648,11 @@
         "2027-01-31": {
           "type": "weekend",
           "consult": "ali",
-          "aptu": "wilson_braun",
-          "jeopardy": "smith"
+          "aptu": "brych",
+          "jeopardy": "smith",
+          "flags": [
+            "brych"
+          ]
         }
       },
       "2027-2": {
@@ -6475,7 +6478,9 @@
       }
     },
     "warns": {
-      "2027-1": [],
+      "2027-1": [
+        "2027-01-31: \u26a0 APTU brych at q4 \u2014 needs review"
+      ],
       "2027-2": [],
       "2027-3": [],
       "2027-4": [],
