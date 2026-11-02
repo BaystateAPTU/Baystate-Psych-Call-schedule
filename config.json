@@ -5822,7 +5822,8 @@
         "2027-03-04": {
           "type": "weekday",
           "jeopardy": "siemiatkoski",
-          "aptu": "siemiatkoski"
+          "aptu": "siemiatkoski",
+          "intern": "holsonback"
         },
         "2027-03-05": {
           "type": "weekday",
