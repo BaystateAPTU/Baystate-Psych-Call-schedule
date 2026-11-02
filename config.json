@@ -5818,15 +5818,12 @@
           "type": "weekday",
           "jeopardy": "mastalerz",
           "intern": "holsonback",
-          "aptu": "ramirez"
+          "aptu": "siemiatkoski"
         },
         "2027-03-04": {
           "type": "weekday",
           "jeopardy": "siemiatkoski",
-          "aptu": "ramirez",
-          "flags": [
-            "ramirez"
-          ]
+          "aptu": "ramirez"
         },
         "2027-03-05": {
           "type": "weekday",
@@ -6484,7 +6481,6 @@
       "2027-1": [],
       "2027-2": [],
       "2027-3": [
-        "2027-03-04: \u26a0 APTU ramirez at q4 \u2014 needs review",
         "2027-03-08: \u26a0 APTU ramirez at q4 \u2014 needs review"
       ],
       "2027-4": [],
